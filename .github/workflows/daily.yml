@@ -1,0 +1,38 @@
+name: daily-nodes
+
+on:
+  schedule:
+    - cron: "0 21 * * *"   # UTC 21:00 = 한국시간(KST) 06:00
+  workflow_dispatch:        # Actions 탭에서 수동 실행 버튼
+
+permissions:
+  contents: write          # nodes.json 커밋·푸시를 위해 필요
+
+concurrency:
+  group: daily-nodes
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install -r requirements.txt
+
+      - name: Run pipeline
+        run: python pipeline.py > public/nodes.json
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+
+      - name: Commit & push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/nodes.json
+          git diff --cached --quiet && echo "변경 없음" || git commit -m "chore: update nodes $(date -u +%F)"
+          git push
