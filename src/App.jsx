@@ -26,15 +26,23 @@ const TOPICS = {
 };
 
 /* ------------------------------------------------------------------ *
- * 개인화 저장소 (window.storage → 없으면 인메모리로 안전 폴백)
+ * 개인화 저장소 (Codex artifact storage → 일반 브라우저 localStorage 폴백)
  * ------------------------------------------------------------------ */
 const store = {
   async get(k) {
-    try { if (!window.storage) return null; const r = await window.storage.get(k); return r ? JSON.parse(r.value) : null; }
+    try {
+      if (window.storage) { const r = await window.storage.get(k); return r ? JSON.parse(r.value) : null; }
+      const value = window.localStorage.getItem(k);
+      return value ? JSON.parse(value) : null;
+    }
     catch { return null; }
   },
   async set(k, v) {
-    try { if (!window.storage) return; await window.storage.set(k, JSON.stringify(v), false); } catch {}
+    try {
+      const value = JSON.stringify(v);
+      if (window.storage) await window.storage.set(k, value, false);
+      else window.localStorage.setItem(k, value);
+    } catch {}
   },
 };
 
@@ -132,7 +140,7 @@ function NodeCard({ node, onOpen, read, bookmarked, onToggleBookmark, latest }) 
           </div>
 
           <div className="mt-3 pt-3 flex flex-wrap items-center gap-x-4 gap-y-1.5 text-xs" style={{ borderTop: `1px solid ${T.border}`, color: T.faint }}>
-            <span className="flex items-center gap-1"><Layers size={13} /> 긱뉴스 {node.sources.length}개</span>
+            <span className="flex items-center gap-1"><Layers size={13} /> 원문 {node.sources.length}개</span>
             <span className="flex items-center gap-1"><Link2 size={13} /> 유사 {node.similar.length}</span>
             <span className="flex items-center gap-1"><Clock size={13} /> {daysAgoLabel(node.date, latest)}</span>
             <span className="ml-auto"><PopBar value={node.popularity} /></span>
@@ -212,7 +220,7 @@ function NodeDrawer({ nodeId, onClose, onNavigate, bookmarked, onToggleBookmark,
             </ul>
           </Section>
 
-          <Section title={`원본 출처 · 긱뉴스 ${node.sources.length}개`}>
+          <Section title={`원본 출처 · ${node.sources.length}개`}>
             <div className="space-y-2">
               {node.sources.map((s, i) => (
                 <a key={i} href={s.url} target="_blank" rel="noopener noreferrer"
@@ -267,37 +275,50 @@ function NodeDrawer({ nodeId, onClose, onNavigate, bookmarked, onToggleBookmark,
  * 그래프 뷰 — 정적 포스 레이아웃(결정론적) + 호버 하이라이트
  * ------------------------------------------------------------------ */
 const GW = 760, GH = 460;
+const MAX_GRAPH_NODES = 200;
 function jitter(i) { return (((i * 2654435761) % 1000) / 1000 - 0.5); }
 
+// Fruchterman-Reingold 방식: 이상적 간격 k를 노드 수에 맞춰 산정하고,
+// 온도(temp)를 점점 낮춰가며 이동 폭을 줄이는 담금질(annealing)로 수렴시킨다.
+// (이전 버전은 노드 수와 무관한 고정 반발력을 썼는데, 노드가 늘어나면
+//  반발력이 중심 인력을 압도해 다수가 캔버스 경계에 뭉개지듯 겹쳐버렸다.)
 function computeLayout(nodes, edges) {
   const pos = {};
+  const n = nodes.length;
+  const k = Math.sqrt((GW * GH) / Math.max(1, n)) * 0.9; // 노드당 적정 간격
   const topicKeys = [...new Set(nodes.map((n) => n.topic))];
-  nodes.forEach((n, i) => {
-    const ti = topicKeys.indexOf(n.topic);
-    const a = (ti / Math.max(1, topicKeys.length)) * Math.PI * 2;
-    const r = 130 + (i % 3) * 26;
-    pos[n.id] = { x: GW / 2 + Math.cos(a) * r + jitter(i + 1) * 60, y: GH / 2 + Math.sin(a) * r + jitter(i + 7) * 60, vx: 0, vy: 0 };
+  nodes.forEach((node, i) => {
+    const ti = topicKeys.indexOf(node.topic);
+    const a = (ti / Math.max(1, topicKeys.length)) * Math.PI * 2 + jitter(i) * 0.6;
+    const r = Math.min(GW, GH) * 0.32;
+    pos[node.id] = { x: GW / 2 + Math.cos(a) * r + jitter(i + 1) * 40, y: GH / 2 + Math.sin(a) * r + jitter(i + 7) * 40, vx: 0, vy: 0 };
   });
-  for (let it = 0; it < 320; it++) {
-    for (let i = 0; i < nodes.length; i++)
-      for (let j = i + 1; j < nodes.length; j++) {
+
+  let temp = Math.max(GW, GH) * 0.05;
+  for (let it = 0; it < 280; it++) {
+    for (let i = 0; i < n; i++)
+      for (let j = i + 1; j < n; j++) {
         const A = pos[nodes[i].id], B = pos[nodes[j].id];
-        let dx = A.x - B.x, dy = A.y - B.y, d2 = dx * dx + dy * dy + 0.01, d = Math.sqrt(d2);
-        const f = 5200 / d2, fx = (dx / d) * f, fy = (dy / d) * f;
+        const dx = A.x - B.x, dy = A.y - B.y, d = Math.sqrt(dx * dx + dy * dy) || 0.01;
+        const f = (k * k) / d, fx = (dx / d) * f, fy = (dy / d) * f;
         A.vx += fx; A.vy += fy; B.vx -= fx; B.vy -= fy;
       }
     edges.forEach((e) => {
       const A = pos[e.a], B = pos[e.b];
-      let dx = B.x - A.x, dy = B.y - A.y, d = Math.sqrt(dx * dx + dy * dy) + 0.01;
-      const f = (d - 92) * 0.02, fx = (dx / d) * f, fy = (dy / d) * f;
-      A.vx += fx; A.vy += fy; B.vx -= fx; B.vy -= fy;
+      const dx = A.x - B.x, dy = A.y - B.y, d = Math.sqrt(dx * dx + dy * dy) || 0.01;
+      const f = (d * d) / k, fx = (dx / d) * f, fy = (dy / d) * f;
+      A.vx -= fx; A.vy -= fy; B.vx += fx; B.vy += fy;
     });
-    nodes.forEach((n) => {
-      const P = pos[n.id];
-      P.vx += (GW / 2 - P.x) * 0.002; P.vy += (GH / 2 - P.y) * 0.002;
-      P.x += P.vx * 0.85; P.y += P.vy * 0.85; P.vx *= 0.85; P.vy *= 0.85;
+    nodes.forEach((node) => {
+      const P = pos[node.id];
+      P.vx += (GW / 2 - P.x) * 0.012; P.vy += (GH / 2 - P.y) * 0.012;
+      const disp = Math.sqrt(P.vx * P.vx + P.vy * P.vy) || 0.01;
+      const capped = Math.min(disp, temp); // 온도로 최대 이동 거리를 제한 → 튕겨나가지 않음
+      P.x += (P.vx / disp) * capped; P.y += (P.vy / disp) * capped;
+      P.vx = 0; P.vy = 0;
       P.x = Math.max(46, Math.min(GW - 46, P.x)); P.y = Math.max(34, Math.min(GH - 34, P.y));
     });
+    temp *= 0.985;
   }
   return pos;
 }
@@ -425,7 +446,7 @@ function Briefing({ dateLabel, todayNodes, weekNodes, onOpen, read }) {
                   <h3 className="text-base font-bold leading-snug" style={{ color: T.ink }}>{featured.title}</h3>
                   <p className="mt-1.5 text-sm leading-relaxed" style={{ color: T.sub }}>{featured.oneLiner}</p>
                   <div className="mt-2.5 flex items-center gap-4 text-xs" style={{ color: T.faint }}>
-                    <span className="flex items-center gap-1"><Layers size={12} /> 긱뉴스 {featured.sources.length}개</span>
+                    <span className="flex items-center gap-1"><Layers size={12} /> 원문 {featured.sources.length}개</span>
                     <span className="flex items-center gap-1"><Link2 size={12} /> 유사 {featured.similar.length}</span>
                   </div>
                 </div>
@@ -476,6 +497,7 @@ function Briefing({ dateLabel, todayNodes, weekNodes, onOpen, read }) {
  * ------------------------------------------------------------------ */
 const SORTS = [{ key: "time", label: "시간순" }, { key: "pop", label: "인기순" }, { key: "topic", label: "주제순" }];
 const PERIODS = [{ key: "all", label: "전체" }, { key: "today", label: "오늘" }, { key: "week", label: "이번 주" }];
+const LIST_PAGE_SIZE = 200;
 
 export default function App() {
   // 실데이터 — 빌드된 사이트에서는 public/nodes.json (GitHub Actions가 매일 갱신)을 가져온다.
@@ -503,6 +525,8 @@ export default function App() {
   const [hideRead, setHideRead] = useState(false);
   const [openId, setOpenId] = useState(null);
   const [filtersOpen, setFiltersOpen] = useState(false);
+  const [visibleCount, setVisibleCount] = useState(LIST_PAGE_SIZE);
+  const [visibleCriteria, setVisibleCriteria] = useState("");
 
   const [readSet, setReadSet] = useState(() => new Set());
   const [bookmarkSet, setBookmarkSet] = useState(() => new Set());
@@ -555,6 +579,32 @@ export default function App() {
     return Object.keys(TOPICS).filter((t) => map[t]).map((t) => ({ topic: t, nodes: map[t].sort((a, b) => b.popularity - a.popularity) }));
   }, [filtered, sort, view]);
 
+  // 대량 아카이브는 카드를 한번에 전부 렌더링하지 않고 점진적으로 보여준다.
+  // 검색·필터·정렬·뷰가 바뀌면 새 결과의 처음부터 다시 보이게 한다.
+  const listCriteria = `${query}\u0000${[...activeTopics].sort().join(",")}\u0000${period}\u0000${onlyBookmarks}\u0000${hideRead}\u0000${sort}\u0000${view}`;
+  const effectiveVisibleCount = visibleCriteria === listCriteria ? visibleCount : LIST_PAGE_SIZE;
+  useEffect(() => {
+    setVisibleCount(LIST_PAGE_SIZE);
+    setVisibleCriteria(listCriteria);
+  }, [listCriteria]);
+
+  const visibleSorted = useMemo(() => sorted.slice(0, effectiveVisibleCount), [sorted, effectiveVisibleCount]);
+  const visibleGrouped = useMemo(() => {
+    if (!grouped) return [];
+    let remaining = effectiveVisibleCount;
+    return grouped.flatMap((g) => {
+      if (remaining <= 0) return [];
+      const shown = g.nodes.slice(0, remaining);
+      remaining -= shown.length;
+      return shown.length ? [{ ...g, total: g.nodes.length, nodes: shown }] : [];
+    });
+  }, [grouped, effectiveVisibleCount]);
+  const hasMoreListNodes = view === "list" && effectiveVisibleCount < filtered.length;
+  const showMore = () => {
+    setVisibleCriteria(listCriteria);
+    setVisibleCount(effectiveVisibleCount + LIST_PAGE_SIZE);
+  };
+
   const dateLabel = useMemo(() => {
     if (!latest || latest === "0000-00-00") return "";
     const d = new Date(latest + "T00:00:00");
@@ -567,7 +617,7 @@ export default function App() {
 
   const totalSources = nodes.reduce((s, n) => s + n.sources.length, 0);
   const activeFilterCount = activeTopics.size + (period !== "all" ? 1 : 0) + (onlyBookmarks ? 1 : 0) + (hideRead ? 1 : 0);
-  const unread = nodes.length - readSet.size;
+  const unread = nodes.filter((n) => !readSet.has(n.id)).length;
 
   const ToggleRow = ({ on, onClick, label, count }) => (
     <button onClick={onClick} className="flex w-full items-center gap-2 rounded-md px-2.5 py-2 text-sm transition-colors"
@@ -714,7 +764,7 @@ export default function App() {
               </div>
 
               <div className="ml-auto text-sm" style={{ color: T.faint }}>
-                노드 <span style={{ color: T.ink, fontWeight: 600 }}>{filtered.length}</span>개 · 안 읽음 <span style={{ color: T.ink, fontWeight: 600 }}>{unread}</span> · 긱뉴스 {totalSources}개
+                노드 <span style={{ color: T.ink, fontWeight: 600 }}>{filtered.length}</span>개 · 안 읽음 <span style={{ color: T.ink, fontWeight: 600 }}>{unread}</span> · 원문 {totalSources}개
               </div>
             </div>
 
@@ -726,25 +776,51 @@ export default function App() {
                 {activeFilterCount > 0 && <button onClick={clearFilters} className="mt-4 rounded-md px-4 py-2 text-sm font-medium" style={{ background: T.ink, color: "#fff" }}>필터 초기화</button>}
               </div>
             ) : view === "graph" ? (
-              <GraphView nodes={filtered} onOpen={openNode} read={readSet} bookmarked={bookmarkSet} />
-            ) : sort === "topic" ? (
-              <div className="space-y-7">
-                {grouped.map((g) => (
-                  <div key={g.topic}>
-                    <div className="mb-2.5 flex items-center gap-2">
-                      <span className="h-3.5 w-1 rounded-full" style={{ background: TOPICS[g.topic].color }} />
-                      <h2 className="text-sm font-bold" style={{ color: T.ink }}>{TOPICS[g.topic].label}</h2>
-                      <span className="text-xs" style={{ color: T.faint }}>{g.nodes.length}개</span>
-                    </div>
-                    <div className="space-y-3">
-                      {g.nodes.map((n) => <NodeCard key={n.id} node={n} onOpen={openNode} read={readSet.has(n.id)} bookmarked={bookmarkSet.has(n.id)} onToggleBookmark={toggleBookmark} latest={latest} />)}
-                    </div>
+              <div>
+                {filtered.length > MAX_GRAPH_NODES && (
+                  <div className="mb-3 rounded-lg px-3.5 py-2.5 text-xs" style={{ background: T.accentSoft, color: T.sub }}>
+                    그래프 성능을 위해 조건에 맞는 {filtered.length}개 중 인기 노드 {MAX_GRAPH_NODES}개를 표시합니다.
                   </div>
-                ))}
+                )}
+                <GraphView
+                  nodes={[...filtered].sort((a, b) => b.popularity - a.popularity).slice(0, MAX_GRAPH_NODES)}
+                  onOpen={openNode} read={readSet} bookmarked={bookmarkSet}
+                />
+              </div>
+            ) : sort === "topic" ? (
+              <div>
+                <div className="space-y-7">
+                  {visibleGrouped.map((g) => (
+                    <div key={g.topic}>
+                      <div className="mb-2.5 flex items-center gap-2">
+                        <span className="h-3.5 w-1 rounded-full" style={{ background: TOPICS[g.topic].color }} />
+                        <h2 className="text-sm font-bold" style={{ color: T.ink }}>{TOPICS[g.topic].label}</h2>
+                        <span className="text-xs" style={{ color: T.faint }}>{g.total}개</span>
+                      </div>
+                      <div className="space-y-3">
+                        {g.nodes.map((n) => <NodeCard key={n.id} node={n} onOpen={openNode} read={readSet.has(n.id)} bookmarked={bookmarkSet.has(n.id)} onToggleBookmark={toggleBookmark} latest={latest} />)}
+                      </div>
+                    </div>
+                  ))}
+                </div>
+                {hasMoreListNodes && (
+                  <button onClick={showMore} className="mt-6 w-full rounded-lg py-3 text-sm font-semibold transition-colors"
+                    style={{ background: T.surface, border: `1px solid ${T.borderStrong}`, color: T.ink }}>
+                    {Math.min(LIST_PAGE_SIZE, filtered.length - effectiveVisibleCount)}개 더 보기
+                  </button>
+                )}
               </div>
             ) : (
-              <div className="space-y-3">
-                {sorted.map((n) => <NodeCard key={n.id} node={n} onOpen={openNode} read={readSet.has(n.id)} bookmarked={bookmarkSet.has(n.id)} onToggleBookmark={toggleBookmark} latest={latest} />)}
+              <div>
+                <div className="space-y-3">
+                  {visibleSorted.map((n) => <NodeCard key={n.id} node={n} onOpen={openNode} read={readSet.has(n.id)} bookmarked={bookmarkSet.has(n.id)} onToggleBookmark={toggleBookmark} latest={latest} />)}
+                </div>
+                {hasMoreListNodes && (
+                  <button onClick={showMore} className="mt-6 w-full rounded-lg py-3 text-sm font-semibold transition-colors"
+                    style={{ background: T.surface, border: `1px solid ${T.borderStrong}`, color: T.ink }}>
+                    {Math.min(LIST_PAGE_SIZE, filtered.length - effectiveVisibleCount)}개 더 보기
+                  </button>
+                )}
               </div>
             )}
           </main>

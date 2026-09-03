@@ -1,6 +1,6 @@
 # 노드 — 긱뉴스 다이제스트
 
-React + Vite 프론트엔드와, 매일 GeekNews/Hacker News를 수집·요약해 `public/nodes.json`을 갱신하는 Python 파이프라인으로 구성됩니다.
+React + Vite 프론트엔드와, 매일 GeekNews/Hacker News를 수집·요약해 `public/nodes.json`을 갱신하는 Python 파이프라인으로 구성됩니다. Hacker News 이력은 Algolia HN Search API를 사용합니다.
 
 ## 로컬 개발
 
@@ -9,19 +9,58 @@ npm install
 npm run dev
 ```
 
+기본 검증:
+
+```bash
+python -m unittest test_pipeline.py
+npm run build
+```
+
 파이프라인을 로컬에서 직접 돌려보려면:
 
 ```bash
 pip install -r requirements.txt
-OPENAI_API_KEY=sk-... python pipeline.py > public/nodes.json
+OPENAI_API_KEY=sk-... python pipeline.py --output public/nodes.json
+```
+
+API 키 없이 규칙 기반 로컬 모드로도 실행할 수 있습니다:
+
+```bash
+python pipeline.py --local --output public/nodes.json
+```
+
+로컬 모드는 유사한 제목만 병합하고, 원문 제목과 본문의 첫 문장을 추출해 노드를
+만듭니다. 키워드로 분야와 태그를 고르므로 API 모드의 의미 기반 군집·한국어 생성
+요약과는 품질 차이가 있습니다. 특히 본문이 없는 Hacker News 글은 영문 제목이 그대로
+노출됩니다.
+
+파이프라인은 `--output` 경로의 기존 nodes.json을 읽어 **새 글만** 수집·요약해 누적 병합합니다
+(하루 실행마다 `public/nodes.json`이 계속 자라나는 구조). 옵션:
+
+- `--days N` : GeekNews/Hacker News 아카이브를 최근 며칠치 다시 긁을지. 기본 2일(매일 자동 실행용, 하루 경계 누락 방지를 위한 여유분).
+  처음 한 번 과거 이력을 채우고 싶다면 1월 1일부터 오늘까지의 일수를 계산해 크게 주면 됩니다. API 모드는 요약 호출이 그만큼 늘어 시간·비용이 듭니다.
+- `--fresh` : 기존 아카이브를 무시하고 처음부터 새로 생성.
+- `--local` : OpenAI 호출 없이 결정적 규칙 기반 군집·추출 요약·유사도 계산을 사용.
+
+예) 올해 데이터로 1회 백필:
+
+```bash
+OPENAI_API_KEY=sk-... python pipeline.py --output public/nodes.json --days 246 --fresh
+```
+
+API 키 없이 올해 데이터를 백필하는 예:
+
+```bash
+python pipeline.py --local --output public/nodes.json --days 246 --fresh
 ```
 
 ## 배포
 
 ### 1. GitHub
 
-이 저장소를 GitHub에 push 합니다. Settings → Secrets and variables → Actions → New repository secret 에서
-`OPENAI_API_KEY` 를 등록하세요. 키는 절대 코드나 커밋에 넣지 않습니다.
+이 저장소를 GitHub에 push 합니다. 기본 자동화는 `--local` 모드라 API 키가
+필요 없습니다. 향후 OpenAI 모드로 전환할 때만 Actions secret에
+`OPENAI_API_KEY`를 등록하고, 키는 코드나 커밋에 넣지 않습니다.
 
 ### 2. GitHub Actions (파이프라인 자동 실행)
 

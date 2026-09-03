@@ -25,9 +25,7 @@ jobs:
       - run: pip install -r requirements.txt
 
       - name: Run pipeline
-        run: python pipeline.py > public/nodes.json
-        env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: python pipeline.py --local --output public/nodes.json --days 2
 
       - name: Commit & push if changed
         run: |
