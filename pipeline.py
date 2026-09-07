@@ -32,6 +32,7 @@ import numpy as np
 import requests
 import feedparser
 import trafilatura
+from lxml import html as lxml_html
 try:
     from openai import OpenAI
 except ImportError:  # --local은 openai 패키지 자체가 없어도 실행 가능
@@ -509,8 +510,16 @@ def enrich_item(item: Item) -> Item:
                 if size > 2_000_000:
                     return item
                 chunks.append(chunk)
-        body = trafilatura.extract(b"".join(chunks), include_comments=False,
+        document = b"".join(chunks)
+        body = trafilatura.extract(document, include_comments=False,
                                    include_tables=False, favor_precision=True) or ""
+        # JS 전용 소셜 페이지의 앱 실행 안내문은 기사 본문이 아니다.
+        if re.search(r"(?:enable|turn on) javascript|javascript (?:is required|disabled)", body, re.I):
+            page = lxml_html.fromstring(document)
+            descriptions = page.xpath('//meta[@property="og:description"]/@content')
+            body = descriptions[0] if descriptions else ""
+            if re.search(r"(?:enable|turn on) javascript|javascript (?:is required|disabled)", body, re.I):
+                body = ""
         if _meaningful_sentences(body):
             item.text = body[:20000]
     except (requests.RequestException, ValueError) as ex:
@@ -557,7 +566,7 @@ def summarize_cluster_local(items: List[Item]) -> dict:
     for item in sorted(items, key=lambda it: -it.points):
         for sentence in _meaningful_sentences(item.text):
             sentence = _plain_text(sentence)
-            if sentence not in sentences and sentence != item.title:
+            if sentence and sentence not in sentences and sentence != item.title:
                 sentences.append(sentence)
     if sentences:
         one_liner = sentences[0][:180]
@@ -617,6 +626,11 @@ def validate_nodes(nodes: List[dict]) -> None:
         for field_name in ("tags", "keyPoints", "related", "sources", "similar"):
             if not isinstance(node[field_name], list):
                 raise ValueError(f"{node['id']}.{field_name}는 배열이어야 함")
+        for point in node["keyPoints"]:
+            if not isinstance(point, str) or not point.strip():
+                raise ValueError(f"{node['id']}.keyPoints에 빈 내용 또는 문자열이 아닌 값")
+            if point.strip().startswith(("원문 제목:", "출처:")):
+                raise ValueError(f"{node['id']}: 제목·출처는 핵심 내용이 아닙니다. --repair-summaries로 복구하세요")
     dangling = [(n["id"], target) for n in nodes for target in n["similar"] if target not in ids]
     if dangling:
         raise ValueError(f"존재하지 않는 similar 참조: {dangling[:3]}")
@@ -641,6 +655,11 @@ def relink_similar(nodes: List[dict], local: bool = False) -> None:
 def build_nodes(days: int = 2, existing_nodes: Optional[List[dict]] = None,
                 local: bool = False) -> List[dict]:
     existing_nodes = existing_nodes or []
+    legacy = [node for node in existing_nodes
+              if node.get("keyPoints") and needs_summary_repair(node)]
+    if legacy:
+        log(f"[복구] 기존 아카이브의 제목·출처 대체 요약 {len(legacy)}개 발견")
+        repair_summaries(legacy, local=local)
     items = ingest(days=days, existing_keys=existing_keys_from(existing_nodes))
     log(f"[수집] 신규 {len(items)}건 (기존 아카이브 {len(existing_nodes)}개 노드와 중복 제외)")
     if not items:
