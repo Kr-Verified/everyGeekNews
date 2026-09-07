@@ -202,6 +202,9 @@ function NodeDrawer({ nodeId, onClose, onNavigate, bookmarked, onToggleBookmark,
           <div className="mt-5 mb-6 rounded-lg p-4 text-[15px] leading-relaxed" style={{ background: T.accentSoft, color: T.ink }}>{node.oneLiner}</div>
 
           <Section title="핵심 내용">
+            {node.keyPoints.length === 0 && (
+              <p className="text-sm leading-relaxed" style={{ color: T.sub }}>본문을 확보하지 못했습니다. 아래 출처에서 원문을 확인해 주세요.</p>
+            )}
             <ul className="space-y-2.5">
               {node.keyPoints.map((p, i) => (
                 <li key={i} className="flex gap-2.5 text-sm leading-relaxed" style={{ color: T.ink }}>

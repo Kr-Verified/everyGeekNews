@@ -31,6 +31,7 @@ from typing import List, Optional
 import numpy as np
 import requests
 import feedparser
+import trafilatura
 try:
     from openai import OpenAI
 except ImportError:  # --local은 openai 패키지 자체가 없어도 실행 가능
@@ -478,7 +479,10 @@ _TAG_BLOCKLIST = _STOPWORDS | {
 }
 
 def _meaningful_sentences(body: str) -> List[str]:
-    candidates = re.split(r"(?<=[.!?])\s+|(?<=다\.)\s*|\s+[\u2022▪]\s+", body)
+    # HTML 단락 경계는 보존하고 태그는 문장 길이 판정 전에 제거한다.
+    body = re.sub(r"</(?:p|li|div|h[1-6])\s*>|<br\s*/?>", "\n", body, flags=re.I)
+    body = html.unescape(re.sub(r"<[^>]+>", " ", body))
+    candidates = re.split(r"\n+|(?<=[.!?])\s+|(?<=다\.)\s*|\s+[\u2022▪]\s+", body)
     selected = []
     for raw in candidates:
         sentence = re.sub(r"^\s*(?:[-*•▪]+|\(?\d{1,2}[.)]|[ivx]{1,5}[.)])\s*", "", raw).strip()
@@ -487,6 +491,52 @@ def _meaningful_sentences(body: str) -> List[str]:
             continue
         selected.append(sentence)
     return selected
+
+def enrich_item(item: Item) -> Item:
+    """요약할 본문이 없는 링크 기사는 원문에서 본문을 추출한다."""
+    if _meaningful_sentences(_plain_text(item.text)):
+        return item
+    if not item.url.startswith(("https://", "http://")):
+        return item
+    try:
+        with requests.get(item.url, headers=GEEKNEWS_HEADERS, timeout=(5, 15), stream=True) as response:
+            response.raise_for_status()
+            if "html" not in response.headers.get("Content-Type", "").lower():
+                return item
+            chunks, size = [], 0
+            for chunk in response.iter_content(65536):
+                size += len(chunk)
+                if size > 2_000_000:
+                    return item
+                chunks.append(chunk)
+        body = trafilatura.extract(b"".join(chunks), include_comments=False,
+                                   include_tables=False, favor_precision=True) or ""
+        if _meaningful_sentences(body):
+            item.text = body[:20000]
+    except (requests.RequestException, ValueError) as ex:
+        log(f"[warn] 본문 수집 실패 {item.url}: {ex}")
+    return item
+
+def needs_summary_repair(node: dict) -> bool:
+    points = node.get("keyPoints", [])
+    return not points or any(p.startswith(("원문 제목:", "출처:")) for p in points)
+
+def repair_summaries(nodes: List[dict], local: bool = True) -> None:
+    """ID·출처·날짜를 유지하며 기존 제목/출처 대체 요약만 복구한다."""
+    targets = [node for node in nodes if needs_summary_repair(node)]
+    def repair(node):
+        items = [enrich_item(Item(_mk_id(s["url"]), s["title"], s["url"], s["source"]))
+                 for s in node["sources"]]
+        summary = summarize_cluster_local(items) if local else summarize_cluster(items)
+        for field in ("oneLiner", "keyPoints"):
+            node[field] = summary[field]
+        return bool(node["keyPoints"])
+    recovered = 0
+    with ThreadPoolExecutor(max_workers=SUMMARY_WORKERS) as pool:
+        for done, success in enumerate(pool.map(repair, targets), 1):
+            recovered += success
+            if done % 100 == 0 or done == len(targets):
+                log(f"[복구] {done}/{len(targets)}, 본문 확보 {recovered}개")
 
 def summarize_cluster_local(items: List[Item]) -> dict:
     """번역이나 생성을 가장하지 않는 규칙 기반 추출 요약."""
@@ -503,14 +553,18 @@ def summarize_cluster_local(items: List[Item]) -> dict:
             tags.append(token)
         if len(tags) == 4:
             break
-    body = _plain_text(representative.text)
-    sentences = _meaningful_sentences(body)
+    sentences = []
+    for item in sorted(items, key=lambda it: -it.points):
+        for sentence in _meaningful_sentences(item.text):
+            sentence = _plain_text(sentence)
+            if sentence not in sentences and sentence != item.title:
+                sentences.append(sentence)
     if sentences:
         one_liner = sentences[0][:180]
         key_points = [s[:220] for s in sentences[:3]]
     else:
-        one_liner = f"{representative.source} 원문: {representative.title}"
-        key_points = [f"원문 제목: {representative.title}", f"출처: {representative.source}"]
+        one_liner = "본문을 확보하지 못해 요약을 제공할 수 없습니다. 원문 링크에서 확인해 주세요."
+        key_points = []
     related = ([f"같은 주제로 묶인 원문 {len(items)}건을 함께 보여줍니다."]
                if len(items) > 1 else [])
     return {
@@ -611,7 +665,7 @@ def build_nodes(days: int = 2, existing_nodes: Optional[List[dict]] = None,
     results = {}  # 군집 인덱스 -> 요약 dict
 
     def work(ci, idxs):
-        group = [items[i] for i in idxs]
+        group = [enrich_item(items[i]) for i in idxs]
         return ci, summarize_cluster_local(group) if local else summarize_cluster(group)
 
     with ThreadPoolExecutor(max_workers=SUMMARY_WORKERS) as pool:
@@ -675,6 +729,8 @@ if __name__ == "__main__":
                          help="기존 아카이브를 무시하고 처음부터 새로 생성")
     parser.add_argument("--local", action="store_true",
                          help="OpenAI API 없이 규칙 기반 군집/추출 요약으로 생성")
+    parser.add_argument("--repair-summaries", action="store_true",
+                         help="신규 수집 없이 기존 노드의 빈 요약을 원문에서 복구")
     args = parser.parse_args()
 
     existing: List[dict] = []
@@ -686,7 +742,14 @@ if __name__ == "__main__":
         except (OSError, json.JSONDecodeError) as ex:
             raise RuntimeError(f"기존 아카이브 로드 실패(덮어쓰지 않음): {ex}") from ex
 
-    result = build_nodes(days=args.days, existing_nodes=existing, local=args.local)
+    if args.repair_summaries:
+        if args.fresh or not existing:
+            parser.error("--repair-summaries는 기존 아카이브가 필요하며 --fresh와 함께 사용할 수 없습니다")
+        repair_summaries(existing, local=args.local)
+        result = existing
+        relink_similar(result, local=args.local)
+    else:
+        result = build_nodes(days=args.days, existing_nodes=existing, local=args.local)
     validate_nodes(result)
     os.makedirs(os.path.dirname(args.output) or ".", exist_ok=True)
     temp_output = args.output + ".tmp"
