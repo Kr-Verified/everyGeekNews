@@ -1,5 +1,2639 @@
 [
   {
+    "id": "N-20260906-01",
+    "topic": "biz",
+    "title": "QBittorrent breaks out of sandbox to commit crimes",
+    "tags": [
+      "qbittorrent",
+      "break",
+      "out",
+      "sandbox"
+    ],
+    "date": "2026-09-06",
+    "popularity": 95,
+    "oneLiner": "Hacker News 원문: QBittorrent breaks out of sandbox to commit crimes",
+    "keyPoints": [
+      "원문 제목: QBittorrent breaks out of sandbox to commit crimes",
+      "출처: Hacker News"
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "QBittorrent breaks out of sandbox to commit crimes",
+        "source": "Hacker News",
+        "url": "https://beige.party/@intransitivelie/117057396732763183"
+      }
+    ],
+    "similar": [
+      "N-20260731-03",
+      "N-20260901-08",
+      "N-20260810-12"
+    ]
+  },
+  {
+    "id": "N-20260906-02",
+    "topic": "biz",
+    "title": "A/I shuts down – Stay human",
+    "tags": [
+      "shuts",
+      "down",
+      "stay",
+      "human"
+    ],
+    "date": "2026-09-06",
+    "popularity": 95,
+    "oneLiner": "Hacker News 원문: A/I shuts down – Stay human",
+    "keyPoints": [
+      "원문 제목: A/I shuts down – Stay human",
+      "출처: Hacker News"
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "A/I shuts down – Stay human",
+        "source": "Hacker News",
+        "url": "https://keepitfree.ai/announcements/a/i-shuts-down-stay-human/"
+      }
+    ],
+    "similar": [
+      "N-20260508-09",
+      "N-20260223-05",
+      "N-20260302-04"
+    ]
+  },
+  {
+    "id": "N-20260906-03",
+    "topic": "biz",
+    "title": "Your intellectual fly is open (2025)",
+    "tags": [
+      "intellectual",
+      "fly"
+    ],
+    "date": "2026-09-06",
+    "popularity": 95,
+    "oneLiner": "Hacker News 원문: Your intellectual fly is open (2025)",
+    "keyPoints": [
+      "원문 제목: Your intellectual fly is open (2025)",
+      "출처: Hacker News"
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "Your intellectual fly is open (2025)",
+        "source": "Hacker News",
+        "url": "https://bcantrill.dtrace.org/2025/12/05/your-intellectual-fly-is-open/"
+      }
+    ],
+    "similar": [
+      "N-20260114-10",
+      "N-20260331-15",
+      "N-20260331-02"
+    ]
+  },
+  {
+    "id": "N-20260906-04",
+    "topic": "oss",
+    "title": "Nitter and XCancel resume service after legal advice",
+    "tags": [
+      "nitter",
+      "xcancel",
+      "resume",
+      "service"
+    ],
+    "date": "2026-09-06",
+    "popularity": 95,
+    "oneLiner": "https://github.com/zedeus/nitter https://xcancel.com/cdclegal https://nitter.net/ https://xcancel.com/",
+    "keyPoints": [
+      "https://github.com/zedeus/nitter https://xcancel.com/cdclegal https://nitter.net/ https://xcancel.com/"
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "Nitter and XCancel resume service after legal advice",
+        "source": "Hacker News",
+        "url": "https://github.com/zedeus/nitter/commit/1428b4c2b4246f92a7e5b2673438e5fb39fcc4a3"
+      }
+    ],
+    "similar": [
+      "N-20260829-27",
+      "N-20260307-07",
+      "N-20260201-05"
+    ]
+  },
+  {
+    "id": "N-20260906-05",
+    "topic": "biz",
+    "title": "Doomscrolling Ourselves to Death",
+    "tags": [
+      "doomscrolling",
+      "ourselve",
+      "death"
+    ],
+    "date": "2026-09-06",
+    "popularity": 95,
+    "oneLiner": "Hacker News 원문: Doomscrolling Ourselves to Death",
+    "keyPoints": [
+      "원문 제목: Doomscrolling Ourselves to Death",
+      "출처: Hacker News"
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "Doomscrolling Ourselves to Death",
+        "source": "Hacker News",
+        "url": "https://www.edwest.co.uk/p/doomscrolling-ourselves-to-death"
+      }
+    ],
+    "similar": [
+      "N-20260318-05",
+      "N-20260614-09",
+      "N-20260427-01"
+    ]
+  },
+  {
+    "id": "N-20260906-06",
+    "topic": "sys",
+    "title": "Asahi Linux on M3",
+    "tags": [
+      "asahi",
+      "linux",
+      "m3"
+    ],
+    "date": "2026-09-06",
+    "popularity": 91,
+    "oneLiner": "https://www.phoronix.com/news/Asahi-Linux-Official-M3",
+    "keyPoints": [
+      "https://www.phoronix.com/news/Asahi-Linux-Official-M3"
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "Asahi Linux on M3",
+        "source": "Hacker News",
+        "url": "https://asahilinux.org/2026/09/m2-episode-1/"
+      }
+    ],
+    "similar": [
+      "N-20260426-04",
+      "N-20260826-09",
+      "N-20260701-03"
+    ]
+  },
+  {
+    "id": "N-20260906-07",
+    "topic": "biz",
+    "title": "An Alien Mind",
+    "tags": [
+      "alien",
+      "mind"
+    ],
+    "date": "2026-09-06",
+    "popularity": 90,
+    "oneLiner": "Hacker News 원문: An Alien Mind",
+    "keyPoints": [
+      "원문 제목: An Alien Mind",
+      "출처: Hacker News"
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "An Alien Mind",
+        "source": "Hacker News",
+        "url": "https://openai.com/index/an-alien-mind/"
+      }
+    ],
+    "similar": [
+      "N-20260405-03",
+      "N-20260828-01",
+      "N-20260407-17"
+    ]
+  },
+  {
+    "id": "N-20260906-08",
+    "topic": "hw",
+    "title": "GPT-6 Astra on robot arms",
+    "tags": [
+      "gpt-6",
+      "astra",
+      "robot",
+      "arms"
+    ],
+    "date": "2026-09-06",
+    "popularity": 83,
+    "oneLiner": "Hacker News 원문: GPT-6 Astra on robot arms",
+    "keyPoints": [
+      "원문 제목: GPT-6 Astra on robot arms",
+      "출처: Hacker News"
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "GPT-6 Astra on robot arms",
+        "source": "Hacker News",
+        "url": "https://openai.robocurve.org/gpt-6-astra/"
+      }
+    ],
+    "similar": [
+      "N-20260904-29",
+      "N-20260903-36",
+      "N-20260603-23"
+    ]
+  },
+  {
+    "id": "N-20260906-09",
+    "topic": "biz",
+    "title": "You Don't Have a Right to Safe Drinking Water, US Court Rules",
+    "tags": [
+      "don",
+      "right",
+      "safe",
+      "drinking"
+    ],
+    "date": "2026-09-06",
+    "popularity": 82,
+    "oneLiner": "Hacker News 원문: You Don't Have a Right to Safe Drinking Water, US Court Rules",
+    "keyPoints": [
+      "원문 제목: You Don't Have a Right to Safe Drinking Water, US Court Rules",
+      "출처: Hacker News"
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "You Don't Have a Right to Safe Drinking Water, US Court Rules",
+        "source": "Hacker News",
+        "url": "https://www.motherjones.com/politics/2026/09/drinking-water-mississippi-lawsuit/"
+      }
+    ],
+    "similar": [
+      "N-20260629-02",
+      "N-20260825-07",
+      "N-20260401-11"
+    ]
+  },
+  {
+    "id": "N-20260906-10",
+    "topic": "ai",
+    "title": "How I feel about AI",
+    "tags": [
+      "feel",
+      "ai"
+    ],
+    "date": "2026-09-06",
+    "popularity": 73,
+    "oneLiner": "Hacker News 원문: How I feel about AI",
+    "keyPoints": [
+      "원문 제목: How I feel about AI",
+      "출처: Hacker News"
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "How I feel about AI",
+        "source": "Hacker News",
+        "url": "https://beza1e1.tuxen.de/ai_feelings.html"
+      }
+    ],
+    "similar": [
+      "N-20260814-01",
+      "N-20260222-06",
+      "N-20260120-12"
+    ]
+  },
+  {
+    "id": "N-20260906-11",
+    "topic": "oss",
+    "title": "I Changed My License",
+    "tags": [
+      "changed",
+      "my",
+      "license"
+    ],
+    "date": "2026-09-06",
+    "popularity": 72,
+    "oneLiner": "Hacker News 원문: I Changed My License",
+    "keyPoints": [
+      "원문 제목: I Changed My License",
+      "출처: Hacker News"
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "I Changed My License",
+        "source": "Hacker News",
+        "url": "https://bergie.iki.fi/blog/eupl/"
+      }
+    ],
+    "similar": [
+      "N-20260725-25",
+      "N-20260828-01",
+      "N-20260812-03"
+    ]
+  },
+  {
+    "id": "N-20260906-12",
+    "topic": "ai",
+    "title": "AI, Tools and Transformation",
+    "tags": [
+      "ai",
+      "tools",
+      "transformation"
+    ],
+    "date": "2026-09-06",
+    "popularity": 72,
+    "oneLiner": "Hacker News 원문: AI, Tools and Transformation",
+    "keyPoints": [
+      "원문 제목: AI, Tools and Transformation",
+      "출처: Hacker News"
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "AI, Tools and Transformation",
+        "source": "Hacker News",
+        "url": "https://www.ben-evans.com/benedictevans/2026/9/3/ai-tools-and-transformation"
+      }
+    ],
+    "similar": [
+      "N-20260222-10",
+      "N-20260115-22",
+      "N-20260422-25"
+    ]
+  },
+  {
+    "id": "N-20260906-13",
+    "topic": "ai",
+    "title": "사람 뇌 구조를 기반으로 실행하는 온디바이스 자아지능 AI (IDin) 를 1인 개발하였습니다.",
+    "tags": [
+      "사람",
+      "구조를",
+      "기반으로",
+      "실행하는"
+    ],
+    "date": "2026-09-06",
+    "popularity": 55,
+    "oneLiner": "사람의 뇌 구조 위에 세워, 사람처럼 스스로 생각하고 말하고 행동하는 아이딘(IDin)을 개발하였습니다.",
+    "keyPoints": [
+      "사람의 뇌 구조 위에 세워, 사람처럼 스스로 생각하고 말하고 행동하는 아이딘(IDin)을 개발하였습니다."
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "사람 뇌 구조를 기반으로 실행하는 온디바이스 자아지능 AI (IDin) 를 1인 개발하였습니다.",
+        "source": "GeekNews",
+        "url": "https://doi.org/10.5281/zenodo.21802677"
+      }
+    ],
+    "similar": [
+      "N-20260602-08",
+      "N-20260219-14",
+      "N-20260205-22"
+    ]
+  },
+  {
+    "id": "N-20260906-14",
+    "topic": "lang",
+    "title": "unbash - Bash 명령의 구조를 실행 없이 분석하는 TypeScript 파서",
+    "tags": [
+      "unbash",
+      "bash",
+      "명령의",
+      "구조를"
+    ],
+    "date": "2026-09-06",
+    "popularity": 55,
+    "oneLiner": "Bash 명령과 스크립트를 실행하지 않고 분석해, 명령어와 인자, 조건문, 파이프와 리다이렉트 등의 구조를 추상 구문 트리(AST)로 반환 셸 명령의 ...",
+    "keyPoints": [
+      "Bash 명령과 스크립트를 실행하지 않고 분석해, 명령어와 인자, 조건문, 파이프와 리다이렉트 등의 구조를 추상 구문 트리(AST)로 반환 셸 명령의 ..."
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "unbash - Bash 명령의 구조를 실행 없이 분석하는 TypeScript 파서",
+        "source": "GeekNews",
+        "url": "https://github.com/webpro-nl/unbash"
+      }
+    ],
+    "similar": [
+      "N-20260307-02",
+      "N-20260417-23",
+      "N-20260220-13"
+    ]
+  },
+  {
+    "id": "N-20260906-15",
+    "topic": "biz",
+    "title": "Show GN: PDF Simple Editor - WinUI 3로 만든 가벼운 PDF 편집기",
+    "tags": [
+      "pdf",
+      "simple",
+      "editor",
+      "winui"
+    ],
+    "date": "2026-09-06",
+    "popularity": 55,
+    "oneLiner": "기존 PDF 편집 프로그램들이 유료거나 광고가 붙는 것들이 많고 웹 기반이거나 너무 복잡하거나 기능제한이 있는 것이 많아서, 자주 쓰는 기능에 ...",
+    "keyPoints": [
+      "기존 PDF 편집 프로그램들이 유료거나 광고가 붙는 것들이 많고 웹 기반이거나 너무 복잡하거나 기능제한이 있는 것이 많아서, 자주 쓰는 기능에 ..."
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "Show GN: PDF Simple Editor - WinUI 3로 만든 가벼운 PDF 편집기",
+        "source": "GeekNews",
+        "url": "https://news.hada.io/topic?id=33272"
+      }
+    ],
+    "similar": [
+      "N-20260514-29",
+      "N-20260311-07",
+      "N-20260211-04"
+    ]
+  },
+  {
+    "id": "N-20260906-16",
+    "topic": "ai",
+    "title": "독자의 반란",
+    "tags": [
+      "독자의",
+      "반란"
+    ],
+    "date": "2026-09-06",
+    "popularity": 55,
+    "oneLiner": "LLM이 대신 쓴 공개 글은 독자가 기대하는 진정성과 신뢰를 훼손해, 글로 독자를 모으려는 목적 자체를 무너뜨릴 수 있음 글쓰기는 생각을 전달하...",
+    "keyPoints": [
+      "LLM이 대신 쓴 공개 글은 독자가 기대하는 진정성과 신뢰를 훼손해, 글로 독자를 모으려는 목적 자체를 무너뜨릴 수 있음 글쓰기는 생각을 전달하..."
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "독자의 반란",
+        "source": "GeekNews",
+        "url": "https://bcantrill.dtrace.org/2026/09/05/the-revolt-of-the-reader/"
+      }
+    ],
+    "similar": [
+      "N-20260802-01",
+      "N-20260625-07",
+      "N-20260314-08"
+    ]
+  },
+  {
+    "id": "N-20260906-17",
+    "topic": "ai",
+    "title": "grep이 LSP를 이긴다고? 코딩 에이전트가 더 정교한 도구를 무시하는 이유",
+    "tags": [
+      "grep",
+      "lsp",
+      "이긴다고",
+      "코딩"
+    ],
+    "date": "2026-09-06",
+    "popularity": 55,
+    "oneLiner": "Claude 모델 3종을 비교한 소규모 실험에서, 코드 구조를 이해하는 LSP 기반 탐색 도구를 제공해도 단순 코드 위치 찾기에는 대부분 grep을 사용했...",
+    "keyPoints": [
+      "Claude 모델 3종을 비교한 소규모 실험에서, 코드 구조를 이해하는 LSP 기반 탐색 도구를 제공해도 단순 코드 위치 찾기에는 대부분 grep을 사용했..."
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "grep이 LSP를 이긴다고? 코딩 에이전트가 더 정교한 도구를 무시하는 이유",
+        "source": "GeekNews",
+        "url": "https://www.agentconnect.md/blog/grep-beat-lsp-harness/"
+      }
+    ],
+    "similar": [
+      "N-20260729-02",
+      "N-20260107-06",
+      "N-20260526-05"
+    ]
+  },
+  {
+    "id": "N-20260906-18",
+    "topic": "lang",
+    "title": "Bespoke: ‘부탁합니다’라고 말하는 사람들을 위한 프로그래밍 언어",
+    "tags": [
+      "bespoke",
+      "부탁합니다",
+      "라고",
+      "말하는"
+    ],
+    "date": "2026-09-06",
+    "popularity": 55,
+    "oneLiner": "Bespoke는 명령 대신 정중한 요청과 감사 인사를 요구하는 정적 타입 언어 구상으로, .charming 소스 파일에 빅토리아 시대식 예절을 담음 할당·변...",
+    "keyPoints": [
+      "Bespoke는 명령 대신 정중한 요청과 감사 인사를 요구하는 정적 타입 언어 구상으로, .charming 소스 파일에 빅토리아 시대식 예절을 담음 할당·변..."
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "Bespoke: ‘부탁합니다’라고 말하는 사람들을 위한 프로그래밍 언어",
+        "source": "GeekNews",
+        "url": "https://blog.hofstede.it/bespoke-a-programming-language-for-people-who-say-please/"
+      }
+    ],
+    "similar": [
+      "N-20260129-04",
+      "N-20260101-06",
+      "N-20260329-19"
+    ]
+  },
+  {
+    "id": "N-20260906-19",
+    "topic": "biz",
+    "title": "Show GN: calsgo.com - 계산 결과에 법 조문·고시 번호를 함께 표기하는 생활 계산기 모음",
+    "tags": [
+      "calsgo.com",
+      "계산",
+      "결과에",
+      "조문"
+    ],
+    "date": "2026-09-06",
+    "popularity": 55,
+    "oneLiner": "만 나이 계산기로 시작해서 최저임금·실업급여·주휴수당·기준 중위소득 등 18종으로 늘어난 생활 계산기 모음입니다.",
+    "keyPoints": [
+      "만 나이 계산기로 시작해서 최저임금·실업급여·주휴수당·기준 중위소득 등 18종으로 늘어난 생활 계산기 모음입니다."
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "Show GN: calsgo.com - 계산 결과에 법 조문·고시 번호를 함께 표기하는 생활 계산기 모음",
+        "source": "GeekNews",
+        "url": "https://news.hada.io/topic?id=33271"
+      }
+    ],
+    "similar": [
+      "N-20260411-10",
+      "N-20260113-13",
+      "N-20260423-04"
+    ]
+  },
+  {
+    "id": "N-20260906-20",
+    "topic": "biz",
+    "title": "Isar Aerospace, 두 번째 비행에서 궤도 진입과 탑재체 배치 성공",
+    "tags": [
+      "isar",
+      "aerospace",
+      "번째",
+      "비행에서"
+    ],
+    "date": "2026-09-06",
+    "popularity": 55,
+    "oneLiner": "‘Onward and Upward’ 임무에서 위성을 궤도에 투입한 Isar Aerospace가 단 두 번의 비행 만에 유럽 상업 우주기업 최초로 이 성과를 달성함 발사체...",
+    "keyPoints": [
+      "‘Onward and Upward’ 임무에서 위성을 궤도에 투입한 Isar Aerospace가 단 두 번의 비행 만에 유럽 상업 우주기업 최초로 이 성과를 달성함 발사체..."
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "Isar Aerospace, 두 번째 비행에서 궤도 진입과 탑재체 배치 성공",
+        "source": "GeekNews",
+        "url": "https://isaraerospace.com/press/history-for-european-spaceflight-isar-aerospace-reaches-orbit-and-deploys-payloads-on-second-flight"
+      }
+    ],
+    "similar": [
+      "N-20260408-24",
+      "N-20260809-17",
+      "N-20260205-24"
+    ]
+  },
+  {
+    "id": "N-20260906-21",
+    "topic": "biz",
+    "title": "zopt - Zig를 위한 간결한 명령줄 인자 파서",
+    "tags": [
+      "zopt",
+      "zig",
+      "간결한",
+      "명령줄"
+    ],
+    "date": "2026-09-06",
+    "popularity": 55,
+    "oneLiner": "사전 스키마 정의 없이 애플리케이션이 조회할 때마다 argv를 탐색하는 Zig 명령줄 인자 파서임 std.process.Args의 얇은 래퍼로, 도움말 작성·오...",
+    "keyPoints": [
+      "사전 스키마 정의 없이 애플리케이션이 조회할 때마다 argv를 탐색하는 Zig 명령줄 인자 파서임 std.process.Args의 얇은 래퍼로, 도움말 작성·오..."
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "zopt - Zig를 위한 간결한 명령줄 인자 파서",
+        "source": "GeekNews",
+        "url": "https://codeberg.org/hgrsd/zopt"
+      }
+    ],
+    "similar": [
+      "N-20260519-08",
+      "N-20260202-03",
+      "N-20260409-25"
+    ]
+  },
+  {
+    "id": "N-20260906-22",
+    "topic": "sys",
+    "title": "strip 유틸리티를 통한 Linux 배포판 전체의 Trusting-Trust 공격",
+    "tags": [
+      "strip",
+      "유틸리티를",
+      "통한",
+      "linux"
+    ],
+    "date": "2026-09-06",
+    "popularity": 55,
+    "oneLiner": "소스 코드 검토를 우회하는 trusting-trust 공격이 컴파일러가 아닌 GNU strip에서도 가능하며, NixOS 부트스트랩부터 최종 환경까지 감염이 이어...",
+    "keyPoints": [
+      "소스 코드 검토를 우회하는 trusting-trust 공격이 컴파일러가 아닌 GNU strip에서도 가능하며, NixOS 부트스트랩부터 최종 환경까지 감염이 이어..."
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "strip 유틸리티를 통한 Linux 배포판 전체의 Trusting-Trust 공격",
+        "source": "GeekNews",
+        "url": "https://arxiv.org/abs/2607.24888"
+      }
+    ],
+    "similar": [
+      "N-20260614-06",
+      "N-20260630-07",
+      "N-20260221-24"
+    ]
+  },
+  {
+    "id": "N-20260906-23",
+    "topic": "biz",
+    "title": "Chrome, 사용자 사이트 데이터 설정에서 Google을 또다시 예외 처리",
+    "tags": [
+      "chrome",
+      "사용자",
+      "사이트",
+      "데이터"
+    ],
+    "date": "2026-09-06",
+    "popularity": 55,
+    "oneLiner": "모든 창을 닫으면 사이트 데이터를 삭제하도록 설정해도, Google 검색 후 google.com 데이터가 남는 현상이 Chrome에서 재현됨 Chrome 152.0.7977....",
+    "keyPoints": [
+      "모든 창을 닫으면 사이트 데이터를 삭제하도록 설정해도, Google 검색 후 google.com 데이터가 남는 현상이 Chrome에서 재현됨 Chrome 152.0.7977...."
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "Chrome, 사용자 사이트 데이터 설정에서 Google을 또다시 예외 처리",
+        "source": "GeekNews",
+        "url": "https://lapcatsoftware.com/articles/2026/9/1.html"
+      }
+    ],
+    "similar": [
+      "N-20260619-05",
+      "N-20260506-17",
+      "N-20260315-05"
+    ]
+  },
+  {
+    "id": "N-20260906-24",
+    "topic": "sys",
+    "title": "Cloud in a Bottle: 누구나 쉽게 쓸 수 있는 셀프 호스팅을 향해",
+    "tags": [
+      "cloud",
+      "bottle",
+      "누구나",
+      "쉽게"
+    ],
+    "date": "2026-09-06",
+    "popularity": 55,
+    "oneLiner": "Cloud in a Bottle은 컨테이너형 앱과 통합 인증을 결합한 오픈소스 개인 클라우드로, 셀프 호스팅을 시스템 관리 부업이 아니라 웹앱을 제공하는 ...",
+    "keyPoints": [
+      "Cloud in a Bottle은 컨테이너형 앱과 통합 인증을 결합한 오픈소스 개인 클라우드로, 셀프 호스팅을 시스템 관리 부업이 아니라 웹앱을 제공하는 ..."
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "Cloud in a Bottle: 누구나 쉽게 쓸 수 있는 셀프 호스팅을 향해",
+        "source": "GeekNews",
+        "url": "https://cloudinabottle.org/blog/launch-post"
+      }
+    ],
+    "similar": [
+      "N-20260426-17",
+      "N-20260319-18",
+      "N-20260706-23"
+    ]
+  },
+  {
+    "id": "N-20260905-01",
+    "topic": "biz",
+    "title": "The Real Luxuries In Life",
+    "tags": [
+      "real",
+      "luxurie",
+      "life"
+    ],
+    "date": "2026-09-05",
+    "popularity": 95,
+    "oneLiner": "Hacker News 원문: The Real Luxuries In Life",
+    "keyPoints": [
+      "원문 제목: The Real Luxuries In Life",
+      "출처: Hacker News"
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "The Real Luxuries In Life",
+        "source": "Hacker News",
+        "url": "https://feld.com/archives/2026/09/the-real-luxuries-in-life/"
+      }
+    ],
+    "similar": [
+      "N-20260818-13",
+      "N-20260324-14",
+      "N-20260702-04"
+    ]
+  },
+  {
+    "id": "N-20260905-02",
+    "topic": "ai",
+    "title": "AI handles incidents, engineers lose touch with their systems",
+    "tags": [
+      "ai",
+      "handle",
+      "incident",
+      "engineer"
+    ],
+    "date": "2026-09-05",
+    "popularity": 95,
+    "oneLiner": "Hacker News 원문: AI handles incidents, engineers lose touch with their systems",
+    "keyPoints": [
+      "원문 제목: AI handles incidents, engineers lose touch with their systems",
+      "출처: Hacker News"
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "AI handles incidents, engineers lose touch with their systems",
+        "source": "Hacker News",
+        "url": "https://www.sylvainkalache.com/blog/ai-handles-incidents-engineers-lose-touch-with-their-systems"
+      }
+    ],
+    "similar": [
+      "N-20260115-04",
+      "N-20260615-06",
+      "N-20260817-03"
+    ]
+  },
+  {
+    "id": "N-20260905-03",
+    "topic": "biz",
+    "title": "Netherlands pulls gold out of the US",
+    "tags": [
+      "netherland",
+      "pulls",
+      "gold",
+      "out"
+    ],
+    "date": "2026-09-05",
+    "popularity": 95,
+    "oneLiner": "Hacker News 원문: Netherlands pulls gold out of the US",
+    "keyPoints": [
+      "원문 제목: Netherlands pulls gold out of the US",
+      "출처: Hacker News"
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "Netherlands pulls gold out of the US",
+        "source": "Hacker News",
+        "url": "https://www.abc.net.au/news/2026-09-04/why-the-netherlands-moved-its-gold-from-us-and-canada/107111990"
+      }
+    ],
+    "similar": [
+      "N-20260406-01",
+      "N-20260526-04",
+      "N-20260520-07"
+    ]
+  },
+  {
+    "id": "N-20260905-04",
+    "topic": "biz",
+    "title": "Flock used >100 times to track veteran who recorded traffic stop",
+    "tags": [
+      "flock",
+      "used",
+      "times",
+      "track"
+    ],
+    "date": "2026-09-05",
+    "popularity": 95,
+    "oneLiner": "Hacker News 원문: Flock used >100 times to track veteran who recorded traffic stop",
+    "keyPoints": [
+      "원문 제목: Flock used >100 times to track veteran who recorded traffic stop",
+      "출처: Hacker News"
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "Flock used >100 times to track veteran who recorded traffic stop",
+        "source": "Hacker News",
+        "url": "https://reason.com/2026/09/02/wisconsin-cops-used-flock-over-100-times-to-track-a-navy-veteran-after-he-lawfully-recorded-a-traffic-stop/"
+      }
+    ],
+    "similar": [
+      "N-20260414-03",
+      "N-20260219-05",
+      "N-20260628-08"
+    ]
+  },
+  {
+    "id": "N-20260905-31",
+    "topic": "biz",
+    "title": "LLMs as a Cognitive Virus",
+    "tags": [
+      "llms",
+      "cognitive",
+      "virus"
+    ],
+    "date": "2026-09-05",
+    "popularity": 95,
+    "oneLiner": "Hacker News 원문: LLMs as a Cognitive Virus",
+    "keyPoints": [
+      "원문 제목: LLMs as a Cognitive Virus",
+      "출처: Hacker News"
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "LLMs as a Cognitive Virus",
+        "source": "Hacker News",
+        "url": "https://arxiv.org/abs/2609.03344"
+      }
+    ],
+    "similar": [
+      "N-20260603-02",
+      "N-20260725-03",
+      "N-20260128-15"
+    ]
+  },
+  {
+    "id": "N-20260905-05",
+    "topic": "biz",
+    "title": "Git hosting that never leaves Europe",
+    "tags": [
+      "git",
+      "hosting",
+      "never",
+      "leave"
+    ],
+    "date": "2026-09-05",
+    "popularity": 93,
+    "oneLiner": "Hacker News 원문: Git hosting that never leaves Europe",
+    "keyPoints": [
+      "원문 제목: Git hosting that never leaves Europe",
+      "출처: Hacker News"
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "Git hosting that never leaves Europe",
+        "source": "Hacker News",
+        "url": "https://pushin.eu"
+      }
+    ],
+    "similar": [
+      "N-20260304-05",
+      "N-20260622-02",
+      "N-20260223-09"
+    ]
+  },
+  {
+    "id": "N-20260905-32",
+    "topic": "lang",
+    "title": "Learn Programming with OCaml",
+    "tags": [
+      "learn",
+      "programming",
+      "ocaml"
+    ],
+    "date": "2026-09-05",
+    "popularity": 93,
+    "oneLiner": "Hacker News 원문: Learn Programming with OCaml",
+    "keyPoints": [
+      "원문 제목: Learn Programming with OCaml",
+      "출처: Hacker News"
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "Learn Programming with OCaml",
+        "source": "Hacker News",
+        "url": "https://usr.lmf.cnrs.fr/lpo/"
+      }
+    ],
+    "similar": [
+      "N-20260731-03",
+      "N-20260619-15",
+      "N-20260828-01"
+    ]
+  },
+  {
+    "id": "N-20260905-06",
+    "topic": "biz",
+    "title": "Global warming will exceed 1.5-degree limit, UN says",
+    "tags": [
+      "global",
+      "warming",
+      "will",
+      "exceed"
+    ],
+    "date": "2026-09-05",
+    "popularity": 92,
+    "oneLiner": "Hacker News 원문: Global warming will exceed 1.5-degree limit, UN says",
+    "keyPoints": [
+      "원문 제목: Global warming will exceed 1.5-degree limit, UN says",
+      "출처: Hacker News"
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "Global warming will exceed 1.5-degree limit, UN says",
+        "source": "Hacker News",
+        "url": "https://www.pbs.org/newshour/science/global-warming-will-exceed-1-5-degree-limit-un-says-in-report-that-maps-path-back-below-danger-zone"
+      }
+    ],
+    "similar": [
+      "N-20260304-08",
+      "N-20260616-06",
+      "N-20260324-07"
+    ]
+  },
+  {
+    "id": "N-20260905-07",
+    "topic": "biz",
+    "title": "How the Disaster of \"Forever Chemicals\" Was Kept Secret",
+    "tags": [
+      "disaster",
+      "forever",
+      "chemical",
+      "kept"
+    ],
+    "date": "2026-09-05",
+    "popularity": 89,
+    "oneLiner": "Hacker News 원문: How the Disaster of \"Forever Chemicals\" Was Kept Secret",
+    "keyPoints": [
+      "원문 제목: How the Disaster of \"Forever Chemicals\" Was Kept Secret",
+      "출처: Hacker News"
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "How the Disaster of \"Forever Chemicals\" Was Kept Secret",
+        "source": "Hacker News",
+        "url": "https://www.propublica.org/podcast/forever-chemicals-pfas-pfos-3m-secret-kris-hansen"
+      }
+    ],
+    "similar": [
+      "N-20260307-06",
+      "N-20260114-10",
+      "N-20260211-04"
+    ]
+  },
+  {
+    "id": "N-20260905-08",
+    "topic": "biz",
+    "title": "Wikimedia Foundation Workers Overwhelmingly Vote to Form Union with CWA",
+    "tags": [
+      "wikimedia",
+      "foundation",
+      "worker",
+      "overwhelmingly"
+    ],
+    "date": "2026-09-05",
+    "popularity": 85,
+    "oneLiner": "Hacker News 원문: Wikimedia Foundation Workers Overwhelmingly Vote to Form Union with CWA",
+    "keyPoints": [
+      "원문 제목: Wikimedia Foundation Workers Overwhelmingly Vote to Form Union with CWA",
+      "출처: Hacker News"
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "Wikimedia Foundation Workers Overwhelmingly Vote to Form Union with CWA",
+        "source": "Hacker News",
+        "url": "https://wikiworkersunited.org/announcements/2026-09-04-us-wikimedia-foundation-workers-overwhelmingly-vote-to-form-union-with-cwa/"
+      }
+    ],
+    "similar": [
+      "N-20260802-03",
+      "N-20260326-03",
+      "N-20260722-25"
+    ]
+  },
+  {
+    "id": "N-20260905-09",
+    "topic": "biz",
+    "title": "The \"$60 Gaming PC\" – AMD BC-250 (2025)",
+    "tags": [
+      "gaming",
+      "pc",
+      "amd",
+      "bc-250"
+    ],
+    "date": "2026-09-05",
+    "popularity": 84,
+    "oneLiner": "Hacker News 원문: The \"$60 Gaming PC\" – AMD BC-250 (2025)",
+    "keyPoints": [
+      "원문 제목: The \"$60 Gaming PC\" – AMD BC-250 (2025)",
+      "출처: Hacker News"
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "The \"$60 Gaming PC\" – AMD BC-250 (2025)",
+        "source": "Hacker News",
+        "url": "https://devquasar.com/hardware/the-60-gaming-pc-amd-bc-250/"
+      }
+    ],
+    "similar": [
+      "N-20260226-07",
+      "N-20260607-23",
+      "N-20260217-17"
+    ]
+  },
+  {
+    "id": "N-20260905-10",
+    "topic": "biz",
+    "title": "Private German rocket makes history, reaches orbit from European soil",
+    "tags": [
+      "private",
+      "german",
+      "rocket",
+      "makes"
+    ],
+    "date": "2026-09-05",
+    "popularity": 79,
+    "oneLiner": "Hacker News 원문: Private German rocket makes history, reaches orbit from European soil",
+    "keyPoints": [
+      "원문 제목: Private German rocket makes history, reaches orbit from European soil",
+      "출처: Hacker News"
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "Private German rocket makes history, reaches orbit from European soil",
+        "source": "Hacker News",
+        "url": "https://www.space.com/space-exploration/launches-spacecraft/isar-aerospace-second-launch-norway-andoya-spaceport-spectrum-rocket"
+      }
+    ],
+    "similar": [
+      "N-20260720-04",
+      "N-20260805-04",
+      "N-20260803-04"
+    ]
+  },
+  {
+    "id": "N-20260905-11",
+    "topic": "biz",
+    "title": "Why are European countries moving their gold out of North America?",
+    "tags": [
+      "european",
+      "countrie",
+      "moving",
+      "their"
+    ],
+    "date": "2026-09-05",
+    "popularity": 78,
+    "oneLiner": "Hacker News 원문: Why are European countries moving their gold out of North America?",
+    "keyPoints": [
+      "원문 제목: Why are European countries moving their gold out of North America?",
+      "출처: Hacker News"
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "Why are European countries moving their gold out of North America?",
+        "source": "Hacker News",
+        "url": "https://www.bbc.com/news/articles/cvgyn8q8gqxo"
+      }
+    ],
+    "similar": [
+      "N-20260617-06",
+      "N-20260117-03",
+      "N-20260720-05"
+    ]
+  },
+  {
+    "id": "N-20260905-12",
+    "topic": "biz",
+    "title": "Artificial Analysis Intelligence Index v4.2",
+    "tags": [
+      "artificial",
+      "analysi",
+      "intelligence",
+      "index"
+    ],
+    "date": "2026-09-05",
+    "popularity": 73,
+    "oneLiner": "Hacker News 원문: Artificial Analysis Intelligence Index v4.2",
+    "keyPoints": [
+      "원문 제목: Artificial Analysis Intelligence Index v4.2",
+      "출처: Hacker News"
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "Artificial Analysis Intelligence Index v4.2",
+        "source": "Hacker News",
+        "url": "https://artificialanalysis.ai/articles/artificial-analysis-intelligence-index-v4-2"
+      }
+    ],
+    "similar": [
+      "N-20260724-04",
+      "N-20260818-24",
+      "N-20260807-19"
+    ]
+  },
+  {
+    "id": "N-20260905-13",
+    "topic": "biz",
+    "title": ".gitignore Everything by Default",
+    "tags": [
+      "gitignore",
+      "everything",
+      "default"
+    ],
+    "date": "2026-09-05",
+    "popularity": 71,
+    "oneLiner": "Hacker News 원문: .gitignore Everything by Default",
+    "keyPoints": [
+      "원문 제목: .gitignore Everything by Default",
+      "출처: Hacker News"
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": ".gitignore Everything by Default",
+        "source": "Hacker News",
+        "url": "https://packagemain.tech/p/gitignore-everything-by-default"
+      }
+    ],
+    "similar": [
+      "N-20260115-04",
+      "N-20260819-12",
+      "N-20260512-13"
+    ]
+  },
+  {
+    "id": "N-20260905-14",
+    "topic": "biz",
+    "title": "How the Tobacco Industry Drove the Rise of Ultra-Processed Foods (2025)",
+    "tags": [
+      "tobacco",
+      "industry",
+      "drove",
+      "rise"
+    ],
+    "date": "2026-09-05",
+    "popularity": 71,
+    "oneLiner": "Hacker News 원문: How the Tobacco Industry Drove the Rise of Ultra-Processed Foods (2025)",
+    "keyPoints": [
+      "원문 제목: How the Tobacco Industry Drove the Rise of Ultra-Processed Foods (2025)",
+      "출처: Hacker News"
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "How the Tobacco Industry Drove the Rise of Ultra-Processed Foods (2025)",
+        "source": "Hacker News",
+        "url": "https://vcresearch.berkeley.edu/news/how-tobacco-industry-drove-rise-ultra-processed-foods"
+      }
+    ],
+    "similar": [
+      "N-20260308-02",
+      "N-20260807-04",
+      "N-20260818-14"
+    ]
+  },
+  {
+    "id": "N-20260905-15",
+    "topic": "ai",
+    "title": "DHH가 바라본 프로그래밍의 미래: 직접 코딩에서 AI 에이전트 팀 운영으로 [유튜브]",
+    "tags": [
+      "dhh",
+      "바라본",
+      "프로그래밍의",
+      "미래"
+    ],
+    "date": "2026-09-05",
+    "popularity": 56,
+    "oneLiner": "최근 AI 발전은 수십 년치 변화에 해당하며, DHH는 Opus 4.5와 에이전트 하네스를 기점으로 AI가 보조 도구에서 문제 해결 전반을 맡는 제작 주체...",
+    "keyPoints": [
+      "최근 AI 발전은 수십 년치 변화에 해당하며, DHH는 Opus 4.5와 에이전트 하네스를 기점으로 AI가 보조 도구에서 문제 해결 전반을 맡는 제작 주체..."
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "DHH가 바라본 프로그래밍의 미래: 직접 코딩에서 AI 에이전트 팀 운영으로 [유튜브]",
+        "source": "GeekNews",
+        "url": "https://www.youtube.com/watch?v=NYFGCESmikA"
+      }
+    ],
+    "similar": [
+      "N-20260826-02",
+      "N-20260805-11",
+      "N-20260131-16"
+    ]
+  },
+  {
+    "id": "N-20260905-16",
+    "topic": "ai",
+    "title": "AI 시대에 코드 리뷰에서 살아남는 방법은?",
+    "tags": [
+      "ai",
+      "시대에",
+      "코드",
+      "리뷰에서"
+    ],
+    "date": "2026-09-05",
+    "popularity": 55,
+    "oneLiner": "동료들이 AI를 적극 활용하면서 리뷰할 PR이 평균 약 6,000줄의 diff로 커졌고, 효과적인 검토가 어려운 상황임 사람이 구축 중인 시스템의 작동 ...",
+    "keyPoints": [
+      "동료들이 AI를 적극 활용하면서 리뷰할 PR이 평균 약 6,000줄의 diff로 커졌고, 효과적인 검토가 어려운 상황임 사람이 구축 중인 시스템의 작동 ..."
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "AI 시대에 코드 리뷰에서 살아남는 방법은?",
+        "source": "GeekNews",
+        "url": "https://lobste.rs/s/7tpc5q/surviving_code_reviews_era_ai"
+      }
+    ],
+    "similar": [
+      "N-20260813-15",
+      "N-20260616-11",
+      "N-20260414-13"
+    ]
+  },
+  {
+    "id": "N-20260905-17",
+    "topic": "ai",
+    "title": "Show GN: FlowSuite - 노코드 화면 자동화, AI 파일 정리 등 윈도우 생산성 도구 모음",
+    "tags": [
+      "flowsuite",
+      "노코드",
+      "화면",
+      "자동화"
+    ],
+    "date": "2026-09-05",
+    "popularity": 55,
+    "oneLiner": "업무를 하면서 매일 반복되는 단순 웹/시스템 로그인, 엑셀 취합, 지루한 클릭 노가다와 어지러운 다운로드 폴더 정리에 피로감을 느껴 주말마다 ...",
+    "keyPoints": [
+      "업무를 하면서 매일 반복되는 단순 웹/시스템 로그인, 엑셀 취합, 지루한 클릭 노가다와 어지러운 다운로드 폴더 정리에 피로감을 느껴 주말마다 ..."
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "Show GN: FlowSuite - 노코드 화면 자동화, AI 파일 정리 등 윈도우 생산성 도구 모음",
+        "source": "GeekNews",
+        "url": "https://news.hada.io/topic?id=33235"
+      }
+    ],
+    "similar": [
+      "N-20260415-13",
+      "N-20260805-04",
+      "N-20260713-10"
+    ]
+  },
+  {
+    "id": "N-20260905-18",
+    "topic": "sec",
+    "title": "Stave - AWS 설정 사이에 숨어 있는 공격 경로를 찾는 보안 검증 도구",
+    "tags": [
+      "stave",
+      "aws",
+      "설정",
+      "사이에"
+    ],
+    "date": "2026-09-05",
+    "popularity": 55,
+    "oneLiner": "AWS 리소스의 설정뿐 아니라 리소스 사이의 권한과 연결 관계를 분석해, 개별 검사에서는 드러나지 않는 복합적인 보안 위험을 찾음 예를 들어 S3...",
+    "keyPoints": [
+      "AWS 리소스의 설정뿐 아니라 리소스 사이의 권한과 연결 관계를 분석해, 개별 검사에서는 드러나지 않는 복합적인 보안 위험을 찾음 예를 들어 S3..."
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "Stave - AWS 설정 사이에 숨어 있는 공격 경로를 찾는 보안 검증 도구",
+        "source": "GeekNews",
+        "url": "https://github.com/sufield/stave"
+      }
+    ],
+    "similar": [
+      "N-20260119-17",
+      "N-20260210-04",
+      "N-20260810-32"
+    ]
+  },
+  {
+    "id": "N-20260905-19",
+    "topic": "ai",
+    "title": "wigolo - AI 에이전트를 위한 로컬 우선 웹 검색/수집 도구",
+    "tags": [
+      "wigolo",
+      "ai",
+      "에이전트를",
+      "로컬"
+    ],
+    "date": "2026-09-05",
+    "popularity": 55,
+    "oneLiner": "AI 에이전트에 검색/페이지 읽기/크롤링/데이터 추출/캐시/유사 문서 검색/리서치 기능을 하나의 MCP 인터페이스로 제공함 검색은 18개 엔진을 함...",
+    "keyPoints": [
+      "AI 에이전트에 검색/페이지 읽기/크롤링/데이터 추출/캐시/유사 문서 검색/리서치 기능을 하나의 MCP 인터페이스로 제공함 검색은 18개 엔진을 함..."
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "wigolo - AI 에이전트를 위한 로컬 우선 웹 검색/수집 도구",
+        "source": "GeekNews",
+        "url": "https://github.com/KnockOutEZ/wigolo"
+      }
+    ],
+    "similar": [
+      "N-20260821-08",
+      "N-20260214-12",
+      "N-20260129-21"
+    ]
+  },
+  {
+    "id": "N-20260905-20",
+    "topic": "web",
+    "title": "Show GN: 귀래당 앱 모음 - 설치도 로그인도 없이 브라우저에서 도는 작은 도구와 게임 84개",
+    "tags": [
+      "귀래당",
+      "모음",
+      "설치도",
+      "로그인도"
+    ],
+    "date": "2026-09-05",
+    "popularity": 55,
+    "oneLiner": "무엇인가 브라우저 안에서 바로 도는 도구와 게임을 모아 둔 곳입니다.",
+    "keyPoints": [
+      "무엇인가 브라우저 안에서 바로 도는 도구와 게임을 모아 둔 곳입니다.",
+      "QR 만들기, PDF 합치기와 나누기, 이미지 줄이기와 형식 바꾸기, 스도쿠와 ..."
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "Show GN: 귀래당 앱 모음 - 설치도 로그인도 없이 브라우저에서 도는 작은 도구와 게임 84개",
+        "source": "GeekNews",
+        "url": "https://news.hada.io/topic?id=33238"
+      }
+    ],
+    "similar": [
+      "N-20260807-05",
+      "N-20260713-14",
+      "N-20260821-28"
+    ]
+  },
+  {
+    "id": "N-20260905-21",
+    "topic": "ai",
+    "title": "AI가 내 두뇌를 망치고 있을까?",
+    "tags": [
+      "ai",
+      "두뇌를",
+      "망치고",
+      "있을까"
+    ],
+    "date": "2026-09-05",
+    "popularity": 55,
+    "oneLiner": "AI의 윤리·환경 문제와 직접 코딩하는 즐거움 때문에 사용을 꺼렸지만, 복잡한 프로젝트에서 Cursor에 의존하면서 문제 해결 습관이 달라지기 시작...",
+    "keyPoints": [
+      "AI의 윤리·환경 문제와 직접 코딩하는 즐거움 때문에 사용을 꺼렸지만, 복잡한 프로젝트에서 Cursor에 의존하면서 문제 해결 습관이 달라지기 시작..."
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "AI가 내 두뇌를 망치고 있을까?",
+        "source": "GeekNews",
+        "url": "https://thoughtbot.com/blog/is-ai-ruining-my-brain"
+      }
+    ],
+    "similar": [
+      "N-20260219-23",
+      "N-20260331-03",
+      "N-20260902-21"
+    ]
+  },
+  {
+    "id": "N-20260905-22",
+    "topic": "biz",
+    "title": "단순한 프로그램이 꼭 작은 것은 아니다",
+    "tags": [
+      "단순한",
+      "프로그램이",
+      "작은",
+      "것은"
+    ],
+    "date": "2026-09-05",
+    "popularity": 55,
+    "oneLiner": "프로그램의 단순함은 코드나 도구의 크기가 아니라, 서로 다른 기능과 개념이 불필요하게 얽히지 않은 상태를 뜻함 Unix 파이프라인은 작은 도구를...",
+    "keyPoints": [
+      "프로그램의 단순함은 코드나 도구의 크기가 아니라, 서로 다른 기능과 개념이 불필요하게 얽히지 않은 상태를 뜻함 Unix 파이프라인은 작은 도구를..."
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "단순한 프로그램이 꼭 작은 것은 아니다",
+        "source": "GeekNews",
+        "url": "https://jyn.dev/simple-is-not-the-same-as-small/"
+      }
+    ],
+    "similar": [
+      "N-20260106-04",
+      "N-20260221-21",
+      "N-20260224-11"
+    ]
+  },
+  {
+    "id": "N-20260905-23",
+    "topic": "biz",
+    "title": "Show GN: wifibox - 앱 설치와 계정 가입 없는 기기 간 실시간 파일·링크 공유",
+    "tags": [
+      "wifibox",
+      "설치와",
+      "계정",
+      "가입"
+    ],
+    "date": "2026-09-05",
+    "popularity": 55,
+    "oneLiner": "아이폰, 갤럭시, 맥북, 윈도우 등 서로 다른 기기 간에 사진, 파일, 웹사이트 링크를 앱 설치나 로그인 없이 브라우저만 열어 즉시 주고받을 수 있...",
+    "keyPoints": [
+      "아이폰, 갤럭시, 맥북, 윈도우 등 서로 다른 기기 간에 사진, 파일, 웹사이트 링크를 앱 설치나 로그인 없이 브라우저만 열어 즉시 주고받을 수 있..."
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "Show GN: wifibox - 앱 설치와 계정 가입 없는 기기 간 실시간 파일·링크 공유",
+        "source": "GeekNews",
+        "url": "https://news.hada.io/topic?id=33258"
+      }
+    ],
+    "similar": [
+      "N-20260812-05",
+      "N-20260429-10",
+      "N-20260723-13"
+    ]
+  },
+  {
+    "id": "N-20260905-24",
+    "topic": "biz",
+    "title": "Show GN: 계산랩 - 법령 출처와 기준일을 같이 보여주는 계산기 모음",
+    "tags": [
+      "계산랩",
+      "법령",
+      "출처와",
+      "기준일을"
+    ],
+    "date": "2026-09-05",
+    "popularity": 55,
+    "oneLiner": "취득세를 검색하면 나오는 계산기 중에 개정 전 요율을 그대로 쓰는 곳이 꽤 있었습니다.",
+    "keyPoints": [
+      "취득세를 검색하면 나오는 계산기 중에 개정 전 요율을 그대로 쓰는 곳이 꽤 있었습니다.",
+      "전월세 전환율도 옛 기준금리로 계산하는 곳이 많고요."
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "Show GN: 계산랩 - 법령 출처와 기준일을 같이 보여주는 계산기 모음",
+        "source": "GeekNews",
+        "url": "https://news.hada.io/topic?id=33254"
+      }
+    ],
+    "similar": [
+      "N-20260628-05",
+      "N-20260406-02",
+      "N-20260124-02"
+    ]
+  },
+  {
+    "id": "N-20260905-25",
+    "topic": "biz",
+    "title": "Show GN: Anthills - 음악 아카이빙 & 소셜 플랫폼",
+    "tags": [
+      "anthill",
+      "음악",
+      "아카이빙",
+      "소셜"
+    ],
+    "date": "2026-09-05",
+    "popularity": 55,
+    "oneLiner": "평소에 영화를 보고나면 Letterboxd에 평점과 리뷰를 남기고 모아두곤 하는데, 음악은 RYM이 있긴하지만 UI도 제...",
+    "keyPoints": [
+      "평소에 영화를 보고나면 Letterboxd에 평점과 리뷰를 남기고 모아두곤 하는데, 음악은 RYM이 있긴하지만 UI도 제..."
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "Show GN: Anthills - 음악 아카이빙 & 소셜 플랫폼",
+        "source": "GeekNews",
+        "url": "https://news.hada.io/topic?id=33253"
+      }
+    ],
+    "similar": [
+      "N-20260312-06",
+      "N-20260414-07",
+      "N-20260624-06"
+    ]
+  },
+  {
+    "id": "N-20260905-26",
+    "topic": "biz",
+    "title": "Nitter, 폐쇄 조치 이전보다 작동하는 인스턴스가 늘어남",
+    "tags": [
+      "nitter",
+      "폐쇄",
+      "조치",
+      "이전보다"
+    ],
+    "date": "2026-09-05",
+    "popularity": 55,
+    "oneLiner": "공개 목록에는 정상 작동 13개와 속도 제한 상태 8개를 합쳐 총 21개의 활성 Nitter 인스턴스가 등록돼 있음 정상 작동 인스턴스는 일반 웹 주소 1...",
+    "keyPoints": [
+      "공개 목록에는 정상 작동 13개와 속도 제한 상태 8개를 합쳐 총 21개의 활성 Nitter 인스턴스가 등록돼 있음 정상 작동 인스턴스는 일반 웹 주소 1..."
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "Nitter, 폐쇄 조치 이전보다 작동하는 인스턴스가 늘어남",
+        "source": "GeekNews",
+        "url": "https://codeberg.org/mv12star/shitter/wiki/Instances"
+      }
+    ],
+    "similar": [
+      "N-20260615-17",
+      "N-20260829-27",
+      "N-20260104-01"
+    ]
+  },
+  {
+    "id": "N-20260905-27",
+    "topic": "biz",
+    "title": "Statichost.eu - 100% 유럽 기반 정적 사이트 호스팅",
+    "tags": [
+      "statichost.eu",
+      "유럽",
+      "기반",
+      "정적"
+    ],
+    "date": "2026-09-05",
+    "popularity": 55,
+    "oneLiner": "Statichost.eu는 Git 배포부터 CDN까지 유럽 기업이 소유한 인프라에서 운영되는 정적 웹사이트 호스팅 서비스임 Git 저장소를 여러 정적 사이트 ...",
+    "keyPoints": [
+      "Statichost.eu는 Git 배포부터 CDN까지 유럽 기업이 소유한 인프라에서 운영되는 정적 웹사이트 호스팅 서비스임 Git 저장소를 여러 정적 사이트 ..."
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "Statichost.eu - 100% 유럽 기반 정적 사이트 호스팅",
+        "source": "GeekNews",
+        "url": "https://www.statichost.eu/"
+      }
+    ],
+    "similar": [
+      "N-20260630-07",
+      "N-20260313-15",
+      "N-20260619-05"
+    ]
+  },
+  {
+    "id": "N-20260905-28",
+    "topic": "biz",
+    "title": "미국인의 정부 부패 인식 89%, 20년 만에 최고치",
+    "tags": [
+      "미국인의",
+      "정부",
+      "부패",
+      "인식"
+    ],
+    "date": "2026-09-05",
+    "popularity": 55,
+    "oneLiner": "2026년 미국 성인의 89% 가 정부 부패가 만연하다고 답해 20년 내 최고치를 기록했으며, 전년보다 10%포인트 상승함 민주당 지지층의 응답률은 202...",
+    "keyPoints": [
+      "2026년 미국 성인의 89% 가 정부 부패가 만연하다고 답해 20년 내 최고치를 기록했으며, 전년보다 10%포인트 상승함 민주당 지지층의 응답률은 202..."
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "미국인의 정부 부패 인식 89%, 20년 만에 최고치",
+        "source": "GeekNews",
+        "url": "https://news.gallup.com/poll/713933/record-high-say-government-corruption-widespread.aspx"
+      }
+    ],
+    "similar": [
+      "N-20260513-23",
+      "N-20260422-14",
+      "N-20260207-05"
+    ]
+  },
+  {
+    "id": "N-20260905-29",
+    "topic": "biz",
+    "title": "NX 비트는 보안만을 위한 것이 아니다",
+    "tags": [
+      "nx",
+      "비트는",
+      "보안만을",
+      "것이"
+    ],
+    "date": "2026-09-05",
+    "popularity": 55,
+    "oneLiner": "ARM64 베어메탈 하이퍼바이저에서 CTREL0 인터셉트를 켤 때 기기가 멈춘 원인은 분기 예측에 따른 추측적 명령어 인출이 실행 가능하게 매핑된 MMI...",
+    "keyPoints": [
+      "ARM64 베어메탈 하이퍼바이저에서 CTREL0 인터셉트를 켤 때 기기가 멈춘 원인은 분기 예측에 따른 추측적 명령어 인출이 실행 가능하게 매핑된 MMI..."
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "NX 비트는 보안만을 위한 것이 아니다",
+        "source": "GeekNews",
+        "url": "https://purplesyringa.moe/blog/guest/the-nx-bit-is-not-just-about-security/"
+      }
+    ],
+    "similar": [
+      "N-20260309-02",
+      "N-20260115-01",
+      "N-20260824-08"
+    ]
+  },
+  {
+    "id": "N-20260905-30",
+    "topic": "sec",
+    "title": "Chrome, 실제 공격에 악용된 V8 코드 실행 취약점 수정",
+    "tags": [
+      "chrome",
+      "실제",
+      "공격에",
+      "악용된"
+    ],
+    "date": "2026-09-05",
+    "popularity": 55,
+    "oneLiner": "Google이 실제 공격에 악용된 V8 취약점 CVE-2026-85046 을 수정한 Chrome 보안 업데이트를 배포함 조작된 HTML 페이지를 통해 브라우저 샌드박스 ...",
+    "keyPoints": [
+      "Google이 실제 공격에 악용된 V8 취약점 CVE-2026-85046 을 수정한 Chrome 보안 업데이트를 배포함 조작된 HTML 페이지를 통해 브라우저 샌드박스 ..."
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "Chrome, 실제 공격에 악용된 V8 코드 실행 취약점 수정",
+        "source": "GeekNews",
+        "url": "https://nvd.nist.gov/vuln/detail/cve-2026-85046"
+      }
+    ],
+    "similar": [
+      "N-20260715-24",
+      "N-20260505-06",
+      "N-20260508-11"
+    ]
+  },
+  {
+    "id": "N-20260904-01",
+    "topic": "ai",
+    "title": "Discovery of a new OpenAI agent message board",
+    "tags": [
+      "discovery",
+      "openai",
+      "agent",
+      "message"
+    ],
+    "date": "2026-09-04",
+    "popularity": 95,
+    "oneLiner": "https://www.reuters.com/world/europe/openai-agents-hijacked-...",
+    "keyPoints": [
+      "https://www.reuters.com/world/europe/openai-agents-hijacked-..."
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "Discovery of a new OpenAI agent message board",
+        "source": "Hacker News",
+        "url": "https://collusion.wiki/"
+      }
+    ],
+    "similar": [
+      "N-20260403-24",
+      "N-20260506-09",
+      "N-20260514-02"
+    ]
+  },
+  {
+    "id": "N-20260904-02",
+    "topic": "biz",
+    "title": "Hackers had a live feed of every ID verification company scanned for over a year",
+    "tags": [
+      "hacker",
+      "live",
+      "feed",
+      "every"
+    ],
+    "date": "2026-09-04",
+    "popularity": 95,
+    "oneLiner": "Hacker News 원문: Hackers had a live feed of every ID verification company scanned for over a year",
+    "keyPoints": [
+      "원문 제목: Hackers had a live feed of every ID verification company scanned for over a year",
+      "출처: Hacker News"
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "Hackers had a live feed of every ID verification company scanned for over a year",
+        "source": "Hacker News",
+        "url": "http://www.techdirt.com/2026/09/03/hackers-had-a-live-feed-of-every-id-this-verification-company-scanned-for-over-a-year/"
+      }
+    ],
+    "similar": [
+      "N-20260422-11",
+      "N-20260407-08",
+      "N-20260718-02"
+    ]
+  },
+  {
+    "id": "N-20260904-03",
+    "topic": "biz",
+    "title": "Formalizing Fermat's Last Theorem",
+    "tags": [
+      "formalizing",
+      "fermat",
+      "last",
+      "theorem"
+    ],
+    "date": "2026-09-04",
+    "popularity": 95,
+    "oneLiner": "https://xenaproject.wordpress.com/2026/09/04/flt-anthropic-h...",
+    "keyPoints": [
+      "https://xenaproject.wordpress.com/2026/09/04/flt-anthropic-h..."
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "Formalizing Fermat's Last Theorem",
+        "source": "Hacker News",
+        "url": "https://www.anthropic.com/research/formalizing-fermats-last-theorem"
+      }
+    ],
+    "similar": [
+      "N-20260309-11",
+      "N-20260611-29",
+      "N-20260404-09"
+    ]
+  },
+  {
+    "id": "N-20260904-04",
+    "topic": "biz",
+    "title": "Solving the Jane Street reverse engineering challenge",
+    "tags": [
+      "solving",
+      "jane",
+      "street",
+      "reverse"
+    ],
+    "date": "2026-09-04",
+    "popularity": 95,
+    "oneLiner": "Hacker News 원문: Solving the Jane Street reverse engineering challenge",
+    "keyPoints": [
+      "원문 제목: Solving the Jane Street reverse engineering challenge",
+      "출처: Hacker News"
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "Solving the Jane Street reverse engineering challenge",
+        "source": "Hacker News",
+        "url": "https://jestoph.com/2026/09/04/jane-street-challenge.html"
+      }
+    ],
+    "similar": [
+      "N-20260827-06",
+      "N-20260621-07",
+      "N-20260831-14"
+    ]
+  },
+  {
+    "id": "N-20260904-05",
+    "topic": "ai",
+    "title": "Google AI Mode shows same products 21.6% more expensive than traditional search",
+    "tags": [
+      "google",
+      "ai",
+      "mode",
+      "shows"
+    ],
+    "date": "2026-09-04",
+    "popularity": 95,
+    "oneLiner": "Hacker News 원문: Google AI Mode shows same products 21.6% more expensive than traditional search",
+    "keyPoints": [
+      "원문 제목: Google AI Mode shows same products 21.6% more expensive than traditional search",
+      "출처: Hacker News"
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "Google AI Mode shows same products 21.6% more expensive than traditional search",
+        "source": "Hacker News",
+        "url": "https://productrise.app/blog/google-ai-mode-prefers-more-expensive-products"
+      }
+    ],
+    "similar": [
+      "N-20260505-04",
+      "N-20260518-17",
+      "N-20260607-06"
+    ]
+  },
+  {
+    "id": "N-20260904-28",
+    "topic": "ai",
+    "title": "Can AI design circuit boards yet?",
+    "tags": [
+      "can",
+      "ai",
+      "design",
+      "circuit"
+    ],
+    "date": "2026-09-04",
+    "popularity": 95,
+    "oneLiner": "Hacker News 원문: Can AI design circuit boards yet?",
+    "keyPoints": [
+      "원문 제목: Can AI design circuit boards yet?",
+      "출처: Hacker News"
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "Can AI design circuit boards yet?",
+        "source": "Hacker News",
+        "url": "https://eebench.org/blog/can-ai-design-circuit-boards-yet/"
+      }
+    ],
+    "similar": [
+      "N-20260806-07",
+      "N-20260625-06",
+      "N-20260524-21"
+    ]
+  },
+  {
+    "id": "N-20260904-29",
+    "topic": "biz",
+    "title": "GPT-6 Astra on OpenRouter",
+    "tags": [
+      "gpt-6",
+      "astra",
+      "openrouter"
+    ],
+    "date": "2026-09-04",
+    "popularity": 92,
+    "oneLiner": "Hacker News 원문: GPT-6 Astra on OpenRouter",
+    "keyPoints": [
+      "원문 제목: GPT-6 Astra on OpenRouter",
+      "출처: Hacker News"
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "GPT-6 Astra on OpenRouter",
+        "source": "Hacker News",
+        "url": "https://openrouter.ai/openai/gpt-6-astra"
+      }
+    ],
+    "similar": [
+      "N-20260906-08",
+      "N-20260903-36",
+      "N-20260830-05"
+    ]
+  },
+  {
+    "id": "N-20260904-06",
+    "topic": "biz",
+    "title": "Adult Film Producer Unmasks Prolific 'John DOE' Torrent Pirate as Meta Executive",
+    "tags": [
+      "adult",
+      "film",
+      "producer",
+      "unmask"
+    ],
+    "date": "2026-09-04",
+    "popularity": 90,
+    "oneLiner": "Hacker News 원문: Adult Film Producer Unmasks Prolific 'John DOE' Torrent Pirate as Meta Executive",
+    "keyPoints": [
+      "원문 제목: Adult Film Producer Unmasks Prolific 'John DOE' Torrent Pirate as Meta Executive",
+      "출처: Hacker News"
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "Adult Film Producer Unmasks Prolific 'John DOE' Torrent Pirate as Meta Executive",
+        "source": "Hacker News",
+        "url": "https://torrentfreak.com/adult-film-producer-unmasks-prolific-john-doe-torrent-pirate-as-meta-executive/"
+      }
+    ],
+    "similar": [
+      "N-20260726-04",
+      "N-20260719-17",
+      "N-20260225-02"
+    ]
+  },
+  {
+    "id": "N-20260904-07",
+    "topic": "ai",
+    "title": "Corporate America is getting hooked on open-source AI",
+    "tags": [
+      "corporate",
+      "america",
+      "getting",
+      "hooked"
+    ],
+    "date": "2026-09-04",
+    "popularity": 86,
+    "oneLiner": "Hacker News 원문: Corporate America is getting hooked on open-source AI",
+    "keyPoints": [
+      "원문 제목: Corporate America is getting hooked on open-source AI",
+      "출처: Hacker News"
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "Corporate America is getting hooked on open-source AI",
+        "source": "Hacker News",
+        "url": "https://www.nytimes.com/2026/09/04/technology/open-source-ai-anthropic-openai.html"
+      }
+    ],
+    "similar": [
+      "N-20260901-08",
+      "N-20260117-05",
+      "N-20260813-03"
+    ]
+  },
+  {
+    "id": "N-20260904-08",
+    "topic": "biz",
+    "title": "IBM Bob",
+    "tags": [
+      "ibm",
+      "bob"
+    ],
+    "date": "2026-09-04",
+    "popularity": 80,
+    "oneLiner": "Hacker News 원문: IBM Bob",
+    "keyPoints": [
+      "원문 제목: IBM Bob",
+      "출처: Hacker News"
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "IBM Bob",
+        "source": "Hacker News",
+        "url": "https://bob.ibm.com/"
+      }
+    ],
+    "similar": [
+      "N-20260325-09",
+      "N-20260610-18",
+      "N-20260625-07"
+    ]
+  },
+  {
+    "id": "N-20260904-09",
+    "topic": "ai",
+    "title": "Show HN: Open-Source eInk Bike Computer",
+    "tags": [
+      "open-source",
+      "eink",
+      "bike",
+      "computer"
+    ],
+    "date": "2026-09-04",
+    "popularity": 80,
+    "oneLiner": "Another tidbit, in the crazy things that AI has done...",
+    "keyPoints": [
+      "Another tidbit, in the crazy things that AI has done...",
+      "It has helped create a ANT (common sensor wireless protocol used in workout/biking) implementation for ESP32 by messing around with undocumented registers: https://github.com/RaemondBW/esp32-ant"
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "Show HN: Open-Source eInk Bike Computer",
+        "source": "Hacker News",
+        "url": "https://opentrailpaper.com"
+      }
+    ],
+    "similar": [
+      "N-20260830-05",
+      "N-20260812-04",
+      "N-20260415-31"
+    ]
+  },
+  {
+    "id": "N-20260904-10",
+    "topic": "biz",
+    "title": "Shutting down our public encrypted DNS",
+    "tags": [
+      "shutting",
+      "down",
+      "public",
+      "encrypted"
+    ],
+    "date": "2026-09-04",
+    "popularity": 79,
+    "oneLiner": "Hacker News 원문: Shutting down our public encrypted DNS",
+    "keyPoints": [
+      "원문 제목: Shutting down our public encrypted DNS",
+      "출처: Hacker News"
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "Shutting down our public encrypted DNS",
+        "source": "Hacker News",
+        "url": "https://mullvad.net/en/blog/shutting-down-our-public-encrypted-dns-servers-and-sponsoring-quad9-instead"
+      }
+    ],
+    "similar": [
+      "N-20260627-01",
+      "N-20260826-05",
+      "N-20260627-05"
+    ]
+  },
+  {
+    "id": "N-20260904-11",
+    "topic": "ai",
+    "title": "Nobody is saying why OpenAI and Anthropic had outages",
+    "tags": [
+      "nobody",
+      "saying",
+      "openai",
+      "anthropic"
+    ],
+    "date": "2026-09-04",
+    "popularity": 78,
+    "oneLiner": "Hacker News 원문: Nobody is saying why OpenAI and Anthropic had outages",
+    "keyPoints": [
+      "원문 제목: Nobody is saying why OpenAI and Anthropic had outages",
+      "출처: Hacker News"
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "Nobody is saying why OpenAI and Anthropic had outages",
+        "source": "Hacker News",
+        "url": "https://www.wired.com/story/nobody-is-saying-why-openai-and-anthropic-had-outages-today/"
+      }
+    ],
+    "similar": [
+      "N-20260714-02",
+      "N-20260209-09",
+      "N-20260903-39"
+    ]
+  },
+  {
+    "id": "N-20260904-12",
+    "topic": "biz",
+    "title": "How Fairphone built the Fairphone Gen 6+",
+    "tags": [
+      "fairphone",
+      "built",
+      "gen"
+    ],
+    "date": "2026-09-04",
+    "popularity": 77,
+    "oneLiner": "Hacker News 원문: How Fairphone built the Fairphone Gen 6+",
+    "keyPoints": [
+      "원문 제목: How Fairphone built the Fairphone Gen 6+",
+      "출처: Hacker News"
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "How Fairphone built the Fairphone Gen 6+",
+        "source": "Hacker News",
+        "url": "https://arstechnica.com/gadgets/2026/09/nearly-impossible-how-fairphone-built-the-ethical-repairable-fairphone-gen-6/"
+      }
+    ],
+    "similar": [
+      "N-20260818-12",
+      "N-20260813-05",
+      "N-20260504-08"
+    ]
+  },
+  {
+    "id": "N-20260904-13",
+    "topic": "biz",
+    "title": "Gmail to end support for \"Send as\" for third-party addresses, such as @yahoo.com",
+    "tags": [
+      "gmail",
+      "end",
+      "support",
+      "send"
+    ],
+    "date": "2026-09-04",
+    "popularity": 77,
+    "oneLiner": "Hacker News 원문: Gmail to end support for \"Send as\" for third-party addresses, such as @yahoo.com",
+    "keyPoints": [
+      "원문 제목: Gmail to end support for \"Send as\" for third-party addresses, such as @yahoo.com",
+      "출처: Hacker News"
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "Gmail to end support for \"Send as\" for third-party addresses, such as @yahoo.com",
+        "source": "Hacker News",
+        "url": "https://support.google.com/mail/answer/22370?hl=en"
+      }
+    ],
+    "similar": [
+      "N-20260906-02",
+      "N-20260427-10",
+      "N-20260113-19"
+    ]
+  },
+  {
+    "id": "N-20260904-14",
+    "topic": "biz",
+    "title": "US Military disables ad trackers on troops' phones",
+    "tags": [
+      "us",
+      "military",
+      "disable",
+      "ad"
+    ],
+    "date": "2026-09-04",
+    "popularity": 75,
+    "oneLiner": "Hacker News 원문: US Military disables ad trackers on troops' phones",
+    "keyPoints": [
+      "원문 제목: US Military disables ad trackers on troops' phones",
+      "출처: Hacker News"
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "US Military disables ad trackers on troops' phones",
+        "source": "Hacker News",
+        "url": "https://www.theguardian.com/us-news/2026/sep/04/military-disables-phone-ad-trackers"
+      }
+    ],
+    "similar": [
+      "N-20260831-07",
+      "N-20260526-04",
+      "N-20260210-07"
+    ]
+  },
+  {
+    "id": "N-20260904-15",
+    "topic": "biz",
+    "title": "Top Pentagon Official Contracted Personal Lawyer to Handle Minerals Deal",
+    "tags": [
+      "top",
+      "pentagon",
+      "official",
+      "contracted"
+    ],
+    "date": "2026-09-04",
+    "popularity": 72,
+    "oneLiner": "Hacker News 원문: Top Pentagon Official Contracted Personal Lawyer to Handle Minerals Deal",
+    "keyPoints": [
+      "원문 제목: Top Pentagon Official Contracted Personal Lawyer to Handle Minerals Deal",
+      "출처: Hacker News"
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "Top Pentagon Official Contracted Personal Lawyer to Handle Minerals Deal",
+        "source": "Hacker News",
+        "url": "https://prospect.org/2026/08/21/pentagon-minerals-deal-department-defense-cerberus-capital-alan-waldenberg-stephen-feinberg/"
+      }
+    ],
+    "similar": [
+      "N-20260115-04",
+      "N-20260526-06",
+      "N-20260415-05"
+    ]
+  },
+  {
+    "id": "N-20260904-16",
+    "topic": "web",
+    "title": "브라우저의 메인 스레드는 비싸다",
+    "tags": [
+      "브라우저의",
+      "메인",
+      "스레드는",
+      "비싸다"
+    ],
+    "date": "2026-09-04",
+    "popularity": 58,
+    "oneLiner": "브라우저 성능의 핵심은 ‘메인 스레드’를 어떻게 사용하는가에 달려 있다 프론트엔드 성능 문제는 단순히 코드가 느려서가 아니라, JavaScript·렌...",
+    "keyPoints": [
+      "브라우저 성능의 핵심은 ‘메인 스레드’를 어떻게 사용하는가에 달려 있다 프론트엔드 성능 문제는 단순히 코드가 느려서가 아니라, JavaScript·렌..."
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "브라우저의 메인 스레드는 비싸다",
+        "source": "GeekNews",
+        "url": "https://kciter.so/posts/the-expensive-main-thread/"
+      }
+    ],
+    "similar": [
+      "N-20260226-07",
+      "N-20260416-26",
+      "N-20260316-28"
+    ]
+  },
+  {
+    "id": "N-20260904-17",
+    "topic": "lang",
+    "title": "CLIProxyAPI - AI 구독 계정을 호환 API로 노출하는 프록시",
+    "tags": [
+      "cliproxyapi",
+      "ai",
+      "구독",
+      "계정을"
+    ],
+    "date": "2026-09-04",
+    "popularity": 56,
+    "oneLiner": "ChatGPT Codex, Claude Code, Gemini, Grok Build, Antigravity 등의 OAuth 계정을 로컬 프록시에 연결해, 여러 표준 형식의 API로 제공 별도의 AP...",
+    "keyPoints": [
+      "ChatGPT Codex, Claude Code, Gemini, Grok Build, Antigravity 등의 OAuth 계정을 로컬 프록시에 연결해, 여러 표준 형식의 API로 제공 별도의 AP..."
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "CLIProxyAPI - AI 구독 계정을 호환 API로 노출하는 프록시",
+        "source": "GeekNews",
+        "url": "https://github.com/router-for-me/CLIProxyAPI"
+      }
+    ],
+    "similar": [
+      "N-20260818-13",
+      "N-20260804-20",
+      "N-20260507-21"
+    ]
+  },
+  {
+    "id": "N-20260904-30",
+    "topic": "ai",
+    "title": "모든 글에 AI를 쓰면서도 ‘AI 슬롭’을 피하는 방법",
+    "tags": [
+      "모든",
+      "글에",
+      "ai",
+      "쓰면서도"
+    ],
+    "date": "2026-09-04",
+    "popularity": 56,
+    "oneLiner": "Ahrefs는 모든 글에 AI를 활용하고 6~12분 만에 조사부터 팩트체크까지 수행하는 파이프라인도 갖췄지만, 이를 수만 개의 글을 자동 발행하는 데 ...",
+    "keyPoints": [
+      "Ahrefs는 모든 글에 AI를 활용하고 6~12분 만에 조사부터 팩트체크까지 수행하는 파이프라인도 갖췄지만, 이를 수만 개의 글을 자동 발행하는 데 ..."
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "모든 글에 AI를 쓰면서도 ‘AI 슬롭’을 피하는 방법",
+        "source": "GeekNews",
+        "url": "https://ahrefs.com/blog/how-we-use-ai-without-making-ai-slop/"
+      }
+    ],
+    "similar": [
+      "N-20260711-06",
+      "N-20260507-19",
+      "N-20260206-20"
+    ]
+  },
+  {
+    "id": "N-20260904-18",
+    "topic": "biz",
+    "title": "Show GN: Togethery - 가족/부부가 사야할것, 할일을 함께 관리하는 앱",
+    "tags": [
+      "togethery",
+      "가족",
+      "부부가",
+      "사야할것"
+    ],
+    "date": "2026-09-04",
+    "popularity": 55,
+    "oneLiner": "제 사소한 불편함에서 시작해 앱 배포까지 해 보았습니다.",
+    "keyPoints": [
+      "제 사소한 불편함에서 시작해 앱 배포까지 해 보았습니다.",
+      "가족에게도 협업 도구가 필요하다 올리브유를 다 써간다는걸 혼자 머릿속으..."
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "Show GN: Togethery - 가족/부부가 사야할것, 할일을 함께 관리하는 앱",
+        "source": "GeekNews",
+        "url": "https://news.hada.io/topic?id=33212"
+      }
+    ],
+    "similar": [
+      "N-20260313-24",
+      "N-20260824-05",
+      "N-20260710-17"
+    ]
+  },
+  {
+    "id": "N-20260904-19",
+    "topic": "ai",
+    "title": "당신의 지능을 소유하라: 소버린 AI 실전 가이드",
+    "tags": [
+      "당신의",
+      "지능을",
+      "소유하라",
+      "소버린"
+    ],
+    "date": "2026-09-04",
+    "popularity": 55,
+    "oneLiner": "AI 애플리케이션 경쟁이 UI·워크플로·시장 진입을 넘어, 제품의 학습 방식과 성능을 좌우하는 지능 계층의 소유권 경쟁으로 확대되고 있음 Kimi K3...",
+    "keyPoints": [
+      "AI 애플리케이션 경쟁이 UI·워크플로·시장 진입을 넘어, 제품의 학습 방식과 성능을 좌우하는 지능 계층의 소유권 경쟁으로 확대되고 있음 Kimi K3..."
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "당신의 지능을 소유하라: 소버린 AI 실전 가이드",
+        "source": "GeekNews",
+        "url": "https://sequoiacap.com/article/own-your-intelligence-a-how-to-guide"
+      }
+    ],
+    "similar": [
+      "N-20260825-15",
+      "N-20260728-21",
+      "N-20260814-27"
+    ]
+  },
+  {
+    "id": "N-20260904-20",
+    "topic": "biz",
+    "title": "VC는 더 이상 VC가 아니다",
+    "tags": [
+      "vc",
+      "이상",
+      "아니다"
+    ],
+    "date": "2026-09-04",
+    "popularity": 55,
+    "oneLiner": "소수의 초대형 투자사가 전통적인 스타트업 투자를 넘어 막대한 자산과 정치적 영향력을 축적한 현상을 Cancer Capital로 규정하고, 이들을 금융회...",
+    "keyPoints": [
+      "소수의 초대형 투자사가 전통적인 스타트업 투자를 넘어 막대한 자산과 정치적 영향력을 축적한 현상을 Cancer Capital로 규정하고, 이들을 금융회..."
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "VC는 더 이상 VC가 아니다",
+        "source": "GeekNews",
+        "url": "https://www.anildash.com/2026/09/02/cancer-capital/"
+      }
+    ],
+    "similar": [
+      "N-20260828-17",
+      "N-20260608-22",
+      "N-20260223-08"
+    ]
+  },
+  {
+    "id": "N-20260904-21",
+    "topic": "ai",
+    "title": "모든 CEO가 알아야 할 AI 거버넌스",
+    "tags": [
+      "모든",
+      "ceo",
+      "알아야",
+      "ai"
+    ],
+    "date": "2026-09-04",
+    "popularity": 55,
+    "oneLiner": "AI가 의료·금융·운영 의사결정에 영향을 미치면서 결과의 무결성을 책임지는 AI 거버넌스는 법무·IT·CISO에게만 맡길 수 없는 CEO와 이사회의 책임...",
+    "keyPoints": [
+      "AI가 의료·금융·운영 의사결정에 영향을 미치면서 결과의 무결성을 책임지는 AI 거버넌스는 법무·IT·CISO에게만 맡길 수 없는 CEO와 이사회의 책임..."
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "모든 CEO가 알아야 할 AI 거버넌스",
+        "source": "GeekNews",
+        "url": "https://www.bvp.com/atlas/what-every-ceo-needs-to-know-about-ai-governance"
+      }
+    ],
+    "similar": [
+      "N-20260402-23",
+      "N-20260830-08",
+      "N-20260725-21"
+    ]
+  },
+  {
+    "id": "N-20260904-22",
+    "topic": "biz",
+    "title": "MongoDB 컬렉션을 PostgreSQL로 복사하고 동기화하기",
+    "tags": [
+      "mongodb",
+      "컬렉션을",
+      "postgresql",
+      "복사하고"
+    ],
+    "date": "2026-09-04",
+    "popularity": 55,
+    "oneLiner": "MongoDB 컬렉션을 PostgreSQL로 복사한 뒤, 이후 발생하는 추가·수정·삭제까지 계속 동기화해 본 과정을 정리했습니다.",
+    "keyPoints": [
+      "MongoDB 컬렉션을 PostgreSQL로 복사한 뒤, 이후 발생하는 추가·수정·삭제까지 계속 동기화해 본 과정을 정리했습니다."
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "MongoDB 컬렉션을 PostgreSQL로 복사하고 동기화하기",
+        "source": "GeekNews",
+        "url": "https://visualeaf.com/blog/copy-and-sync-a-mongodb-collection-to-postgresql/"
+      }
+    ],
+    "similar": [
+      "N-20260227-03",
+      "N-20260205-05",
+      "N-20260627-03"
+    ]
+  },
+  {
+    "id": "N-20260904-23",
+    "topic": "ai",
+    "title": "바둑 세계 1위 신진서, 두 점 접바둑에서 AI KataGo에 승리",
+    "tags": [
+      "바둑",
+      "세계",
+      "신진서",
+      "접바둑에서"
+    ],
+    "date": "2026-09-04",
+    "popularity": 55,
+    "oneLiner": "첫판에서 크게 패한 신진서 9단이 세계 정상급 바둑 AI KataGo를 상대로 두 판을 연이어 따내며 3번기 2-1 역전승을 거둠 최종국에서는 흑으로 221...",
+    "keyPoints": [
+      "첫판에서 크게 패한 신진서 9단이 세계 정상급 바둑 AI KataGo를 상대로 두 판을 연이어 따내며 3번기 2-1 역전승을 거둠 최종국에서는 흑으로 221..."
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "바둑 세계 1위 신진서, 두 점 접바둑에서 AI KataGo에 승리",
+        "source": "GeekNews",
+        "url": "https://www.kedglobal.com/artificial-intelligence/newsView/ked202607210007"
+      }
+    ],
+    "similar": [
+      "N-20260824-10",
+      "N-20260113-15",
+      "N-20260625-08"
+    ]
+  },
+  {
+    "id": "N-20260904-24",
+    "topic": "biz",
+    "title": "정적 할당과 일정한 작업량",
+    "tags": [
+      "정적",
+      "할당과",
+      "일정한",
+      "작업량"
+    ],
+    "date": "2026-09-04",
+    "popularity": 55,
+    "oneLiner": "객체 풀은 use-after-free라는 논리 오류를 막지 못하지만, 같은 타입끼리 메모리를 재사용하면 물리적 타입 혼동과 임의 코드 실행 가능성을 대부...",
+    "keyPoints": [
+      "객체 풀은 use-after-free라는 논리 오류를 막지 못하지만, 같은 타입끼리 메모리를 재사용하면 물리적 타입 혼동과 임의 코드 실행 가능성을 대부..."
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "정적 할당과 일정한 작업량",
+        "source": "GeekNews",
+        "url": "https://matklad.github.io/2026/09/02/static-allocation-constant-work.html"
+      }
+    ],
+    "similar": [
+      "N-20260709-04",
+      "N-20260901-08",
+      "N-20260731-03"
+    ]
+  },
+  {
+    "id": "N-20260904-25",
+    "topic": "ai",
+    "title": "Show GN: kavranta - 환경변수 작업, AI에게 맡기되 실제 키는 보여주지 않고 관리는 편하게",
+    "tags": [
+      "kavranta",
+      "환경변수",
+      "작업",
+      "ai"
+    ],
+    "date": "2026-09-04",
+    "popularity": 55,
+    "oneLiner": "Kavranta는 프로젝트가 이미 사용하는 .env 파일을 그대로 유지하면서, 여러 환경변수를 한곳에서 관리하는 로컬 데스크톱 앱입니다.",
+    "keyPoints": [
+      "Kavranta는 프로젝트가 이미 사용하는 .env 파일을 그대로 유지하면서, 여러 환경변수를 한곳에서 관리하는 로컬 데스크톱 앱입니다."
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "Show GN: kavranta - 환경변수 작업, AI에게 맡기되 실제 키는 보여주지 않고 관리는 편하게",
+        "source": "GeekNews",
+        "url": "https://news.hada.io/topic?id=33229"
+      }
+    ],
+    "similar": [
+      "N-20260122-19",
+      "N-20260609-07",
+      "N-20260621-17"
+    ]
+  },
+  {
+    "id": "N-20260904-26",
+    "topic": "biz",
+    "title": "Show GN: GNUCMS - 웹호스팅에 올리면 바로 실행되는 PHP 게시판·CMS",
+    "tags": [
+      "gnucm",
+      "웹호스팅에",
+      "올리면",
+      "바로"
+    ],
+    "date": "2026-09-04",
+    "popularity": 55,
+    "oneLiner": "일반 웹호스팅(카페24 등)에 FTP로 올리고 브라우저에서 설치하면 끝나는 PHP 기반 커뮤니티·콘텐츠 관리 시스템 SQLite / MySQL·MariaDB / Postgr...",
+    "keyPoints": [
+      "일반 웹호스팅(카페24 등)에 FTP로 올리고 브라우저에서 설치하면 끝나는 PHP 기반 커뮤니티·콘텐츠 관리 시스템 SQLite / MySQL·MariaDB / Postgr..."
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "Show GN: GNUCMS - 웹호스팅에 올리면 바로 실행되는 PHP 게시판·CMS",
+        "source": "GeekNews",
+        "url": "https://news.hada.io/topic?id=33218"
+      }
+    ],
+    "similar": [
+      "N-20260902-04",
+      "N-20260603-03",
+      "N-20260609-13"
+    ]
+  },
+  {
+    "id": "N-20260904-27",
+    "topic": "biz",
+    "title": "Show GN: nly.kr - 로그인 없이 바로 쓰는 URL 단축 · QR 코드 생성 도구",
+    "tags": [
+      "nly.kr",
+      "로그인",
+      "없이",
+      "바로"
+    ],
+    "date": "2026-09-04",
+    "popularity": 55,
+    "oneLiner": "로그인 없이 바로 URL을 단축하고 QR 코드까지 한 번에 생성할 수 있는 서비스입니다.",
+    "keyPoints": [
+      "로그인 없이 바로 URL을 단축하고 QR 코드까지 한 번에 생성할 수 있는 서비스입니다.",
+      "기능 회원가입 없이 즉시 단축 URL 생성 사용자 지정 주소 ..."
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "Show GN: nly.kr - 로그인 없이 바로 쓰는 URL 단축 · QR 코드 생성 도구",
+        "source": "GeekNews",
+        "url": "https://news.hada.io/topic?id=33214"
+      }
+    ],
+    "similar": [
+      "N-20260709-07",
+      "N-20260220-01",
+      "N-20260703-26"
+    ]
+  },
+  {
+    "id": "N-20260904-31",
+    "topic": "ai",
+    "title": "AI라는 소행성이 강타한 프론트엔드 웹 개발",
+    "tags": [
+      "ai",
+      "라는",
+      "소행성이",
+      "강타한"
+    ],
+    "date": "2026-09-04",
+    "popularity": 55,
+    "oneLiner": "AI 에이전트가 숙련자도 어려워하던 브라우저 성능 분석까지 수행하는 가운데, 프런트엔드 지식과 교육에 투자할 유인이 약해지고 주요 교육자들도...",
+    "keyPoints": [
+      "AI 에이전트가 숙련자도 어려워하던 브라우저 성능 분석까지 수행하는 가운데, 프런트엔드 지식과 교육에 투자할 유인이 약해지고 주요 교육자들도..."
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "AI라는 소행성이 강타한 프론트엔드 웹 개발",
+        "source": "GeekNews",
+        "url": "https://nolanlawson.com/2026/08/23/the-asteroid-currently-hitting-frontend-web-development/"
+      }
+    ],
+    "similar": [
+      "N-20260330-02",
+      "N-20260717-26",
+      "N-20260624-01"
+    ]
+  },
+  {
     "id": "N-20260903-01",
     "topic": "oss",
     "title": "Audacity 4.0",
@@ -26,6 +2660,248 @@
       "N-20260805-16",
       "N-20260503-13",
       "N-20260813-13"
+    ]
+  },
+  {
+    "id": "N-20260903-35",
+    "topic": "biz",
+    "title": ".name Termination",
+    "tags": [
+      "name",
+      "termination"
+    ],
+    "date": "2026-09-03",
+    "popularity": 95,
+    "oneLiner": "Hacker News 원문: .name Termination",
+    "keyPoints": [
+      "원문 제목: .name Termination",
+      "출처: Hacker News"
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": ".name Termination",
+        "source": "Hacker News",
+        "url": "https://neil.fraser.name/news/2026/09/03/"
+      }
+    ],
+    "similar": [
+      "N-20260210-04",
+      "N-20260303-02",
+      "N-20260421-01"
+    ]
+  },
+  {
+    "id": "N-20260903-36",
+    "topic": "ai",
+    "title": "GPT-6 Astra",
+    "tags": [
+      "gpt-6",
+      "astra"
+    ],
+    "date": "2026-09-03",
+    "popularity": 95,
+    "oneLiner": "System Card: https://deploymentsafety.openai.com/gpt-6-astra Related ongoing threads: OpenAI's GPT-6 Astra on ARC-AGI-3 - https://news.ycombinator.com/item?id=49555691 GPT-6 Astra ",
+    "keyPoints": [
+      "System Card: https://deploymentsafety.openai.com/gpt-6-astra Related ongoing threads: OpenAI's GPT-6 Astra on ARC-AGI-3 - https://news.ycombinator.com/item?id=49555691 GPT-6 Astra makes major gains in the Artificial Anal"
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "GPT-6 Astra",
+        "source": "Hacker News",
+        "url": "https://openai.com/index/gpt-6-astra/"
+      }
+    ],
+    "similar": [
+      "N-20260904-29",
+      "N-20260906-08",
+      "N-20260903-43"
+    ]
+  },
+  {
+    "id": "N-20260903-37",
+    "topic": "biz",
+    "title": "Any Human Ever – One life, drawn at random from all who have ever lived",
+    "tags": [
+      "any",
+      "human",
+      "ever",
+      "one"
+    ],
+    "date": "2026-09-03",
+    "popularity": 95,
+    "oneLiner": "Hacker News 원문: Any Human Ever – One life, drawn at random from all who have ever lived",
+    "keyPoints": [
+      "원문 제목: Any Human Ever – One life, drawn at random from all who have ever lived",
+      "출처: Hacker News"
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "Any Human Ever – One life, drawn at random from all who have ever lived",
+        "source": "Hacker News",
+        "url": "https://anyhumanever.com/"
+      }
+    ],
+    "similar": [
+      "N-20260325-07",
+      "N-20260413-04",
+      "N-20260614-01"
+    ]
+  },
+  {
+    "id": "N-20260903-38",
+    "topic": "biz",
+    "title": "Qwen 3.8 27B available on Cerebras at 1500 tokens/s",
+    "tags": [
+      "qwen",
+      "available",
+      "cerebra",
+      "token"
+    ],
+    "date": "2026-09-03",
+    "popularity": 95,
+    "oneLiner": "Hacker News 원문: Qwen 3.8 27B available on Cerebras at 1500 tokens/s",
+    "keyPoints": [
+      "원문 제목: Qwen 3.8 27B available on Cerebras at 1500 tokens/s",
+      "출처: Hacker News"
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "Qwen 3.8 27B available on Cerebras at 1500 tokens/s",
+        "source": "Hacker News",
+        "url": "https://inference-docs.cerebras.ai/models/overview"
+      }
+    ],
+    "similar": [
+      "N-20260819-10",
+      "N-20260205-02",
+      "N-20260816-02"
+    ]
+  },
+  {
+    "id": "N-20260903-39",
+    "topic": "biz",
+    "title": "ChatGPT outage – Resolved",
+    "tags": [
+      "chatgpt",
+      "outage",
+      "resolved"
+    ],
+    "date": "2026-09-03",
+    "popularity": 95,
+    "oneLiner": "Hacker News 원문: ChatGPT outage – Resolved",
+    "keyPoints": [
+      "원문 제목: ChatGPT outage – Resolved",
+      "출처: Hacker News"
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "ChatGPT outage – Resolved",
+        "source": "Hacker News",
+        "url": "https://chatgpt.com/"
+      }
+    ],
+    "similar": [
+      "N-20260820-01",
+      "N-20260903-40",
+      "N-20260422-11"
+    ]
+  },
+  {
+    "id": "N-20260903-44",
+    "topic": "biz",
+    "title": "Artificial beaver dams saw juvenile coho salmon survival rates go from 8% to 60%",
+    "tags": [
+      "artificial",
+      "beaver",
+      "dams",
+      "saw"
+    ],
+    "date": "2026-09-03",
+    "popularity": 95,
+    "oneLiner": "Hacker News 원문: Artificial beaver dams saw juvenile coho salmon survival rates go from 8% to 60%",
+    "keyPoints": [
+      "원문 제목: Artificial beaver dams saw juvenile coho salmon survival rates go from 8% to 60%",
+      "출처: Hacker News"
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "Artificial beaver dams saw juvenile coho salmon survival rates go from 8% to 60%",
+        "source": "Hacker News",
+        "url": "https://www.discoverwildlife.com/animal-facts/artificial-beaver-dams-california"
+      }
+    ],
+    "similar": [
+      "N-20260816-03",
+      "N-20260404-10",
+      "N-20260520-07"
+    ]
+  },
+  {
+    "id": "N-20260903-45",
+    "topic": "ai",
+    "title": "Porting my 1993 Amiga game to Godot, with an LLM reading the 68000 assembly",
+    "tags": [
+      "porting",
+      "my",
+      "amiga",
+      "game"
+    ],
+    "date": "2026-09-03",
+    "popularity": 95,
+    "oneLiner": "These are my notes from porting my Amiga game, which I originally built in Baghdad in 1993 in MC68000 assembly, to Godot, using Claude Fable 5 during last July holiday.",
+    "keyPoints": [
+      "These are my notes from porting my Amiga game, which I originally built in Baghdad in 1993 in MC68000 assembly, to Godot, using Claude Fable 5 during last July holiday.",
+      "Getting the feel right and shipping it took a few more weekends and evenings.",
+      "I spent the last few weeks analyzing what Claude did, feeding it my 33 years of memory of how I built the game, my notes and the git repos."
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "Porting my 1993 Amiga game to Godot, with an LLM reading the 68000 assembly",
+        "source": "Hacker News",
+        "url": "https://babyloniantwins.com/blog/porting-a-1993-amiga-game-to-godot/"
+      }
+    ],
+    "similar": [
+      "N-20260418-03",
+      "N-20260225-02",
+      "N-20260217-05"
+    ]
+  },
+  {
+    "id": "N-20260903-40",
+    "topic": "ai",
+    "title": "Ask HN: Why were OpenAI, Claude, and Grok simultaneously down?",
+    "tags": [
+      "openai",
+      "claude",
+      "grok",
+      "simultaneously"
+    ],
+    "date": "2026-09-03",
+    "popularity": 93,
+    "oneLiner": "https://status.openai.com https://status.claude.com https://status.x.ai ChatGPT outage – Resolved - https://news.ycombinator.com/item?id=49550614 (315 comments) Claude outage – Res",
+    "keyPoints": [
+      "https://status.openai.com https://status.claude.com https://status.x.ai ChatGPT outage – Resolved - https://news.ycombinator.com/item?id=49550614 (315 comments) Claude outage – Resolved - https://news.ycombinator.com/ite"
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "Ask HN: Why were OpenAI, Claude, and Grok simultaneously down?",
+        "source": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=49551096"
+      }
+    ],
+    "similar": [
+      "N-20260903-39",
+      "N-20260713-05",
+      "N-20260112-01"
     ]
   },
   {
@@ -56,6 +2932,131 @@
       "N-20260120-01",
       "N-20260530-01",
       "N-20260125-09"
+    ]
+  },
+  {
+    "id": "N-20260903-46",
+    "topic": "biz",
+    "title": "Which tools do Claude, Codex and Cursor choose? We measured 17k runs to find out",
+    "tags": [
+      "which",
+      "tools",
+      "do",
+      "claude"
+    ],
+    "date": "2026-09-03",
+    "popularity": 90,
+    "oneLiner": "Hacker News 원문: Which tools do Claude, Codex and Cursor choose? We measured 17k runs to find out",
+    "keyPoints": [
+      "원문 제목: Which tools do Claude, Codex and Cursor choose? We measured 17k runs to find out",
+      "출처: Hacker News"
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "Which tools do Claude, Codex and Cursor choose? We measured 17k runs to find out",
+        "source": "Hacker News",
+        "url": "https://armature.tech/blog/which-tools-coding-agents-install"
+      }
+    ],
+    "similar": [
+      "N-20260703-01",
+      "N-20260222-10",
+      "N-20260402-08"
+    ]
+  },
+  {
+    "id": "N-20260903-41",
+    "topic": "biz",
+    "title": "New York Times and The Athletic workers demand company scrap Kalshi deal",
+    "tags": [
+      "york",
+      "times",
+      "athletic",
+      "worker"
+    ],
+    "date": "2026-09-03",
+    "popularity": 86,
+    "oneLiner": "Hacker News 원문: New York Times and The Athletic workers demand company scrap Kalshi deal",
+    "keyPoints": [
+      "원문 제목: New York Times and The Athletic workers demand company scrap Kalshi deal",
+      "출처: Hacker News"
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "New York Times and The Athletic workers demand company scrap Kalshi deal",
+        "source": "Hacker News",
+        "url": "https://newsguild.org/new-york-times-and-the-athletic-workers-demand-company-scrap-kalshi-deal/"
+      }
+    ],
+    "similar": [
+      "N-20260525-04",
+      "N-20260201-09",
+      "N-20260824-12"
+    ]
+  },
+  {
+    "id": "N-20260903-42",
+    "topic": "ai",
+    "title": "K2 Horizon: A connected fleet of six open models",
+    "tags": [
+      "k2",
+      "horizon",
+      "connected",
+      "fleet"
+    ],
+    "date": "2026-09-03",
+    "popularity": 84,
+    "oneLiner": "Hacker News 원문: K2 Horizon: A connected fleet of six open models",
+    "keyPoints": [
+      "원문 제목: K2 Horizon: A connected fleet of six open models",
+      "출처: Hacker News"
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "K2 Horizon: A connected fleet of six open models",
+        "source": "Hacker News",
+        "url": "https://ifm.ai/blog/k2/"
+      }
+    ],
+    "similar": [
+      "N-20260803-01",
+      "N-20260526-03",
+      "N-20260221-06"
+    ]
+  },
+  {
+    "id": "N-20260903-43",
+    "topic": "ai",
+    "title": "OpenAI begins rolling out GPT-6 Astra",
+    "tags": [
+      "openai",
+      "begin",
+      "rolling",
+      "out"
+    ],
+    "date": "2026-09-03",
+    "popularity": 84,
+    "oneLiner": "https://thenewstack.io/openai-gpt6-astra-benchmarks/ , image: https://cdn.thenewstack.io/media/2026/09/358eb84a-screenshot...",
+    "keyPoints": [
+      "https://thenewstack.io/openai-gpt6-astra-benchmarks/ , image: https://cdn.thenewstack.io/media/2026/09/358eb84a-screenshot...",
+      "https://venturebeat.com/technology/welcome-to-the-agi-era-op...",
+      "https://www.theverge.com/ai-artificial-intelligence/988334/o..."
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "OpenAI begins rolling out GPT-6 Astra",
+        "source": "Hacker News",
+        "url": "https://www.cnbc.com/2026/09/03/open-ai-astra-gpt-6-cyber.html"
+      }
+    ],
+    "similar": [
+      "N-20260903-36",
+      "N-20260904-29",
+      "N-20260816-01"
     ]
   },
   {
