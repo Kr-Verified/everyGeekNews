@@ -1,5 +1,674 @@
 [
   {
+    "id": "N-20261014-01",
+    "topic": "ai",
+    "title": "New Apple TV 4K",
+    "tags": [
+      "apple",
+      "tv"
+    ],
+    "date": "2026-10-14",
+    "popularity": 90,
+    "oneLiner": "Apple unveils the new Apple TV 4K, supercharged by Siri AI",
+    "keyPoints": [
+      "Apple unveils the new Apple TV 4K, supercharged by Siri AI",
+      "A more capable and conversational Siri, faster performance, and an even more immersive home theater setup elevate the entertainment experience",
+      "CUPERTINO, CALIFORNIA Apple today announced the next generation of Apple TV 4K, delivering its most immersive home theater experience yet."
+    ],
+    "related": [
+      "같은 주제로 묶인 원문 2건을 함께 보여줍니다."
+    ],
+    "sources": [
+      {
+        "title": "New Apple TV 4K",
+        "source": "Hacker News",
+        "url": "https://www.apple.com/newsroom/2026/10/apple-unveils-the-new-apple-tv-4k/"
+      },
+      {
+        "title": "Apple, 새로운 Apple TV 4K 공개",
+        "source": "GeekNews",
+        "url": "https://www.apple.com/kr/newsroom/2026/10/apple-unveils-the-new-apple-tv-4k/"
+      }
+    ],
+    "similar": [
+      "N-20260107-18",
+      "N-20260519-02",
+      "N-20260920-38"
+    ]
+  },
+  {
+    "id": "N-20261014-02",
+    "topic": "oss",
+    "title": "Show GN: cmarks - GitHub와 똑같이 그리는 macOS 마크다운 뷰어 (탭·분할·워크스페이스, 오픈소스)",
+    "tags": [
+      "cmark",
+      "github",
+      "똑같이",
+      "그리는"
+    ],
+    "date": "2026-10-14",
+    "popularity": 55,
+    "oneLiner": "Quick Look으로 마크다운을 읽다가 다른 파일을 클릭하면 미리보기가 사라지는 게 불편해서 만든 읽기 전용 뷰어입니다.",
+    "keyPoints": [
+      "Quick Look으로 마크다운을 읽다가 다른 파일을 클릭하면 미리보기가 사라지는 게 불편해서 만든 읽기 전용 뷰어입니다."
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "Show GN: cmarks - GitHub와 똑같이 그리는 macOS 마크다운 뷰어 (탭·분할·워크스페이스, 오픈소스)",
+        "source": "GeekNews",
+        "url": "https://news.hada.io/topic?id=35304"
+      }
+    ],
+    "similar": [
+      "N-20260427-10",
+      "N-20260114-06",
+      "N-20260512-26"
+    ]
+  },
+  {
+    "id": "N-20261014-03",
+    "topic": "biz",
+    "title": "Guitoro, 키보드로 줄을 튕겨 연주하는 가상 기타",
+    "tags": [
+      "guitoro",
+      "키보드로",
+      "줄을",
+      "튕겨"
+    ],
+    "date": "2026-10-14",
+    "popularity": 55,
+    "oneLiner": "Guitoro는 설치나 회원가입 없이 브라우저에서 무료로 연주하는 가상 기타로, 키보드 왼손으로 코드를 잡고 오른손으로 스트로크하거나 터치 화면...",
+    "keyPoints": [
+      "Guitoro는 설치나 회원가입 없이 브라우저에서 무료로 연주하는 가상 기타로, 키보드 왼손으로 코드를 잡고 오른손으로 스트로크하거나 터치 화면..."
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "Guitoro, 키보드로 줄을 튕겨 연주하는 가상 기타",
+        "source": "GeekNews",
+        "url": "https://guitoro.com/"
+      }
+    ],
+    "similar": [
+      "N-20260408-14",
+      "N-20260311-24",
+      "N-20260424-02"
+    ]
+  },
+  {
+    "id": "N-20261014-04",
+    "topic": "biz",
+    "title": "Show GN: 코싸크 - 코인·국내주식·해외주식 차트와 지표를 비교하는 대시보드",
+    "tags": [
+      "코싸크",
+      "코인",
+      "국내주식",
+      "해외주식"
+    ],
+    "date": "2026-10-14",
+    "popularity": 55,
+    "oneLiner": "코인과 여러 나라 주식의 흐름을 시장별로 살펴보고, 종목을 선택해 차트와 지표를 확인하...",
+    "keyPoints": [
+      "코인과 여러 나라 주식의 흐름을 시장별로 살펴보고, 종목을 선택해 차트와 지표를 확인하..."
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "Show GN: 코싸크 - 코인·국내주식·해외주식 차트와 지표를 비교하는 대시보드",
+        "source": "GeekNews",
+        "url": "https://news.hada.io/topic?id=35317"
+      }
+    ],
+    "similar": [
+      "N-20260217-06",
+      "N-20260722-14",
+      "N-20261012-38"
+    ]
+  },
+  {
+    "id": "N-20261014-05",
+    "topic": "biz",
+    "title": "Show GN: ImgSimple - 사진을 서버에 올리지 않고 브라우저에서 변환·압축·배경 제거하는 무료 이미지 도구",
+    "tags": [
+      "imgsimple",
+      "사진을",
+      "서버에",
+      "올리지"
+    ],
+    "date": "2026-10-14",
+    "popularity": 55,
+    "oneLiner": "아이폰 사진을 JPG로 바꾸거나 지원서 사진을 100KB 이하로 줄일 때마다 증명사진·서류 사진을 처음 보는 사이트 서버에 올리는 게 찜찜해서 만들...",
+    "keyPoints": [
+      "아이폰 사진을 JPG로 바꾸거나 지원서 사진을 100KB 이하로 줄일 때마다 증명사진·서류 사진을 처음 보는 사이트 서버에 올리는 게 찜찜해서 만들..."
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "Show GN: ImgSimple - 사진을 서버에 올리지 않고 브라우저에서 변환·압축·배경 제거하는 무료 이미지 도구",
+        "source": "GeekNews",
+        "url": "https://news.hada.io/topic?id=35314"
+      }
+    ],
+    "similar": [
+      "N-20260927-24",
+      "N-20261002-31",
+      "N-20260612-23"
+    ]
+  },
+  {
+    "id": "N-20261014-06",
+    "topic": "lang",
+    "title": "uv-build를 사용하지 말아 달라는 호소",
+    "tags": [
+      "uv-build",
+      "사용하지",
+      "말아",
+      "달라는"
+    ],
+    "date": "2026-10-14",
+    "popularity": 55,
+    "oneLiner": "Gentoo에서 핵심 의존성 하나가 uv-build로 전환하면서 또다시 십여 개 패키지가 키워드를 잃었으며, 이를 계기로 순수 Python 패키지의 빌드 백엔...",
+    "keyPoints": [
+      "Gentoo에서 핵심 의존성 하나가 uv-build로 전환하면서 또다시 십여 개 패키지가 키워드를 잃었으며, 이를 계기로 순수 Python 패키지의 빌드 백엔..."
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "uv-build를 사용하지 말아 달라는 호소",
+        "source": "GeekNews",
+        "url": "https://blogs.gentoo.org/mgorny/2026/10/12/a-plea-not-to-use-uv-build/"
+      }
+    ],
+    "similar": [
+      "N-20260614-09",
+      "N-20260402-14",
+      "N-20260729-05"
+    ]
+  },
+  {
+    "id": "N-20261014-07",
+    "topic": "ai",
+    "title": "OpenAI 엔지니어, 임원 회의실 도청 혐의로 체포",
+    "tags": [
+      "openai",
+      "엔지니어",
+      "임원",
+      "회의실"
+    ],
+    "date": "2026-10-14",
+    "popularity": 55,
+    "oneLiner": "OpenAI 엔지니어 Abdulrahman Alfozan이 샌프란시스코 본사 임원 회의실에 녹음 장치를 숨긴 혐의로 체포돼, 구두 대화를 가로채기 위해 장치를 사...",
+    "keyPoints": [
+      "OpenAI 엔지니어 Abdulrahman Alfozan이 샌프란시스코 본사 임원 회의실에 녹음 장치를 숨긴 혐의로 체포돼, 구두 대화를 가로채기 위해 장치를 사..."
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "OpenAI 엔지니어, 임원 회의실 도청 혐의로 체포",
+        "source": "GeekNews",
+        "url": "https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room/"
+      }
+    ],
+    "similar": [
+      "N-20261004-06",
+      "N-20260913-09",
+      "N-20260923-30"
+    ]
+  },
+  {
+    "id": "N-20261014-08",
+    "topic": "ai",
+    "title": "Hacker News에 서비스를 소개했더니 AI 봇 트래픽이 밀려들었다",
+    "tags": [
+      "hacker",
+      "서비스를",
+      "소개했더니",
+      "ai"
+    ],
+    "date": "2026-10-14",
+    "popularity": 55,
+    "oneLiner": "맞춤형 피드 리더 sprinklz.io를 Hacker News에 소개한 뒤 사이트가 심하게 느려졌으며, 실제 로그인 사용자는 소수인데도 높은 서버 부하가 며칠 ...",
+    "keyPoints": [
+      "맞춤형 피드 리더 sprinklz.io를 Hacker News에 소개한 뒤 사이트가 심하게 느려졌으며, 실제 로그인 사용자는 소수인데도 높은 서버 부하가 며칠 ..."
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "Hacker News에 서비스를 소개했더니 AI 봇 트래픽이 밀려들었다",
+        "source": "GeekNews",
+        "url": "https://www.sammystraus.com/#i-posted-to-hn-and-then-my-website-was-flooded-with-ai-bot-traffic"
+      }
+    ],
+    "similar": [
+      "N-20260403-23",
+      "N-20260911-13",
+      "N-20260728-04"
+    ]
+  },
+  {
+    "id": "N-20261014-09",
+    "topic": "hw",
+    "title": "Minions - 유휴 Mac의 GPU를 모아 머신러닝 추론 작업을 분산하는 Apple의 시스템",
+    "tags": [
+      "minion",
+      "유휴",
+      "mac",
+      "gpu"
+    ],
+    "date": "2026-10-14",
+    "popularity": 55,
+    "oneLiner": "여러 Mac의 유휴 Apple Silicon GPU로 대규모 머신러닝 추론 작업을 나눠 처리하는 Apple 연구진의 분산 시스템 기존 하드웨어를 활용해 GPU 추가 ...",
+    "keyPoints": [
+      "여러 Mac의 유휴 Apple Silicon GPU로 대규모 머신러닝 추론 작업을 나눠 처리하는 Apple 연구진의 분산 시스템 기존 하드웨어를 활용해 GPU 추가 ..."
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "Minions - 유휴 Mac의 GPU를 모아 머신러닝 추론 작업을 분산하는 Apple의 시스템",
+        "source": "GeekNews",
+        "url": "https://machinelearning.apple.com/research/distributed-gpu-cloud"
+      }
+    ],
+    "similar": [
+      "N-20260527-14",
+      "N-20260915-31",
+      "N-20260407-08"
+    ]
+  },
+  {
+    "id": "N-20261014-10",
+    "topic": "hw",
+    "title": "Ledger, 지갑 암호화폐 도난 원인으로 삽입된 스파이 칩 확인",
+    "tags": [
+      "ledger",
+      "지갑",
+      "암호화폐",
+      "도난"
+    ],
+    "date": "2026-10-14",
+    "popularity": 55,
+    "oneLiner": "Ledger가 동남아 리셀러 CryptoBilis를 통해 판매된 일부 지갑의 암호화폐 도난과 관련해, 피해 기기에서 무단 하드웨어 삽입물을 확인함 연구진이...",
+    "keyPoints": [
+      "Ledger가 동남아 리셀러 CryptoBilis를 통해 판매된 일부 지갑의 암호화폐 도난과 관련해, 피해 기기에서 무단 하드웨어 삽입물을 확인함 연구진이..."
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "Ledger, 지갑 암호화폐 도난 원인으로 삽입된 스파이 칩 확인",
+        "source": "GeekNews",
+        "url": "https://www.bleepingcomputer.com/news/security/ledger-confirms-hardware-wallet-spy-implant-behind-crypto-thefts/"
+      }
+    ],
+    "similar": [
+      "N-20260703-21",
+      "N-20260428-05",
+      "N-20260623-21"
+    ]
+  },
+  {
+    "id": "N-20261014-11",
+    "topic": "ai",
+    "title": "Anthropic, AI 코딩으로 늘어난 변경량에 대응해 Git을 자체 버전 관리 시스템 Scion으로 교체",
+    "tags": [
+      "anthropic",
+      "ai",
+      "코딩으로",
+      "늘어난"
+    ],
+    "date": "2026-10-14",
+    "popularity": 55,
+    "oneLiner": "AI 코딩으로 소스 관리와 빌드, CI가 병목이 되자 자체 버전 관리 시스템 Scion을 개발하고 5개월 만에 모노레포를 Git에서 이전 하루 병합량은 20...",
+    "keyPoints": [
+      "AI 코딩으로 소스 관리와 빌드, CI가 병목이 되자 자체 버전 관리 시스템 Scion을 개발하고 5개월 만에 모노레포를 Git에서 이전 하루 병합량은 20..."
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "Anthropic, AI 코딩으로 늘어난 변경량에 대응해 Git을 자체 버전 관리 시스템 Scion으로 교체",
+        "source": "GeekNews",
+        "url": "https://www.anthropic.com/engineering/redesigning-source-control"
+      }
+    ],
+    "similar": [
+      "N-20260106-09",
+      "N-20260120-07",
+      "N-20260309-34"
+    ]
+  },
+  {
+    "id": "N-20261014-12",
+    "topic": "biz",
+    "title": "iOS용 Thunderbird",
+    "tags": [
+      "ios",
+      "thunderbird"
+    ],
+    "date": "2026-10-14",
+    "popularity": 55,
+    "oneLiner": "Thunderbird iOS 앱을 기존 코드 재사용 없이 네이티브로 새롭게 개발 중이며, 데스크톱과 Android에서 쌓은 경험을 바탕으로 기기 간 일관된 사용...",
+    "keyPoints": [
+      "Thunderbird iOS 앱을 기존 코드 재사용 없이 네이티브로 새롭게 개발 중이며, 데스크톱과 Android에서 쌓은 경험을 바탕으로 기기 간 일관된 사용..."
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "iOS용 Thunderbird",
+        "source": "GeekNews",
+        "url": "https://blog.thunderbird.net/2026/10/thunderbird-for-ios-a-first-look-at-the-native-iphone-email-app-in-development/"
+      }
+    ],
+    "similar": [
+      "N-20260209-03",
+      "N-20260409-06",
+      "N-20260427-28"
+    ]
+  },
+  {
+    "id": "N-20261014-13",
+    "topic": "ai",
+    "title": "AI 캐릭터 챗봇 Character.ai, 파산보호 신청하고 매각 추진",
+    "tags": [
+      "ai",
+      "캐릭터",
+      "챗봇",
+      "character.ai"
+    ],
+    "date": "2026-10-14",
+    "popularity": 55,
+    "oneLiner": "AI 캐릭터와 대화하고 역할극을 즐기는 Character.ai가 미국 챕터 11 파산보호를 신청하고, 법원 감독하에 자산 매각 추진 Disney 계열사와 2,000...",
+    "keyPoints": [
+      "AI 캐릭터와 대화하고 역할극을 즐기는 Character.ai가 미국 챕터 11 파산보호를 신청하고, 법원 감독하에 자산 매각 추진 Disney 계열사와 2,000..."
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "AI 캐릭터 챗봇 Character.ai, 파산보호 신청하고 매각 추진",
+        "source": "GeekNews",
+        "url": "https://blog.character.ai/an-update-on-character-ai/"
+      }
+    ],
+    "similar": [
+      "N-20260917-27",
+      "N-20260916-09",
+      "N-20261009-35"
+    ]
+  },
+  {
+    "id": "N-20261014-14",
+    "topic": "biz",
+    "title": "Google, Gemini 4 Argon 정식 출시 - 긴 추론과 대규모 코드 작업 지원",
+    "tags": [
+      "google",
+      "gemini",
+      "argon",
+      "정식"
+    ],
+    "date": "2026-10-14",
+    "popularity": 55,
+    "oneLiner": "대규모 코드 리팩터링, 과학 연구, 3D 제작과 여러 단계의 자율 작업을 위한 Google의 추론 모델로, 일반 이용자와 개발자를 대상으로 정식 공개 l...",
+    "keyPoints": [
+      "대규모 코드 리팩터링, 과학 연구, 3D 제작과 여러 단계의 자율 작업을 위한 Google의 추론 모델로, 일반 이용자와 개발자를 대상으로 정식 공개 l..."
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "Google, Gemini 4 Argon 정식 출시 - 긴 추론과 대규모 코드 작업 지원",
+        "source": "GeekNews",
+        "url": "https://deepmind.google/models/gemini/"
+      }
+    ],
+    "similar": [
+      "N-20261001-03",
+      "N-20260618-27",
+      "N-20260213-16"
+    ]
+  },
+  {
+    "id": "N-20261014-15",
+    "topic": "ai",
+    "title": "Apple HomeView - Siri AI와 스마트홈 제어를 결합한 7인치 가정용 디스플레이",
+    "tags": [
+      "apple",
+      "homeview",
+      "siri",
+      "ai"
+    ],
+    "date": "2026-10-14",
+    "popularity": 55,
+    "oneLiner": "Siri AI, 음악과 영상 재생, FaceTime, 스마트홈 제어를 한 기기에 결합한 가정용 디스플레이로, 탁상형과 벽걸이형 공개 7인치 Liquid Retina 화...",
+    "keyPoints": [
+      "Siri AI, 음악과 영상 재생, FaceTime, 스마트홈 제어를 한 기기에 결합한 가정용 디스플레이로, 탁상형과 벽걸이형 공개 7인치 Liquid Retina 화..."
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "Apple HomeView - Siri AI와 스마트홈 제어를 결합한 7인치 가정용 디스플레이",
+        "source": "GeekNews",
+        "url": "https://www.apple.com/apple-homeview/"
+      }
+    ],
+    "similar": [
+      "N-20261014-01",
+      "N-20260914-13",
+      "N-20260712-10"
+    ]
+  },
+  {
+    "id": "N-20261013-21",
+    "topic": "oss",
+    "title": "11 year old unsoundness bugs found in Rust borrow checker",
+    "tags": [
+      "year",
+      "old",
+      "unsoundnes",
+      "bugs"
+    ],
+    "date": "2026-10-13",
+    "popularity": 95,
+    "oneLiner": "You signed in with another tab or window.",
+    "keyPoints": [
+      "You signed in with another tab or window.",
+      "Reload to refresh your session.You signed out in another tab or window.",
+      "Reload to refresh your session.You switched accounts on another tab or window."
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "11 year old unsoundness bugs found in Rust borrow checker",
+        "source": "Hacker News",
+        "url": "https://github.com/rust-lang/rust/issues/164250"
+      }
+    ],
+    "similar": [
+      "N-20260804-06",
+      "N-20260507-31",
+      "N-20260702-05"
+    ]
+  },
+  {
+    "id": "N-20261013-22",
+    "topic": "web",
+    "title": "Firefox Enterprise",
+    "tags": [
+      "firefox",
+      "enterprise"
+    ],
+    "date": "2026-10-13",
+    "popularity": 95,
+    "oneLiner": "Modern work lives in the browser.",
+    "keyPoints": [
+      "Modern work lives in the browser.",
+      "So does modern enterprise risk.",
+      "The browser is where work, data, identity, and AI converge."
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "Firefox Enterprise",
+        "source": "Hacker News",
+        "url": "https://www.firefox.com/en-US/enterprise/"
+      }
+    ],
+    "similar": [
+      "N-20260921-15",
+      "N-20260825-24",
+      "N-20260425-17"
+    ]
+  },
+  {
+    "id": "N-20261013-23",
+    "topic": "biz",
+    "title": "CFTC Staff Were Told to Retract Analysis of Suspicious Oil Trades",
+    "tags": [
+      "cftc",
+      "staff",
+      "told",
+      "retract"
+    ],
+    "date": "2026-10-13",
+    "popularity": 95,
+    "oneLiner": "본문을 확보하지 못해 요약을 제공할 수 없습니다. 원문 링크에서 확인해 주세요.",
+    "keyPoints": [],
+    "related": [],
+    "sources": [
+      {
+        "title": "CFTC Staff Were Told to Retract Analysis of Suspicious Oil Trades",
+        "source": "Hacker News",
+        "url": "https://www.bloomberg.com/news/features/2026-10-13/cftc-staff-told-to-retract-analysis-of-suspicious-oil-trades-on-iran"
+      }
+    ],
+    "similar": [
+      "N-20260921-09",
+      "N-20260210-06",
+      "N-20260514-05"
+    ]
+  },
+  {
+    "id": "N-20261013-24",
+    "topic": "ai",
+    "title": "We turned EmbeddingGemma 2 into a speech-to-text model",
+    "tags": [
+      "turned",
+      "embeddinggemma",
+      "speech-to-text",
+      "model"
+    ],
+    "date": "2026-10-13",
+    "popularity": 95,
+    "oneLiner": "Embedding Gemma Transcribe",
+    "keyPoints": [
+      "Embedding Gemma Transcribe",
+      "Google's EmbeddingGemma 2 is an embedding model.",
+      "We turned it into a speech-to-text model: an hour of audio in about 13 seconds on a base MacBook Air, entirely on device."
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "We turned EmbeddingGemma 2 into a speech-to-text model",
+        "source": "Hacker News",
+        "url": "https://eg2.haku.sh/"
+      }
+    ],
+    "similar": [
+      "N-20261007-13",
+      "N-20260403-06",
+      "N-20260525-05"
+    ]
+  },
+  {
+    "id": "N-20261013-25",
+    "topic": "biz",
+    "title": "Hittite royal archive found in Turkey",
+    "tags": [
+      "hittite",
+      "royal",
+      "archive",
+      "found"
+    ],
+    "date": "2026-10-13",
+    "popularity": 95,
+    "oneLiner": "본문을 확보하지 못해 요약을 제공할 수 없습니다. 원문 링크에서 확인해 주세요.",
+    "keyPoints": [],
+    "related": [],
+    "sources": [
+      {
+        "title": "Hittite royal archive found in Turkey",
+        "source": "Hacker News",
+        "url": "https://www.thehistoryblog.com/archives/77107"
+      }
+    ],
+    "similar": [
+      "N-20260924-11",
+      "N-20260912-08",
+      "N-20260331-08"
+    ]
+  },
+  {
+    "id": "N-20261013-26",
+    "topic": "ai",
+    "title": "AI models can provably hide arbitrary capabilities",
+    "tags": [
+      "ai",
+      "model",
+      "can",
+      "provably"
+    ],
+    "date": "2026-10-13",
+    "popularity": 88,
+    "oneLiner": "Computer Science > Machine Learning",
+    "keyPoints": [
+      "Computer Science > Machine Learning",
+      "Title:AI Models Can Provably Hide Arbitrary Capabilities",
+      "View PDF HTML (experimental)"
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "AI models can provably hide arbitrary capabilities",
+        "source": "Hacker News",
+        "url": "https://arxiv.org/abs/2610.13928"
+      }
+    ],
+    "similar": [
+      "N-20260810-15",
+      "N-20260301-23",
+      "N-20260808-27"
+    ]
+  },
+  {
+    "id": "N-20261013-27",
+    "topic": "ai",
+    "title": "A look at the math that OpenAI claims computes faster Fourier transforms",
+    "tags": [
+      "look",
+      "math",
+      "openai",
+      "claim"
+    ],
+    "date": "2026-10-13",
+    "popularity": 84,
+    "oneLiner": "Today’s post looks at part of OpenAI’s math repository that claims to compute faster Fourier transforms.",
+    "keyPoints": [
+      "Today’s post looks at part of OpenAI’s math repository that claims to compute faster Fourier transforms.",
+      "It’s more technical than usual, but I tried to add some tutorial material for people who need a refresher course on signal processing or computational complexity.",
+      "The Fast Fourier Transform is one of the most important innovations in digital signal processing and one of my favorite algorithms."
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "A look at the math that OpenAI claims computes faster Fourier transforms",
+        "source": "Hacker News",
+        "url": "https://www.argmin.net/p/faster-fourier-transforms"
+      }
+    ],
+    "similar": [
+      "N-20260801-03",
+      "N-20260214-12",
+      "N-20260522-17"
+    ]
+  },
+  {
     "id": "N-20261013-01",
     "topic": "biz",
     "title": "Show GN: 돼동여지도 - 「풍자의 또간집」에 나온 식당 323곳을 지역별로 모은 지도",
@@ -603,6 +1272,308 @@
     ]
   },
   {
+    "id": "N-20261013-28",
+    "topic": "ai",
+    "title": "PUE는 개선됐는데 전체 전력은 증가했다 — 데이터센터 냉각 모델 분석",
+    "tags": [
+      "pue",
+      "개선됐는데",
+      "전체",
+      "전력은"
+    ],
+    "date": "2026-10-13",
+    "popularity": 55,
+    "oneLiner": "독일 HAWK 슈퍼컴퓨터의 21개월 운영 데이터를 바탕으로 검증한 냉각 모델에서, PUE는 낮아졌지만 데이터센터 전체 전력소비는 약 3.5% 증가하는 ...",
+    "keyPoints": [
+      "독일 HAWK 슈퍼컴퓨터의 21개월 운영 데이터를 바탕으로 검증한 냉각 모델에서, PUE는 낮아졌지만 데이터센터 전체 전력소비는 약 3.5% 증가하는 ..."
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "PUE는 개선됐는데 전체 전력은 증가했다 — 데이터센터 냉각 모델 분석",
+        "source": "GeekNews",
+        "url": "https://causifold.com/ko/articles/data-center-pue-paradox/"
+      }
+    ],
+    "similar": [
+      "N-20260917-27",
+      "N-20261009-22",
+      "N-20260305-22"
+    ]
+  },
+  {
+    "id": "N-20261013-29",
+    "topic": "ai",
+    "title": "Show GN: false-green-detector: 무의미한 테스트를 잡아내는 에이전트 스킬",
+    "tags": [
+      "false-green-detector",
+      "무의미한",
+      "테스트를",
+      "잡아내는"
+    ],
+    "date": "2026-10-13",
+    "popularity": 55,
+    "oneLiner": "부실하거나 무의미한 테스트를 잡아내기 위한 에이전트 스킬 AI 코딩 에이전트는 기능을 추가할 때마다 엄청난 양의 테스트 코드를 추가하는 특성...",
+    "keyPoints": [
+      "부실하거나 무의미한 테스트를 잡아내기 위한 에이전트 스킬 AI 코딩 에이전트는 기능을 추가할 때마다 엄청난 양의 테스트 코드를 추가하는 특성..."
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "Show GN: false-green-detector: 무의미한 테스트를 잡아내는 에이전트 스킬",
+        "source": "GeekNews",
+        "url": "https://news.hada.io/topic?id=35278"
+      }
+    ],
+    "similar": [
+      "N-20260911-11",
+      "N-20260728-04",
+      "N-20260704-01"
+    ]
+  },
+  {
+    "id": "N-20261013-30",
+    "topic": "ai",
+    "title": "Show GN: Flats – AI 에이전트가 만든 웹사이트를 내 컴퓨터에서 호스팅",
+    "tags": [
+      "flats",
+      "ai",
+      "에이전트가",
+      "만든"
+    ],
+    "date": "2026-10-13",
+    "popularity": 55,
+    "oneLiner": "Claude Code, Codex 같은 AI 에이전트가 만든 결과물을 자신의 컴퓨터에서 실행하고 공유할 수 있는 오픈소스 프로젝트 Flats를 만들...",
+    "keyPoints": [
+      "Claude Code, Codex 같은 AI 에이전트가 만든 결과물을 자신의 컴퓨터에서 실행하고 공유할 수 있는 오픈소스 프로젝트 Flats를 만들..."
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "Show GN: Flats – AI 에이전트가 만든 웹사이트를 내 컴퓨터에서 호스팅",
+        "source": "GeekNews",
+        "url": "https://news.hada.io/topic?id=35303"
+      }
+    ],
+    "similar": [
+      "N-20260325-28",
+      "N-20260830-32",
+      "N-20260822-24"
+    ]
+  },
+  {
+    "id": "N-20261013-31",
+    "topic": "ai",
+    "title": "Show GN: 나래 한글(나래팩) – AI 에이전트용 HWP/HWPX 편집·생성 CLI/스킬/템플릿 패키지",
+    "tags": [
+      "나래",
+      "한글",
+      "나래팩",
+      "ai"
+    ],
+    "date": "2026-10-13",
+    "popularity": 55,
+    "oneLiner": "충청북도에서 4년차 특수교사로 일하고 있습니다.",
+    "keyPoints": [
+      "충청북도에서 4년차 특수교사로 일하고 있습니다.",
+      "그런데 특수학교에서 처음 근무하면서, 일반 교육에는 과..."
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "Show GN: 나래 한글(나래팩) – AI 에이전트용 HWP/HWPX 편집·생성 CLI/스킬/템플릿 패키지",
+        "source": "GeekNews",
+        "url": "https://news.hada.io/topic?id=35296"
+      }
+    ],
+    "similar": [
+      "N-20260812-10",
+      "N-20260122-10",
+      "N-20260814-14"
+    ]
+  },
+  {
+    "id": "N-20261013-32",
+    "topic": "biz",
+    "title": "Show GN: Howse - 나와 Claude Code·Codex가 컨텍스트를 잃지 않고 같이 일하는 앱",
+    "tags": [
+      "howse",
+      "나와",
+      "claude",
+      "code"
+    ],
+    "date": "2026-10-13",
+    "popularity": 55,
+    "oneLiner": "Claude Code와 Codex를 같이 쓰면서 가장 번거로웠던 건 제가 둘 사이의 전달자가 되는 일이었습니다.",
+    "keyPoints": [
+      "Claude Code와 Codex를 같이 쓰면서 가장 번거로웠던 건 제가 둘 사이의 전달자가 되는 일이었습니다."
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "Show GN: Howse - 나와 Claude Code·Codex가 컨텍스트를 잃지 않고 같이 일하는 앱",
+        "source": "GeekNews",
+        "url": "https://news.hada.io/topic?id=35293"
+      }
+    ],
+    "similar": [
+      "N-20260406-25",
+      "N-20260927-15",
+      "N-20260507-31"
+    ]
+  },
+  {
+    "id": "N-20261013-33",
+    "topic": "biz",
+    "title": "Show GN: claude-bulkhead: PC에서 병렬로 돌리는 Claude Code 세션들의 프로세스, 포트, 메모리 충돌을 막는 플...",
+    "tags": [
+      "claude-bulkhead",
+      "pc",
+      "병렬로",
+      "돌리는"
+    ],
+    "date": "2026-10-13",
+    "popularity": 55,
+    "oneLiner": "Claude Code 세션 여러 개를 git worktree별로 나누어 한 PC에서 동시에 실행하고 있습니다.",
+    "keyPoints": [
+      "Claude Code 세션 여러 개를 git worktree별로 나누어 한 PC에서 동시에 실행하고 있습니다."
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "Show GN: claude-bulkhead: PC에서 병렬로 돌리는 Claude Code 세션들의 프로세스, 포트, 메모리 충돌을 막는 플...",
+        "source": "GeekNews",
+        "url": "https://news.hada.io/topic?id=35290"
+      }
+    ],
+    "similar": [
+      "N-20260623-18",
+      "N-20260202-07",
+      "N-20260122-23"
+    ]
+  },
+  {
+    "id": "N-20261013-34",
+    "topic": "biz",
+    "title": "Show GN: 트립파파야(TripPapaya) - 무한 캔버스에서 자유롭게 여행 일정을 계획하는 도구",
+    "tags": [
+      "트립파파야",
+      "trippapaya",
+      "무한",
+      "캔버스에서"
+    ],
+    "date": "2026-10-13",
+    "popularity": 55,
+    "oneLiner": "개인 프로젝트로 개발 중인 여행 일정 관리 서비스 트립파파야(TripPapaya) 소개합니다.",
+    "keyPoints": [
+      "개인 프로젝트로 개발 중인 여행 일정 관리 서비스 트립파파야(TripPapaya) 소개합니다."
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "Show GN: 트립파파야(TripPapaya) - 무한 캔버스에서 자유롭게 여행 일정을 계획하는 도구",
+        "source": "GeekNews",
+        "url": "https://news.hada.io/topic?id=35285"
+      }
+    ],
+    "similar": [
+      "N-20260915-02",
+      "N-20260924-20",
+      "N-20260728-11"
+    ]
+  },
+  {
+    "id": "N-20261013-35",
+    "topic": "ai",
+    "title": "Show GN: Bohm - AI로 만든 웹앱을 데이터와 함께 내 PC에서 계속 쓰게 해주는 AI 브라우저",
+    "tags": [
+      "bohm",
+      "ai",
+      "만든",
+      "웹앱을"
+    ],
+    "date": "2026-10-13",
+    "popularity": 55,
+    "oneLiner": "AI로 쓸 만한 작은 앱을 만드는 건 쉬워졌는데, 그 앱을 계속 쓰는 건 여전히 어렵습니다.",
+    "keyPoints": [
+      "AI로 쓸 만한 작은 앱을 만드는 건 쉬워졌는데, 그 앱을 계속 쓰는 건 여전히 어렵습니다."
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "Show GN: Bohm - AI로 만든 웹앱을 데이터와 함께 내 PC에서 계속 쓰게 해주는 AI 브라우저",
+        "source": "GeekNews",
+        "url": "https://news.hada.io/topic?id=35284"
+      }
+    ],
+    "similar": [
+      "N-20260417-07",
+      "N-20261003-26",
+      "N-20260419-03"
+    ]
+  },
+  {
+    "id": "N-20261013-36",
+    "topic": "lang",
+    "title": "Show GN: waid - Orca·Codex·Claude Code의 작업과 답변을 한눈에 보는 Windows 앱",
+    "tags": [
+      "waid",
+      "orca",
+      "codex",
+      "claude"
+    ],
+    "date": "2026-10-13",
+    "popularity": 55,
+    "oneLiner": "Claude Code에 화면 수정을 맡기고, Codex에는 API를 고치게 하고, 다른 세션에서는 문서를 정리합니다.",
+    "keyPoints": [
+      "Claude Code에 화면 수정을 맡기고, Codex에는 API를 고치게 하고, 다른 세션에서는 문서를 정리합니다."
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "Show GN: waid - Orca·Codex·Claude Code의 작업과 답변을 한눈에 보는 Windows 앱",
+        "source": "GeekNews",
+        "url": "https://news.hada.io/topic?id=35282"
+      }
+    ],
+    "similar": [
+      "N-20260808-10",
+      "N-20260507-31",
+      "N-20260730-23"
+    ]
+  },
+  {
+    "id": "N-20261013-37",
+    "topic": "biz",
+    "title": "Show GN: 콘서트 티켓팅 연습 사이트를 만들었습니다",
+    "tags": [
+      "콘서트",
+      "티켓팅",
+      "연습",
+      "사이트를"
+    ],
+    "date": "2026-10-13",
+    "popularity": 55,
+    "oneLiner": "콘서트 티켓팅 전에 미리 연습해 볼 수 있는 웹사이트를 만들었습니다.",
+    "keyPoints": [
+      "콘서트 티켓팅 전에 미리 연습해 볼 수 있는 웹사이트를 만들었습니다.",
+      "인기 콘서트 예매는 짧은 순간에 승부가 갈리다 보니, 막상 예매가 시작되..."
+    ],
+    "related": [],
+    "sources": [
+      {
+        "title": "Show GN: 콘서트 티켓팅 연습 사이트를 만들었습니다",
+        "source": "GeekNews",
+        "url": "https://news.hada.io/topic?id=35274"
+      }
+    ],
+    "similar": [
+      "N-20260818-31",
+      "N-20260915-22",
+      "N-20260923-13"
+    ]
+  },
+  {
     "id": "N-20261012-21",
     "topic": "biz",
     "title": "Deloitte falsified documents to evade tax on Abramovich's wealth",
@@ -877,8 +1848,8 @@
     ],
     "similar": [
       "N-20260217-20",
-      "N-20260222-25",
-      "N-20261012-22"
+      "N-20261012-22",
+      "N-20260222-25"
     ]
   },
   {
@@ -1204,7 +2175,7 @@
     "similar": [
       "N-20260219-23",
       "N-20260901-25",
-      "N-20260315-25"
+      "N-20261013-33"
     ]
   },
   {
@@ -2291,8 +3262,8 @@
     ],
     "similar": [
       "N-20260130-06",
-      "N-20260317-18",
-      "N-20260816-28"
+      "N-20260816-28",
+      "N-20260317-18"
     ]
   },
   {
@@ -2532,8 +3503,8 @@
     ],
     "similar": [
       "N-20260611-24",
-      "N-20260423-09",
-      "N-20260312-20"
+      "N-20260312-20",
+      "N-20260423-09"
     ]
   },
   {
@@ -2652,9 +3623,9 @@
       }
     ],
     "similar": [
-      "N-20260903-29",
       "N-20260302-01",
-      "N-20260510-21"
+      "N-20260510-21",
+      "N-20260903-29"
     ]
   },
   {
@@ -4525,9 +5496,9 @@
       }
     ],
     "similar": [
+      "N-20261013-21",
       "N-20260617-30",
-      "N-20260912-12",
-      "N-20260507-31"
+      "N-20260912-12"
     ]
   },
   {
@@ -7187,8 +8158,8 @@
     ],
     "similar": [
       "N-20260311-15",
-      "N-20260525-05",
-      "N-20260925-12"
+      "N-20261013-24",
+      "N-20260525-05"
     ]
   },
   {
@@ -8394,7 +9365,7 @@
     "similar": [
       "N-20260704-19",
       "N-20260828-17",
-      "N-20260904-29"
+      "N-20261013-26"
     ]
   },
   {
@@ -8692,7 +9663,7 @@
     "similar": [
       "N-20260114-08",
       "N-20260512-20",
-      "N-20260122-23"
+      "N-20260617-30"
     ]
   },
   {
@@ -9251,7 +10222,7 @@
     "similar": [
       "N-20260920-38",
       "N-20260214-01",
-      "N-20260916-04"
+      "N-20260705-06"
     ]
   },
   {
@@ -11951,7 +12922,7 @@
     "similar": [
       "N-20260618-04",
       "N-20261002-14",
-      "N-20260214-24"
+      "N-20260825-02"
     ]
   },
   {
@@ -14047,8 +15018,8 @@
     ],
     "similar": [
       "N-20261001-43",
-      "N-20260814-15",
-      "N-20260325-31"
+      "N-20261014-14",
+      "N-20260814-15"
     ]
   },
   {
@@ -14136,9 +15107,9 @@
       }
     ],
     "similar": [
+      "N-20261014-01",
       "N-20260107-18",
-      "N-20260924-09",
-      "N-20260909-08"
+      "N-20260924-09"
     ]
   },
   {
@@ -14168,7 +15139,7 @@
     "similar": [
       "N-20260613-19",
       "N-20260216-01",
-      "N-20260910-19"
+      "N-20260610-20"
     ]
   },
   {
@@ -14797,8 +15768,8 @@
       }
     ],
     "similar": [
-      "N-20260619-15",
       "N-20260917-15",
+      "N-20260619-15",
       "N-20260501-18"
     ]
   },
@@ -14890,7 +15861,7 @@
     "similar": [
       "N-20261001-03",
       "N-20260717-16",
-      "N-20260421-15"
+      "N-20261014-14"
     ]
   },
   {
@@ -16558,7 +17529,7 @@
     "similar": [
       "N-20260625-06",
       "N-20260407-02",
-      "N-20260625-19"
+      "N-20260408-09"
     ]
   },
   {
@@ -17066,7 +18037,7 @@
     "similar": [
       "N-20260903-05",
       "N-20260308-07",
-      "N-20260909-08"
+      "N-20260916-08"
     ]
   },
   {
@@ -18486,8 +19457,8 @@
     ],
     "similar": [
       "N-20260916-23",
-      "N-20260728-21",
-      "N-20260112-09"
+      "N-20260112-09",
+      "N-20260728-21"
     ]
   },
   {
@@ -18720,8 +19691,8 @@
     ],
     "similar": [
       "N-20260120-07",
-      "N-20260331-13",
-      "N-20260804-01"
+      "N-20261013-32",
+      "N-20260331-13"
     ]
   },
   {
@@ -18929,9 +19900,9 @@
       }
     ],
     "similar": [
+      "N-20261013-25",
       "N-20261006-25",
-      "N-20260322-02",
-      "N-20261010-04"
+      "N-20260322-02"
     ]
   },
   {
@@ -18990,9 +19961,9 @@
       }
     ],
     "similar": [
+      "N-20261014-05",
       "N-20260401-32",
-      "N-20261012-09",
-      "N-20260912-08"
+      "N-20261012-09"
     ]
   },
   {
@@ -19022,7 +19993,7 @@
     "similar": [
       "N-20260120-07",
       "N-20261002-13",
-      "N-20260401-14"
+      "N-20260103-16"
     ]
   },
   {
@@ -19696,8 +20667,8 @@
       }
     ],
     "similar": [
-      "N-20260519-27",
       "N-20260910-18",
+      "N-20260519-27",
       "N-20260327-25"
     ]
   },
@@ -19907,7 +20878,7 @@
     "similar": [
       "N-20260815-11",
       "N-20260918-26",
-      "N-20260630-25"
+      "N-20261013-23"
     ]
   },
   {
@@ -21527,7 +22498,7 @@
     "similar": [
       "N-20260715-09",
       "N-20260912-08",
-      "N-20260417-03"
+      "N-20261013-25"
     ]
   },
   {
@@ -21710,8 +22681,8 @@
     ],
     "similar": [
       "N-20260311-05",
-      "N-20260224-22",
-      "N-20260107-18"
+      "N-20261014-01",
+      "N-20260224-22"
     ]
   },
   {
@@ -21800,9 +22771,9 @@
       }
     ],
     "similar": [
+      "N-20261013-34",
       "N-20260727-17",
-      "N-20260327-20",
-      "N-20260131-16"
+      "N-20260327-20"
     ]
   },
   {
@@ -22134,7 +23105,7 @@
     "similar": [
       "N-20260413-04",
       "N-20260318-06",
-      "N-20260520-28"
+      "N-20261008-28"
     ]
   },
   {
@@ -22710,9 +23681,9 @@
       }
     ],
     "similar": [
+      "N-20261013-37",
       "N-20260911-09",
-      "N-20260907-09",
-      "N-20260118-26"
+      "N-20260907-09"
     ]
   },
   {
@@ -23628,7 +24599,7 @@
     "similar": [
       "N-20260924-25",
       "N-20260802-28",
-      "N-20260611-24"
+      "N-20261013-25"
     ]
   },
   {
@@ -23930,7 +24901,7 @@
     "similar": [
       "N-20260501-12",
       "N-20260706-01",
-      "N-20260220-23"
+      "N-20260210-16"
     ]
   },
   {
@@ -23990,7 +24961,7 @@
     "similar": [
       "N-20260902-11",
       "N-20260911-14",
-      "N-20261010-21"
+      "N-20260923-05"
     ]
   },
   {
@@ -24901,8 +25872,8 @@
       }
     ],
     "similar": [
+      "N-20261013-22",
       "N-20260411-28",
-      "N-20260304-08",
       "N-20260803-10"
     ]
   },
@@ -24932,8 +25903,8 @@
     ],
     "similar": [
       "N-20261009-26",
-      "N-20260604-18",
-      "N-20260212-24"
+      "N-20260212-24",
+      "N-20260604-18"
     ]
   },
   {
@@ -25698,7 +26669,7 @@
     "similar": [
       "N-20260618-01",
       "N-20260120-02",
-      "N-20260804-27"
+      "N-20261014-01"
     ]
   },
   {
@@ -26548,7 +27519,7 @@
     "similar": [
       "N-20260403-03",
       "N-20260524-11",
-      "N-20260328-24"
+      "N-20260627-24"
     ]
   },
   {
@@ -28641,8 +29612,8 @@
     ],
     "similar": [
       "N-20260703-02",
-      "N-20260515-03",
-      "N-20260111-04"
+      "N-20260111-04",
+      "N-20260515-03"
     ]
   },
   {
@@ -28885,7 +29856,7 @@
     "similar": [
       "N-20260409-06",
       "N-20260222-11",
-      "N-20260413-02"
+      "N-20260718-05"
     ]
   },
   {
@@ -29700,7 +30671,7 @@
     "similar": [
       "N-20260123-11",
       "N-20260819-10",
-      "N-20260629-20"
+      "N-20261013-28"
     ]
   },
   {
@@ -29949,8 +30920,8 @@
     ],
     "similar": [
       "N-20260414-05",
-      "N-20261006-10",
-      "N-20260114-07"
+      "N-20260114-07",
+      "N-20261006-10"
     ]
   },
   {
@@ -31093,8 +32064,8 @@
     ],
     "similar": [
       "N-20260926-05",
-      "N-20260706-21",
-      "N-20260406-03"
+      "N-20261014-09",
+      "N-20260706-21"
     ]
   },
   {
@@ -31669,9 +32640,9 @@
       }
     ],
     "similar": [
+      "N-20261013-37",
       "N-20260818-31",
-      "N-20260121-12",
-      "N-20260309-16"
+      "N-20260121-12"
     ]
   },
   {
@@ -32373,7 +33344,7 @@
     "similar": [
       "N-20260915-21",
       "N-20260122-26",
-      "N-20260609-25"
+      "N-20261014-01"
     ]
   },
   {
@@ -32826,7 +33797,7 @@
     "similar": [
       "N-20260402-15",
       "N-20260614-03",
-      "N-20260419-11"
+      "N-20261014-02"
     ]
   },
   {
@@ -34378,7 +35349,7 @@
     "similar": [
       "N-20260924-11",
       "N-20261005-02",
-      "N-20260417-03"
+      "N-20261013-25"
     ]
   },
   {
@@ -36292,8 +37263,8 @@
     ],
     "similar": [
       "N-20260720-06",
-      "N-20260910-10",
-      "N-20260502-08"
+      "N-20260502-08",
+      "N-20260910-10"
     ]
   },
   {
@@ -37574,7 +38545,7 @@
     "similar": [
       "N-20260924-01",
       "N-20260801-04",
-      "N-20260119-11"
+      "N-20260101-18"
     ]
   },
   {
@@ -39650,9 +40621,9 @@
       }
     ],
     "similar": [
+      "N-20261014-01",
       "N-20260907-03",
-      "N-20260622-07",
-      "N-20260107-18"
+      "N-20260622-07"
     ]
   },
   {
@@ -42282,7 +43253,7 @@
     "similar": [
       "N-20260820-01",
       "N-20260903-39",
-      "N-20260913-10"
+      "N-20260713-05"
     ]
   },
   {
@@ -44054,7 +45025,7 @@
     "similar": [
       "N-20261007-21",
       "N-20260707-13",
-      "N-20260813-22"
+      "N-20261014-05"
     ]
   },
   {
@@ -44783,8 +45754,8 @@
     ],
     "similar": [
       "N-20260921-15",
-      "N-20260803-10",
-      "N-20260520-27"
+      "N-20261013-22",
+      "N-20260803-10"
     ]
   },
   {
@@ -44813,8 +45784,8 @@
     ],
     "similar": [
       "N-20260415-18",
-      "N-20260829-18",
-      "N-20260728-11"
+      "N-20261013-34",
+      "N-20260829-18"
     ]
   },
   {
@@ -47095,8 +48066,8 @@
     ],
     "similar": [
       "N-20260727-01",
-      "N-20260508-19",
-      "N-20260502-18"
+      "N-20261013-25",
+      "N-20260508-19"
     ]
   },
   {
@@ -48098,9 +49069,9 @@
       }
     ],
     "similar": [
+      "N-20261013-30",
       "N-20260601-07",
-      "N-20260818-28",
-      "N-20260311-08"
+      "N-20260818-28"
     ]
   },
   {
@@ -48649,9 +49620,9 @@
       }
     ],
     "similar": [
+      "N-20261013-34",
       "N-20260902-19",
-      "N-20260728-11",
-      "N-20260808-22"
+      "N-20260728-11"
     ]
   },
   {
@@ -49824,8 +50795,8 @@
     ],
     "similar": [
       "N-20260824-01",
-      "N-20260116-02",
-      "N-20260907-08"
+      "N-20260907-08",
+      "N-20260116-02"
     ]
   },
   {
@@ -52183,8 +53154,8 @@
     ],
     "similar": [
       "N-20260910-14",
-      "N-20260705-14",
-      "N-20260909-14"
+      "N-20261013-22",
+      "N-20260705-14"
     ]
   },
   {
@@ -54034,8 +55005,8 @@
     ],
     "similar": [
       "N-20260731-20",
-      "N-20260119-08",
-      "N-20260623-07"
+      "N-20261013-32",
+      "N-20260119-08"
     ]
   },
   {
@@ -54880,8 +55851,8 @@
     ],
     "similar": [
       "N-20260802-21",
-      "N-20260518-07",
-      "N-20260225-21"
+      "N-20261013-30",
+      "N-20260518-07"
     ]
   },
   {
@@ -56976,7 +57947,7 @@
     "similar": [
       "N-20260917-27",
       "N-20260205-02",
-      "N-20260627-04"
+      "N-20261013-28"
     ]
   },
   {
@@ -57553,8 +58524,8 @@
     ],
     "similar": [
       "N-20260813-23",
-      "N-20260731-10",
-      "N-20260708-03"
+      "N-20261013-25",
+      "N-20260731-10"
     ]
   },
   {
@@ -58570,9 +59541,9 @@
       }
     ],
     "similar": [
+      "N-20261013-37",
       "N-20260915-22",
-      "N-20260121-12",
-      "N-20260508-04"
+      "N-20260121-12"
     ]
   },
   {
@@ -61511,8 +62482,8 @@
     ],
     "similar": [
       "N-20260420-22",
-      "N-20260907-10",
-      "N-20260423-24"
+      "N-20261013-31",
+      "N-20260907-10"
     ]
   },
   {
@@ -62649,8 +63620,8 @@
     ],
     "similar": [
       "N-20260529-14",
-      "N-20260425-26",
-      "N-20260330-33"
+      "N-20261013-36",
+      "N-20260425-26"
     ]
   },
   {
@@ -62977,7 +63948,7 @@
     "similar": [
       "N-20260406-09",
       "N-20260611-19",
-      "N-20260520-10"
+      "N-20260927-23"
     ]
   },
   {
@@ -64521,8 +65492,8 @@
     ],
     "similar": [
       "N-20260910-08",
-      "N-20260915-15",
-      "N-20260126-21"
+      "N-20260126-21",
+      "N-20260915-15"
     ]
   },
   {
@@ -64703,9 +65674,9 @@
       }
     ],
     "similar": [
+      "N-20261013-26",
       "N-20260619-03",
-      "N-20260206-07",
-      "N-20260916-11"
+      "N-20260206-07"
     ]
   },
   {
@@ -64764,8 +65735,8 @@
     ],
     "similar": [
       "N-20260319-23",
-      "N-20260623-17",
-      "N-20260423-10"
+      "N-20260423-10",
+      "N-20260623-17"
     ]
   },
   {
@@ -65829,7 +66800,7 @@
     "similar": [
       "N-20260810-14",
       "N-20260621-24",
-      "N-20260906-20"
+      "N-20261014-08"
     ]
   },
   {
@@ -66681,8 +67652,8 @@
     ],
     "similar": [
       "N-20260217-09",
-      "N-20260730-23",
-      "N-20261002-14"
+      "N-20261013-36",
+      "N-20260730-23"
     ]
   },
   {
@@ -67193,7 +68164,7 @@
     "similar": [
       "N-20260323-27",
       "N-20260507-31",
-      "N-20260313-11"
+      "N-20261013-26"
     ]
   },
   {
@@ -68944,7 +69915,7 @@
     "similar": [
       "N-20260507-07",
       "N-20260401-10",
-      "N-20261007-13"
+      "N-20260425-04"
     ]
   },
   {
@@ -70077,7 +71048,7 @@
     "similar": [
       "N-20260309-07",
       "N-20260423-09",
-      "N-20260603-08"
+      "N-20260916-19"
     ]
   },
   {
@@ -70926,7 +71897,7 @@
     "similar": [
       "N-20260122-01",
       "N-20260921-15",
-      "N-20260309-03"
+      "N-20261013-22"
     ]
   },
   {
@@ -71106,8 +72077,8 @@
     ],
     "similar": [
       "N-20260424-11",
-      "N-20260714-27",
-      "N-20260306-07"
+      "N-20260306-07",
+      "N-20260714-27"
     ]
   },
   {
@@ -72647,9 +73618,9 @@
       }
     ],
     "similar": [
+      "N-20261013-27",
       "N-20260211-03",
-      "N-20260920-12",
-      "N-20260402-03"
+      "N-20260920-12"
     ]
   },
   {
@@ -72999,8 +73970,8 @@
     ],
     "similar": [
       "N-20260222-01",
-      "N-20260127-08",
-      "N-20260719-15"
+      "N-20261014-12",
+      "N-20260127-08"
     ]
   },
   {
@@ -73729,9 +74700,9 @@
       }
     ],
     "similar": [
-      "N-20261003-17",
       "N-20260525-05",
-      "N-20260725-17"
+      "N-20261003-17",
+      "N-20260721-26"
     ]
   },
   {
@@ -74698,7 +75669,7 @@
     "similar": [
       "N-20260128-24",
       "N-20260609-06",
-      "N-20260808-10"
+      "N-20260417-18"
     ]
   },
   {
@@ -75241,7 +76212,7 @@
     "similar": [
       "N-20260403-23",
       "N-20260809-31",
-      "N-20260205-13"
+      "N-20260105-01"
     ]
   },
   {
@@ -75658,9 +76629,9 @@
       }
     ],
     "similar": [
+      "N-20261013-22",
       "N-20261012-11",
-      "N-20260825-24",
-      "N-20260425-17"
+      "N-20260825-24"
     ]
   },
   {
@@ -75996,8 +76967,8 @@
     ],
     "similar": [
       "N-20260629-18",
-      "N-20260125-02",
-      "N-20260408-01"
+      "N-20260408-01",
+      "N-20260125-02"
     ]
   },
   {
@@ -77883,7 +78854,7 @@
     "similar": [
       "N-20260421-06",
       "N-20260809-26",
-      "N-20261007-13"
+      "N-20261013-24"
     ]
   },
   {
@@ -78179,8 +79150,8 @@
     ],
     "similar": [
       "N-20260120-31",
-      "N-20260821-26",
-      "N-20260125-24"
+      "N-20260125-24",
+      "N-20260821-26"
     ]
   },
   {
@@ -79355,8 +80326,8 @@
     ],
     "similar": [
       "N-20260330-09",
-      "N-20260428-04",
-      "N-20260305-01"
+      "N-20260305-01",
+      "N-20260428-04"
     ]
   },
   {
@@ -80171,7 +81142,7 @@
     "similar": [
       "N-20260329-08",
       "N-20261003-22",
-      "N-20260525-03"
+      "N-20261013-26"
     ]
   },
   {
@@ -81617,8 +82588,8 @@
     ],
     "similar": [
       "N-20260727-20",
-      "N-20260619-02",
-      "N-20260510-30"
+      "N-20260510-30",
+      "N-20260619-02"
     ]
   },
   {
@@ -82002,8 +82973,8 @@
       }
     ],
     "similar": [
-      "N-20260907-09",
       "N-20260924-11",
+      "N-20260907-09",
       "N-20260117-07"
     ]
   },
@@ -84108,8 +85079,8 @@
     ],
     "similar": [
       "N-20260905-13",
-      "N-20260519-24",
-      "N-20260816-21"
+      "N-20260816-21",
+      "N-20260519-24"
     ]
   },
   {
@@ -84379,7 +85350,7 @@
     "similar": [
       "N-20260920-06",
       "N-20260413-24",
-      "N-20260504-27"
+      "N-20260424-23"
     ]
   },
   {
@@ -85786,7 +86757,7 @@
     "similar": [
       "N-20260720-04",
       "N-20260131-02",
-      "N-20260529-05"
+      "N-20261013-26"
     ]
   },
   {
@@ -88685,7 +89656,7 @@
     "similar": [
       "N-20260212-16",
       "N-20260322-07",
-      "N-20260107-18"
+      "N-20261014-01"
     ]
   },
   {
@@ -90542,8 +91513,8 @@
     ],
     "similar": [
       "N-20260306-08",
-      "N-20260320-18",
-      "N-20260124-16"
+      "N-20261013-37",
+      "N-20260320-18"
     ]
   },
   {
@@ -91241,8 +92212,8 @@
       }
     ],
     "similar": [
-      "N-20260624-23",
       "N-20260825-07",
+      "N-20260624-23",
       "N-20260712-09"
     ]
   },
@@ -91863,7 +92834,7 @@
     "similar": [
       "N-20260920-38",
       "N-20260721-20",
-      "N-20260511-10"
+      "N-20261014-01"
     ]
   },
   {
@@ -92595,7 +93566,7 @@
     "similar": [
       "N-20260929-24",
       "N-20260719-23",
-      "N-20260709-06"
+      "N-20260517-06"
     ]
   },
   {
@@ -93536,7 +94507,7 @@
     "similar": [
       "N-20260116-07",
       "N-20260110-17",
-      "N-20260121-12"
+      "N-20261013-24"
     ]
   },
   {
@@ -95526,7 +96497,7 @@
     "similar": [
       "N-20260511-06",
       "N-20260630-05",
-      "N-20260830-12"
+      "N-20260316-20"
     ]
   },
   {
@@ -95861,8 +96832,8 @@
     ],
     "similar": [
       "N-20260910-14",
-      "N-20260825-24",
-      "N-20260920-38"
+      "N-20261013-22",
+      "N-20260825-24"
     ]
   },
   {
@@ -96654,9 +97625,9 @@
       }
     ],
     "similar": [
+      "N-20261013-24",
       "N-20260403-06",
-      "N-20260108-02",
-      "N-20260510-23"
+      "N-20260108-02"
     ]
   },
   {
@@ -97044,7 +98015,7 @@
     "similar": [
       "N-20261011-01",
       "N-20260715-03",
-      "N-20261012-22"
+      "N-20261013-23"
     ]
   },
   {
@@ -102642,9 +103613,9 @@
       }
     ],
     "similar": [
+      "N-20261013-21",
       "N-20260603-11",
-      "N-20260823-03",
-      "N-20260316-17"
+      "N-20260823-03"
     ]
   },
   {
@@ -102791,8 +103762,8 @@
     ],
     "similar": [
       "N-20260120-07",
-      "N-20260401-14",
-      "N-20260103-16"
+      "N-20260103-16",
+      "N-20260401-14"
     ]
   },
   {
@@ -104292,7 +105263,7 @@
     "similar": [
       "N-20260507-31",
       "N-20261001-38",
-      "N-20260817-02"
+      "N-20261013-21"
     ]
   },
   {
@@ -104741,7 +105712,7 @@
     "similar": [
       "N-20261009-22",
       "N-20260706-04",
-      "N-20260221-03"
+      "N-20261013-28"
     ]
   },
   {
@@ -106128,8 +107099,8 @@
     ],
     "similar": [
       "N-20260114-08",
-      "N-20260421-19",
-      "N-20260122-23"
+      "N-20261013-33",
+      "N-20260421-19"
     ]
   },
   {
@@ -107277,8 +108248,8 @@
       }
     ],
     "similar": [
-      "N-20260616-22",
       "N-20260206-18",
+      "N-20260616-22",
       "N-20260522-02"
     ]
   },
@@ -107844,7 +108815,7 @@
     "similar": [
       "N-20260618-19",
       "N-20260529-25",
-      "N-20260102-25"
+      "N-20260207-24"
     ]
   },
   {
@@ -108653,8 +109624,8 @@
     ],
     "similar": [
       "N-20260423-02",
-      "N-20260603-17",
-      "N-20260322-09"
+      "N-20260322-09",
+      "N-20260603-17"
     ]
   },
   {
@@ -109020,7 +109991,7 @@
     "similar": [
       "N-20260315-01",
       "N-20260916-06",
-      "N-20260124-04"
+      "N-20260321-26"
     ]
   },
   {
@@ -109920,7 +110891,7 @@
     "similar": [
       "N-20260406-24",
       "N-20260720-03",
-      "N-20260316-25"
+      "N-20260522-23"
     ]
   },
   {
@@ -110190,7 +111161,7 @@
     "similar": [
       "N-20260202-09",
       "N-20261003-26",
-      "N-20260827-06"
+      "N-20261013-32"
     ]
   },
   {
@@ -110220,7 +111191,7 @@
     "similar": [
       "N-20260710-15",
       "N-20260104-02",
-      "N-20260413-18"
+      "N-20261013-23"
     ]
   },
   {
@@ -110462,7 +111433,7 @@
     "similar": [
       "N-20260315-04",
       "N-20260107-17",
-      "N-20260619-05"
+      "N-20261014-14"
     ]
   },
   {
@@ -110586,8 +111557,8 @@
       }
     ],
     "similar": [
-      "N-20260913-28",
       "N-20260920-02",
+      "N-20260913-28",
       "N-20260510-04"
     ]
   },
@@ -111626,8 +112597,8 @@
     ],
     "similar": [
       "N-20260824-07",
-      "N-20260321-04",
-      "N-20260823-05"
+      "N-20260823-05",
+      "N-20260321-04"
     ]
   },
   {
@@ -111782,7 +112753,7 @@
     "similar": [
       "N-20260926-30",
       "N-20260729-23",
-      "N-20260423-04"
+      "N-20260111-08"
     ]
   },
   {
@@ -111868,8 +112839,8 @@
     ],
     "similar": [
       "N-20260509-22",
-      "N-20260531-28",
-      "N-20260611-19"
+      "N-20260611-19",
+      "N-20260531-28"
     ]
   },
   {
@@ -112168,7 +113139,7 @@
     "similar": [
       "N-20260301-23",
       "N-20260122-20",
-      "N-20260823-11"
+      "N-20260610-17"
     ]
   },
   {
@@ -112762,8 +113733,8 @@
     ],
     "similar": [
       "N-20260104-08",
-      "N-20260911-13",
-      "N-20260402-30"
+      "N-20260402-30",
+      "N-20260911-13"
     ]
   },
   {
@@ -113240,8 +114211,8 @@
       }
     ],
     "similar": [
-      "N-20260903-18",
       "N-20260315-09",
+      "N-20260903-18",
       "N-20260908-13"
     ]
   },
@@ -114104,8 +115075,8 @@
     ],
     "similar": [
       "N-20260423-08",
-      "N-20260322-03",
-      "N-20260908-12"
+      "N-20260908-12",
+      "N-20260322-03"
     ]
   },
   {
@@ -115427,8 +116398,8 @@
     ],
     "similar": [
       "N-20261002-31",
-      "N-20260823-28",
-      "N-20260405-06"
+      "N-20261014-05",
+      "N-20260823-28"
     ]
   },
   {
@@ -116248,9 +117219,9 @@
       }
     ],
     "similar": [
+      "N-20261013-25",
       "N-20261011-24",
-      "N-20260922-10",
-      "N-20260217-14"
+      "N-20260922-10"
     ]
   },
   {
@@ -116642,7 +117613,7 @@
     "similar": [
       "N-20260527-03",
       "N-20260706-23",
-      "N-20260503-05"
+      "N-20261014-01"
     ]
   },
   {
@@ -117851,7 +118822,7 @@
     "similar": [
       "N-20260315-03",
       "N-20260407-06",
-      "N-20260917-16"
+      "N-20261013-36"
     ]
   },
   {
@@ -119510,8 +120481,8 @@
     ],
     "similar": [
       "N-20260107-18",
-      "N-20260528-27",
-      "N-20260417-19"
+      "N-20261014-01",
+      "N-20260528-27"
     ]
   },
   {
@@ -120421,7 +121392,7 @@
     "similar": [
       "N-20260324-14",
       "N-20260212-01",
-      "N-20260608-11"
+      "N-20260420-21"
     ]
   },
   {
@@ -121260,7 +122231,7 @@
     "similar": [
       "N-20260301-06",
       "N-20260704-01",
-      "N-20260708-01"
+      "N-20261013-29"
     ]
   },
   {
@@ -121318,7 +122289,7 @@
     "similar": [
       "N-20260323-05",
       "N-20261003-50",
-      "N-20260314-07"
+      "N-20260218-09"
     ]
   },
   {
@@ -122007,7 +122978,7 @@
     "similar": [
       "N-20260227-13",
       "N-20260522-10",
-      "N-20260909-07"
+      "N-20260623-09"
     ]
   },
   {
@@ -124403,8 +125374,8 @@
     ],
     "similar": [
       "N-20260901-13",
-      "N-20261001-35",
-      "N-20260608-20"
+      "N-20261013-24",
+      "N-20261001-35"
     ]
   },
   {
@@ -127930,7 +128901,7 @@
     "similar": [
       "N-20260915-06",
       "N-20260419-27",
-      "N-20260913-19"
+      "N-20260307-21"
     ]
   },
   {
@@ -128113,7 +129084,7 @@
     "similar": [
       "N-20260319-07",
       "N-20260916-14",
-      "N-20261007-13"
+      "N-20261013-24"
     ]
   },
   {
@@ -128470,9 +129441,9 @@
       }
     ],
     "similar": [
+      "N-20261014-09",
       "N-20260906-06",
-      "N-20260824-22",
-      "N-20260928-25"
+      "N-20260824-22"
     ]
   },
   {
@@ -129884,8 +130855,8 @@
     ],
     "similar": [
       "N-20260315-12",
-      "N-20261007-13",
-      "N-20260925-12"
+      "N-20260925-12",
+      "N-20261013-24"
     ]
   },
   {
@@ -130365,7 +131336,7 @@
     "similar": [
       "N-20260914-02",
       "N-20260414-30",
-      "N-20260428-11"
+      "N-20260910-18"
     ]
   },
   {
@@ -131232,7 +132203,7 @@
     "similar": [
       "N-20260515-14",
       "N-20260224-13",
-      "N-20260719-03"
+      "N-20260505-24"
     ]
   },
   {
@@ -131570,8 +132541,8 @@
     ],
     "similar": [
       "N-20260428-23",
-      "N-20260128-22",
-      "N-20260729-02"
+      "N-20260729-02",
+      "N-20260128-22"
     ]
   },
   {
@@ -132081,8 +133052,8 @@
     ],
     "similar": [
       "N-20260814-08",
-      "N-20260923-13",
-      "N-20260120-14"
+      "N-20260120-14",
+      "N-20260923-13"
     ]
   },
   {
@@ -132409,7 +133380,7 @@
     "similar": [
       "N-20260604-24",
       "N-20260313-09",
-      "N-20260909-07"
+      "N-20260623-09"
     ]
   },
   {
@@ -133677,7 +134648,7 @@
     "similar": [
       "N-20260921-04",
       "N-20261004-16",
-      "N-20260327-26"
+      "N-20261002-32"
     ]
   },
   {
@@ -134582,9 +135553,9 @@
       }
     ],
     "similar": [
+      "N-20261014-01",
       "N-20260905-12",
-      "N-20260815-02",
-      "N-20260921-14"
+      "N-20260815-02"
     ]
   },
   {
@@ -134772,7 +135743,7 @@
     "similar": [
       "N-20260515-04",
       "N-20260504-24",
-      "N-20260614-06"
+      "N-20260901-17"
     ]
   },
   {
@@ -135159,8 +136130,8 @@
     ],
     "similar": [
       "N-20261002-36",
-      "N-20260428-04",
-      "N-20260103-11"
+      "N-20260103-11",
+      "N-20260428-04"
     ]
   },
   {
@@ -136654,7 +137625,7 @@
     "similar": [
       "N-20260423-28",
       "N-20260727-06",
-      "N-20260325-08"
+      "N-20261013-25"
     ]
   },
   {
@@ -137193,7 +138164,7 @@
     "similar": [
       "N-20260626-02",
       "N-20260520-28",
-      "N-20260322-13"
+      "N-20260409-29"
     ]
   },
   {
@@ -138756,7 +139727,7 @@
     "similar": [
       "N-20260304-24",
       "N-20260725-16",
-      "N-20260719-24"
+      "N-20260309-16"
     ]
   },
   {
@@ -140386,9 +141357,9 @@
       }
     ],
     "similar": [
-      "N-20260509-22",
       "N-20261007-32",
-      "N-20260123-15"
+      "N-20260509-22",
+      "N-20260402-29"
     ]
   },
   {
@@ -142133,7 +143104,7 @@
     "similar": [
       "N-20260909-02",
       "N-20260920-38",
-      "N-20260422-03"
+      "N-20261014-01"
     ]
   },
   {
@@ -142313,8 +143284,8 @@
     ],
     "similar": [
       "N-20260819-03",
-      "N-20260514-21",
-      "N-20260321-17"
+      "N-20260321-17",
+      "N-20260514-21"
     ]
   },
   {
@@ -143822,7 +144793,7 @@
     "similar": [
       "N-20260819-04",
       "N-20260115-23",
-      "N-20260408-17"
+      "N-20260120-29"
     ]
   },
   {
@@ -144094,7 +145065,7 @@
     "similar": [
       "N-20260408-05",
       "N-20260116-12",
-      "N-20260930-37"
+      "N-20260830-23"
     ]
   },
   {
@@ -144401,9 +145372,9 @@
       }
     ],
     "similar": [
+      "N-20261013-23",
       "N-20260613-01",
-      "N-20260222-12",
-      "N-20260411-04"
+      "N-20260222-12"
     ]
   },
   {
@@ -146021,9 +146992,9 @@
       }
     ],
     "similar": [
+      "N-20261013-21",
       "N-20260317-17",
-      "N-20260808-27",
-      "N-20261006-36"
+      "N-20260808-27"
     ]
   },
   {
@@ -146650,8 +147621,8 @@
     ],
     "similar": [
       "N-20260506-14",
-      "N-20260403-17",
-      "N-20260416-05"
+      "N-20260416-05",
+      "N-20260403-17"
     ]
   },
   {
@@ -147114,9 +148085,9 @@
       }
     ],
     "similar": [
+      "N-20261013-22",
       "N-20260916-05",
-      "N-20260825-24",
-      "N-20260425-17"
+      "N-20260825-24"
     ]
   },
   {
@@ -147568,7 +148539,7 @@
     "similar": [
       "N-20260804-06",
       "N-20260511-27",
-      "N-20260702-05"
+      "N-20260710-11"
     ]
   },
   {
@@ -148156,7 +149127,7 @@
     "similar": [
       "N-20260915-30",
       "N-20260612-06",
-      "N-20260617-29"
+      "N-20261006-40"
     ]
   },
   {
@@ -150601,8 +151572,8 @@
     ],
     "similar": [
       "N-20260928-26",
-      "N-20260508-27",
-      "N-20260205-23"
+      "N-20260205-23",
+      "N-20260508-27"
     ]
   },
   {
@@ -150808,8 +151779,8 @@
     ],
     "similar": [
       "N-20260915-02",
-      "N-20261007-20",
-      "N-20260604-21"
+      "N-20261013-34",
+      "N-20261007-20"
     ]
   },
   {
@@ -151857,8 +152828,8 @@
       }
     ],
     "similar": [
-      "N-20260123-01",
       "N-20260223-08",
+      "N-20260123-01",
       "N-20260926-29"
     ]
   },
@@ -152008,8 +152979,8 @@
     ],
     "similar": [
       "N-20260512-26",
-      "N-20260406-25",
-      "N-20260920-06"
+      "N-20261013-32",
+      "N-20260406-25"
     ]
   },
   {
@@ -153131,7 +154102,7 @@
     "similar": [
       "N-20260810-03",
       "N-20260329-06",
-      "N-20260516-18"
+      "N-20261013-21"
     ]
   },
   {
@@ -153220,8 +154191,8 @@
     ],
     "similar": [
       "N-20260921-26",
-      "N-20260519-27",
-      "N-20260518-12"
+      "N-20260518-12",
+      "N-20260519-27"
     ]
   },
   {
@@ -154287,9 +155258,9 @@
       }
     ],
     "similar": [
+      "N-20261014-12",
       "N-20260209-03",
-      "N-20260919-34",
-      "N-20260209-25"
+      "N-20260919-34"
     ]
   },
   {
@@ -154868,7 +155839,7 @@
     "similar": [
       "N-20260327-27",
       "N-20260906-24",
-      "N-20260411-17"
+      "N-20260406-13"
     ]
   },
   {
@@ -155409,8 +156380,8 @@
     ],
     "similar": [
       "N-20260427-02",
-      "N-20260630-01",
-      "N-20260223-12"
+      "N-20260223-12",
+      "N-20260630-01"
     ]
   },
   {
@@ -155474,7 +156445,7 @@
     "similar": [
       "N-20260930-23",
       "N-20260117-03",
-      "N-20261007-13"
+      "N-20261013-24"
     ]
   },
   {
@@ -155867,8 +156838,8 @@
     ],
     "similar": [
       "N-20260423-14",
-      "N-20260423-21",
-      "N-20260521-25"
+      "N-20261013-22",
+      "N-20260423-21"
     ]
   },
   {
@@ -157969,7 +158940,7 @@
     "similar": [
       "N-20260223-07",
       "N-20260921-15",
-      "N-20260620-18"
+      "N-20261013-22"
     ]
   },
   {
@@ -158425,8 +159396,8 @@
     ],
     "similar": [
       "N-20260929-24",
-      "N-20260710-10",
-      "N-20260812-06"
+      "N-20260812-06",
+      "N-20260710-10"
     ]
   },
   {
@@ -158694,7 +159665,7 @@
     "similar": [
       "N-20260504-07",
       "N-20260911-28",
-      "N-20260409-21"
+      "N-20260223-12"
     ]
   },
   {
@@ -159445,7 +160416,7 @@
     "similar": [
       "N-20260114-08",
       "N-20261003-32",
-      "N-20260623-18"
+      "N-20260227-27"
     ]
   },
   {
@@ -159564,8 +160535,8 @@
     ],
     "similar": [
       "N-20260629-07",
-      "N-20260706-01",
-      "N-20260926-14"
+      "N-20260926-14",
+      "N-20260706-01"
     ]
   },
   {
@@ -159624,7 +160595,7 @@
     "similar": [
       "N-20260124-04",
       "N-20261002-30",
-      "N-20260826-03"
+      "N-20261014-04"
     ]
   },
   {
@@ -162424,7 +163395,7 @@
     "similar": [
       "N-20261003-26",
       "N-20260419-03",
-      "N-20261008-11"
+      "N-20261013-35"
     ]
   },
   {
@@ -162787,8 +163758,8 @@
     ],
     "similar": [
       "N-20260707-23",
-      "N-20260914-12",
-      "N-20260325-20"
+      "N-20261014-01",
+      "N-20260914-12"
     ]
   },
   {
@@ -164722,8 +165693,8 @@
       }
     ],
     "similar": [
-      "N-20260323-18",
       "N-20261001-03",
+      "N-20260323-18",
       "N-20260114-16"
     ]
   },
@@ -165222,7 +166193,7 @@
     "similar": [
       "N-20260310-24",
       "N-20260312-30",
-      "N-20260720-23"
+      "N-20260106-02"
     ]
   },
   {
@@ -165281,8 +166252,8 @@
     ],
     "similar": [
       "N-20260210-19",
-      "N-20260111-25",
-      "N-20260727-19"
+      "N-20261013-35",
+      "N-20260111-25"
     ]
   },
   {
@@ -166202,7 +167173,7 @@
     "similar": [
       "N-20260608-16",
       "N-20260723-10",
-      "N-20260127-21"
+      "N-20260730-16"
     ]
   },
   {
@@ -168890,7 +169861,7 @@
     "similar": [
       "N-20260506-04",
       "N-20260303-09",
-      "N-20260531-15"
+      "N-20260712-21"
     ]
   },
   {
@@ -169131,7 +170102,7 @@
     "similar": [
       "N-20260531-07",
       "N-20260326-31",
-      "N-20260117-14"
+      "N-20260812-26"
     ]
   },
   {
@@ -169526,7 +170497,7 @@
     "similar": [
       "N-20260926-08",
       "N-20260216-15",
-      "N-20260920-39"
+      "N-20261014-12"
     ]
   },
   {
@@ -169776,7 +170747,7 @@
     "similar": [
       "N-20260921-05",
       "N-20260330-09",
-      "N-20260208-19"
+      "N-20260529-16"
     ]
   },
   {
@@ -170750,9 +171721,9 @@
       }
     ],
     "similar": [
+      "N-20261014-03",
       "N-20260725-01",
-      "N-20260305-07",
-      "N-20261003-19"
+      "N-20260305-07"
     ]
   },
   {
@@ -175115,8 +176086,8 @@
     ],
     "similar": [
       "N-20260914-24",
-      "N-20260218-26",
-      "N-20260927-01"
+      "N-20260927-01",
+      "N-20260218-26"
     ]
   },
   {
@@ -175963,7 +176934,7 @@
     "similar": [
       "N-20260213-01",
       "N-20260729-05",
-      "N-20260506-26"
+      "N-20261014-06"
     ]
   },
   {
@@ -175993,7 +176964,7 @@
     "similar": [
       "N-20260423-12",
       "N-20260427-07",
-      "N-20260807-11"
+      "N-20260121-20"
     ]
   },
   {
@@ -179778,9 +180749,9 @@
       }
     ],
     "similar": [
+      "N-20261014-01",
       "N-20260107-18",
-      "N-20260307-07",
-      "N-20260620-18"
+      "N-20260307-07"
     ]
   },
   {
@@ -181508,7 +182479,7 @@
     "similar": [
       "N-20260127-03",
       "N-20260926-04",
-      "N-20260513-07"
+      "N-20260804-06"
     ]
   },
   {
@@ -181895,8 +182866,8 @@
       }
     ],
     "similar": [
-      "N-20260825-03",
       "N-20260702-28",
+      "N-20260825-03",
       "N-20260916-24"
     ]
   },
@@ -182110,7 +183081,7 @@
     "similar": [
       "N-20260726-14",
       "N-20260322-04",
-      "N-20260119-01"
+      "N-20261014-12"
     ]
   },
   {
@@ -182680,8 +183651,8 @@
       }
     ],
     "similar": [
-      "N-20260227-14",
       "N-20260810-29",
+      "N-20260227-14",
       "N-20260606-25"
     ]
   },
@@ -183412,9 +184383,9 @@
       }
     ],
     "similar": [
-      "N-20260210-06",
       "N-20260125-03",
-      "N-20260208-07"
+      "N-20260210-06",
+      "N-20261008-32"
     ]
   },
   {
@@ -183896,8 +184867,8 @@
     ],
     "similar": [
       "N-20260514-06",
-      "N-20260817-22",
-      "N-20260323-24"
+      "N-20261013-30",
+      "N-20260817-22"
     ]
   },
   {
@@ -185286,7 +186257,7 @@
     "similar": [
       "N-20260320-07",
       "N-20260208-07",
-      "N-20260210-06"
+      "N-20260629-23"
     ]
   },
   {
@@ -185648,8 +186619,8 @@
     ],
     "similar": [
       "N-20260811-13",
-      "N-20260215-18",
-      "N-20260419-06"
+      "N-20260419-06",
+      "N-20260215-18"
     ]
   },
   {
@@ -187168,7 +188139,7 @@
     "similar": [
       "N-20260210-22",
       "N-20260506-25",
-      "N-20260904-30"
+      "N-20260725-11"
     ]
   },
   {
@@ -188017,8 +188988,8 @@
     ],
     "similar": [
       "N-20260126-06",
-      "N-20260709-06",
-      "N-20261012-12"
+      "N-20261012-12",
+      "N-20260709-06"
     ]
   },
   {
@@ -190514,8 +191485,8 @@
       }
     ],
     "similar": [
-      "N-20260216-20",
       "N-20260109-13",
+      "N-20260216-20",
       "N-20260224-13"
     ]
   },
@@ -191362,8 +192333,8 @@
     ],
     "similar": [
       "N-20261002-24",
-      "N-20260915-22",
-      "N-20260509-22"
+      "N-20261013-37",
+      "N-20260915-22"
     ]
   },
   {
@@ -192752,8 +193723,8 @@
       }
     ],
     "similar": [
-      "N-20260516-20",
       "N-20261005-18",
+      "N-20260516-20",
       "N-20260307-27"
     ]
   },
@@ -193772,8 +194743,8 @@
     ],
     "similar": [
       "N-20260514-05",
-      "N-20260929-25",
-      "N-20260611-01"
+      "N-20260611-01",
+      "N-20260929-25"
     ]
   },
   {
@@ -194132,8 +195103,8 @@
     ],
     "similar": [
       "N-20260905-27",
-      "N-20260715-07",
-      "N-20260209-17"
+      "N-20261013-30",
+      "N-20260715-07"
     ]
   },
   {
@@ -195432,8 +196403,8 @@
     ],
     "similar": [
       "N-20260507-06",
-      "N-20260724-06",
-      "N-20260118-06"
+      "N-20260118-06",
+      "N-20260724-06"
     ]
   },
   {
@@ -198053,7 +199024,7 @@
     "similar": [
       "N-20260311-24",
       "N-20260303-09",
-      "N-20260630-12"
+      "N-20261014-03"
     ]
   },
   {
@@ -199304,9 +200275,9 @@
       }
     ],
     "similar": [
+      "N-20261014-01",
       "N-20260525-02",
-      "N-20260107-18",
-      "N-20260401-10"
+      "N-20260107-18"
     ]
   },
   {
@@ -199367,8 +200338,8 @@
     ],
     "similar": [
       "N-20260205-22",
-      "N-20261007-13",
-      "N-20260504-03"
+      "N-20261013-24",
+      "N-20261007-13"
     ]
   },
   {
@@ -199549,7 +200520,7 @@
     "similar": [
       "N-20260725-13",
       "N-20260507-30",
-      "N-20260209-17"
+      "N-20261013-27"
     ]
   },
   {
@@ -199698,7 +200669,7 @@
     "similar": [
       "N-20260228-10",
       "N-20260218-09",
-      "N-20260627-21"
+      "N-20260516-20"
     ]
   },
   {
@@ -199817,8 +200788,8 @@
       }
     ],
     "similar": [
-      "N-20260603-24",
       "N-20260929-16",
+      "N-20260603-24",
       "N-20260616-13"
     ]
   },
@@ -201355,8 +202326,8 @@
     ],
     "similar": [
       "N-20260917-27",
-      "N-20260819-10",
-      "N-20260307-25"
+      "N-20261013-28",
+      "N-20260819-10"
     ]
   },
   {
@@ -201540,8 +202511,8 @@
     ],
     "similar": [
       "N-20260921-15",
-      "N-20260416-06",
-      "N-20260816-04"
+      "N-20261013-22",
+      "N-20260416-06"
     ]
   },
   {
@@ -201722,8 +202693,8 @@
     ],
     "similar": [
       "N-20260921-15",
-      "N-20260730-01",
-      "N-20260425-01"
+      "N-20261013-22",
+      "N-20260730-01"
     ]
   },
   {
@@ -201993,7 +202964,7 @@
     "similar": [
       "N-20260221-19",
       "N-20260219-05",
-      "N-20260625-02"
+      "N-20260212-12"
     ]
   },
   {
@@ -204504,7 +205475,7 @@
     "similar": [
       "N-20260526-14",
       "N-20260622-21",
-      "N-20260307-14"
+      "N-20260523-09"
     ]
   },
   {
@@ -204686,9 +205657,9 @@
       }
     ],
     "similar": [
+      "N-20261013-26",
       "N-20260616-25",
-      "N-20260524-11",
-      "N-20260102-20"
+      "N-20260524-11"
     ]
   },
   {
@@ -209533,7 +210504,7 @@
     "similar": [
       "N-20260320-09",
       "N-20260902-19",
-      "N-20260728-11"
+      "N-20261013-34"
     ]
   },
   {
@@ -210118,7 +211089,7 @@
     "similar": [
       "N-20260504-09",
       "N-20260728-09",
-      "N-20260104-07"
+      "N-20260818-09"
     ]
   },
   {
@@ -210241,8 +211212,8 @@
     ],
     "similar": [
       "N-20261010-10",
-      "N-20260911-13",
-      "N-20260929-24"
+      "N-20261014-12",
+      "N-20260911-13"
     ]
   },
   {
@@ -211052,8 +212023,8 @@
     ],
     "similar": [
       "N-20260526-03",
-      "N-20260930-38",
-      "N-20260129-22"
+      "N-20260129-22",
+      "N-20260930-38"
     ]
   },
   {
@@ -211115,7 +212086,7 @@
     "similar": [
       "N-20260302-15",
       "N-20260703-02",
-      "N-20260515-03"
+      "N-20260111-04"
     ]
   },
   {
@@ -212105,8 +213076,8 @@
     ],
     "similar": [
       "N-20260219-08",
-      "N-20260719-07",
-      "N-20261009-22"
+      "N-20261013-37",
+      "N-20260719-07"
     ]
   },
   {
@@ -212406,7 +213377,7 @@
     "similar": [
       "N-20260911-09",
       "N-20260907-09",
-      "N-20261002-24"
+      "N-20260122-17"
     ]
   },
   {
@@ -212885,9 +213856,9 @@
       }
     ],
     "similar": [
+      "N-20261013-35",
       "N-20260516-06",
-      "N-20261013-20",
-      "N-20260713-16"
+      "N-20261013-20"
     ]
   },
   {
@@ -213251,9 +214222,9 @@
       }
     ],
     "similar": [
+      "N-20261014-01",
       "N-20260107-18",
-      "N-20260516-03",
-      "N-20260915-13"
+      "N-20260516-03"
     ]
   },
   {
@@ -214266,8 +215237,8 @@
     ],
     "similar": [
       "N-20260727-22",
-      "N-20260613-27",
-      "N-20260701-01"
+      "N-20261014-04",
+      "N-20260613-27"
     ]
   },
   {
@@ -215294,7 +216265,7 @@
     "similar": [
       "N-20260310-26",
       "N-20260131-03",
-      "N-20260313-22"
+      "N-20261013-25"
     ]
   },
   {
@@ -217382,8 +218353,8 @@
     ],
     "similar": [
       "N-20260802-16",
-      "N-20260710-07",
-      "N-20261007-13"
+      "N-20261007-13",
+      "N-20260710-07"
     ]
   },
   {
@@ -220193,7 +221164,7 @@
     "similar": [
       "N-20260622-02",
       "N-20260613-02",
-      "N-20260827-21"
+      "N-20261014-12"
     ]
   },
   {
@@ -220252,9 +221223,9 @@
       }
     ],
     "similar": [
+      "N-20261014-12",
       "N-20260818-28",
-      "N-20260209-25",
-      "N-20260817-05"
+      "N-20260209-25"
     ]
   },
   {
@@ -220594,8 +221565,8 @@
       }
     ],
     "similar": [
-      "N-20261001-03",
       "N-20260511-25",
+      "N-20261001-03",
       "N-20260420-09"
     ]
   },
@@ -220625,8 +221596,8 @@
     ],
     "similar": [
       "N-20260122-03",
-      "N-20261008-37",
-      "N-20260503-19"
+      "N-20261014-09",
+      "N-20261008-37"
     ]
   },
   {
@@ -220926,8 +221897,8 @@
     ],
     "similar": [
       "N-20260209-03",
-      "N-20260510-24",
-      "N-20260409-06"
+      "N-20261014-12",
+      "N-20260510-24"
     ]
   },
   {
@@ -222042,7 +223013,7 @@
     "similar": [
       "N-20260128-02",
       "N-20260826-01",
-      "N-20260127-03"
+      "N-20260807-06"
     ]
   },
   {
@@ -225658,8 +226629,8 @@
     ],
     "similar": [
       "N-20260819-09",
-      "N-20260716-15",
-      "N-20260219-09"
+      "N-20261014-12",
+      "N-20260716-15"
     ]
   },
   {
@@ -226114,9 +227085,9 @@
       }
     ],
     "similar": [
+      "N-20261013-33",
       "N-20260105-09",
-      "N-20260324-11",
-      "N-20260111-16"
+      "N-20260324-11"
     ]
   },
   {
@@ -228035,8 +229006,8 @@
     ],
     "similar": [
       "N-20260916-29",
-      "N-20260129-14",
-      "N-20260320-21"
+      "N-20260320-21",
+      "N-20260129-14"
     ]
   },
   {
@@ -229491,7 +230462,7 @@
     "similar": [
       "N-20261002-18",
       "N-20260516-24",
-      "N-20260911-24"
+      "N-20260602-15"
     ]
   },
   {
@@ -229729,9 +230700,9 @@
       }
     ],
     "similar": [
+      "N-20261013-34",
       "N-20260414-07",
-      "N-20260728-11",
-      "N-20260912-25"
+      "N-20260728-11"
     ]
   },
   {
@@ -230215,8 +231186,8 @@
       }
     ],
     "similar": [
-      "N-20261001-03",
       "N-20260223-12",
+      "N-20261001-03",
       "N-20260104-03"
     ]
   },
@@ -231276,8 +232247,8 @@
     ],
     "similar": [
       "N-20260526-23",
-      "N-20260808-10",
-      "N-20260928-13"
+      "N-20260928-13",
+      "N-20260808-10"
     ]
   },
   {
@@ -234146,7 +235117,7 @@
     "similar": [
       "N-20260401-03",
       "N-20260822-03",
-      "N-20260429-04"
+      "N-20260824-12"
     ]
   },
   {
@@ -235053,9 +236024,9 @@
       }
     ],
     "similar": [
+      "N-20261013-31",
       "N-20260829-20",
-      "N-20260905-14",
-      "N-20260126-20"
+      "N-20260905-14"
     ]
   },
   {
@@ -235534,7 +236505,7 @@
     "similar": [
       "N-20260915-21",
       "N-20260914-13",
-      "N-20260825-17"
+      "N-20261014-01"
     ]
   },
   {
@@ -235896,9 +236867,9 @@
       }
     ],
     "similar": [
+      "N-20261013-37",
       "N-20260730-03",
-      "N-20260915-22",
-      "N-20260803-17"
+      "N-20260915-22"
     ]
   },
   {
@@ -236018,7 +236989,7 @@
     "similar": [
       "N-20260125-07",
       "N-20260329-03",
-      "N-20260303-18"
+      "N-20260315-10"
     ]
   },
   {
@@ -236477,9 +237448,9 @@
       }
     ],
     "similar": [
-      "N-20260401-14",
+      "N-20260927-25",
       "N-20260103-16",
-      "N-20260927-25"
+      "N-20260401-14"
     ]
   },
   {
@@ -240179,8 +241150,8 @@
     ],
     "similar": [
       "N-20261011-38",
-      "N-20260908-30",
-      "N-20260325-07"
+      "N-20260325-07",
+      "N-20260908-30"
     ]
   },
   {
@@ -240757,8 +241728,8 @@
     ],
     "similar": [
       "N-20260217-09",
-      "N-20260503-19",
-      "N-20260614-06"
+      "N-20260614-06",
+      "N-20260503-19"
     ]
   },
   {
@@ -241911,8 +242882,8 @@
     ],
     "similar": [
       "N-20260512-10",
-      "N-20260829-27",
-      "N-20261005-31"
+      "N-20261005-31",
+      "N-20260829-27"
     ]
   },
   {
@@ -241971,8 +242942,8 @@
     ],
     "similar": [
       "N-20261009-10",
-      "N-20260902-03",
-      "N-20260129-22"
+      "N-20260129-22",
+      "N-20260902-03"
     ]
   },
   {
@@ -243507,7 +244478,7 @@
     "similar": [
       "N-20260212-01",
       "N-20260306-04",
-      "N-20260701-21"
+      "N-20260321-04"
     ]
   },
   {
@@ -244663,7 +245634,7 @@
     "similar": [
       "N-20260216-07",
       "N-20260121-09",
-      "N-20260923-13"
+      "N-20260111-15"
     ]
   },
   {
@@ -244872,8 +245843,8 @@
     ],
     "similar": [
       "N-20260211-26",
-      "N-20260719-08",
-      "N-20260228-02"
+      "N-20261013-25",
+      "N-20260719-08"
     ]
   },
   {
@@ -245681,9 +246652,9 @@
       }
     ],
     "similar": [
+      "N-20261013-24",
       "N-20260113-02",
-      "N-20260403-06",
-      "N-20260808-08"
+      "N-20260403-06"
     ]
   },
   {
@@ -246251,7 +247222,7 @@
     "similar": [
       "N-20260408-17",
       "N-20260601-24",
-      "N-20260326-22"
+      "N-20260520-24"
     ]
   },
   {
@@ -246885,9 +247856,9 @@
       }
     ],
     "similar": [
+      "N-20261014-01",
       "N-20260803-13",
-      "N-20260329-10",
-      "N-20260307-07"
+      "N-20260329-10"
     ]
   },
   {
@@ -247484,9 +248455,9 @@
       }
     ],
     "similar": [
+      "N-20261013-30",
       "N-20260101-19",
-      "N-20260702-30",
-      "N-20260325-28"
+      "N-20260702-30"
     ]
   },
   {
@@ -251647,8 +252618,8 @@
     ],
     "similar": [
       "N-20260319-26",
-      "N-20260319-12",
-      "N-20260515-21"
+      "N-20261014-09",
+      "N-20260319-12"
     ]
   },
   {
